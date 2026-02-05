@@ -1,3 +1,14 @@
 *.sv linguist-language=SystemVerilog
 *.sv linguist-language=SystemVerilog
 *.sv linguist-detectable=true
+# Ignore non-source files for language stats
+*.html linguist-documentation
+*.css linguist-documentation
+*.js linguist-documentation
+*.ppt linguist-documentation
+*.pptx linguist-documentation
+*.pdf linguist-documentation
+*.do linguist-vendored
+*.wlf linguist-vendored
+transcript linguist-vendored
+work/ linguist-vendored
