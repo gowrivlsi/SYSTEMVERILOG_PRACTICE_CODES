@@ -1,0 +1,10 @@
+# Simulator generated files
+work/
+*.wlf
+*.vstf
+transcript
+run.do
+
+# Backup / temp files
+*~
+*.log
