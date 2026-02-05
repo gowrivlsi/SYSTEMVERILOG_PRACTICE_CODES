@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/MAIL BOX/MAILBOX[GEN & DRIV]
+T_opt
+!s110 1765877581
+V[KoTOIA^=IiHRQldzd`^K1
+04 3 4 work top fast 0
+=1-5e02cfdfbea1-6941274c-32a-2ebc
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vtop
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+DXx4 work 11 top_sv_unit 0 22 No^@Ua[a2HiD1:zZTNAH>1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 ]HRSbmFMJS::@naITS0Yn3
+I>GUNA>Dml<Yn]fYjZFd`O2
+!s105 top_sv_unit
+S1
+R0
+w1765876632
+Z3 8top.sv
+Z4 Ftop.sv
+L0 5
+Z5 OL;L;10.7c;67
+31
+Z6 !s108 1765877805.000000
+!s107 class_driver.sv|class_generator.sv|class_packet.sv|top.sv|
+Z7 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xtop_sv_unit
+R2
+VNo^@Ua[a2HiD1:zZTNAH>1
+r1
+!s85 0
+!i10b 1
+!s100 Z9V;d@H0[5DMe3;mzfh:]0
+INo^@Ua[a2HiD1:zZTNAH>1
+!i103 1
+S1
+R0
+w1765877773
+R3
+R4
+Fclass_packet.sv
+Fclass_generator.sv
+Fclass_driver.sv
+L0 2
+R5
+31
+R6
+Z9 !s107 class_driver.sv|class_generator.sv|class_packet.sv|top.sv|
+R7
+!i113 0
+R8
+R1

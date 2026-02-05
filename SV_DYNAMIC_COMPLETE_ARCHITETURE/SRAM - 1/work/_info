@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/SV_DYNAMIC_COMPLETE_ARCHITETURE/SRAM - 1
+T_opt
+!s110 1767608600
+V=]dd7RCTTHeLn=Dn4:6o`0
+Z1 04 3 4 work top fast 0
+=1-368f65cea897-695b9118-71-43f8
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1767632413
+VWjV^ZN^S1RJ6hH41DSe]23
+R1
+=1-9ac3c3f168e9-695bee1c-3a8-4fb8
+R2
+R3
+n@_opt1
+R4
+vsram_dut
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z6 !s110 1767632409
+!i10b 1
+!s100 V:G7n6bka7VSo_6;M3U;33
+IDg`Y^FWiQOfg`5h6b^e:=1
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 !s105 sram_top_sv_unit
+S1
+R0
+w1767436117
+8sram_dut.sv
+Z9 Fsram_dut.sv
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1767632409.000000
+Z12 !s107 sram_cov.sv|sram_sb.sv|sram_iomoni.sv|sram_bfm.sv|sram_driv.sv|sram_gen.sv|sram_pkt.sv|sram_env.sv|sram_test_read.sv|sram_tb.sv|sram_intf.sv|sram_dut.sv|sram_top.sv|
+Z13 !s90 -reportprogress|300|+cover|sram_top.sv|+acc|
+!i113 0
+Z14 !s102 +cover
+Z15 o+cover +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Ysram_intf
+R5
+R6
+!i10b 1
+!s100 X8BLOI1Sh_8ZkGZcmaeEh0
+I=08ckCP^PfHnb6U?81QgQ3
+R7
+R8
+S1
+R0
+w1767631149
+8sram_intf.sv
+Z16 Fsram_intf.sv
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R3
+4sram_tb
+R5
+Z17 DXx4 work 16 sram_top_sv_unit 0 22 G`fFcf0BbGb]X3Ld49a251
+R7
+r1
+!s85 0
+!i10b 1
+!s100 ZW0VViUQ<X;DgdZjblcUU1
+IGoGbd@IkVOW[@GfK1H;5Q2
+R8
+S1
+R0
+w1767632081
+8sram_tb.sv
+Z18 Fsram_tb.sv
+L0 6
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R3
+Xsram_top_sv_unit
+!s115 sram_intf
+R5
+VG`fFcf0BbGb]X3Ld49a251
+r1
+!s85 0
+!i10b 1
+!s100 kl9=h[=g871c`AzPNnd<l1
+IG`fFcf0BbGb]X3Ld49a251
+!i103 1
+S1
+R0
+w1767632405
+Z19 8sram_top.sv
+Z20 Fsram_top.sv
+R9
+R16
+R18
+Fsram_test_read.sv
+Fsram_env.sv
+Fsram_pkt.sv
+Fsram_gen.sv
+Fsram_driv.sv
+Fsram_bfm.sv
+Fsram_iomoni.sv
+Fsram_sb.sv
+Fsram_cov.sv
+L0 1
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R3
+vtop
+R5
+R17
+R7
+r1
+!s85 0
+!i10b 1
+!s100 `jbd^OdGPToOidFY8e4P@1
+INWSd9ml2z9cY=57j0e9ch1
+R8
+S1
+R0
+w1767438664
+R19
+R20
+L0 5
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R3

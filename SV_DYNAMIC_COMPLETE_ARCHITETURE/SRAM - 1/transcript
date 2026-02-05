@@ -1,0 +1,3550 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:13:45 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# ** Warning: sram_pkt.sv(1): (vlog-13233) Design unit "sram_top_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:13:46 on Jan 05,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim -coverage top 
+# Start time: 22:13:46 on Jan 05,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Error: (vsim-8343) Clocking block output I.clk1.addr may only be used 
+# on the left hand side of a clocking drive statement '<='. The line number 
+# reported may show the first use of the clocking block output, but the actual 
+# error may be with a later use of the clocking block output.
+#    Time: 0 ns  Iteration: 0  Region: /sram_top_sv_unit File: sram_driv.sv Line: 29
+# ** Error: (vsim-8343) Clocking block output I.clk1.d_in may only be used 
+# on the left hand side of a clocking drive statement '<='. The line number 
+# reported may show the first use of the clocking block output, but the actual 
+# error may be with a later use of the clocking block output.
+#    Time: 0 ns  Iteration: 0  Region: /sram_top_sv_unit File: sram_driv.sv Line: 28
+# ** Error: (vsim-8343) Clocking block output I.clk1.wren may only be used 
+# on the left hand side of a clocking drive statement '<='. The line number 
+# reported may show the first use of the clocking block output, but the actual 
+# error may be with a later use of the clocking block output.
+#    Time: 0 ns  Iteration: 0  Region: /sram_top_sv_unit File: sram_driv.sv Line: 27
+# ** Error: (vsim-8343) Clocking block output I.clk1.addr may only be used 
+# on the left hand side of a clocking drive statement '<='. The line number 
+# reported may show the first use of the clocking block output, but the actual 
+# error may be with a later use of the clocking block output.
+#    Time: 0 ns  Iteration: 0  Region: /sram_top_sv_unit File: sram_driv.sv Line: 29
+# ** Error: (vsim-8343) Clocking block output I.clk1.d_in may only be used 
+# on the left hand side of a clocking drive statement '<='. The line number 
+# reported may show the first use of the clocking block output, but the actual 
+# error may be with a later use of the clocking block output.
+#    Time: 0 ns  Iteration: 0  Region: /sram_top_sv_unit File: sram_driv.sv Line: 28
+# ** Error: (vsim-8343) Clocking block output I.clk1.wren may only be used 
+# on the left hand side of a clocking drive statement '<='. The line number 
+# reported may show the first use of the clocking block output, but the actual 
+# error may be with a later use of the clocking block output.
+#    Time: 0 ns  Iteration: 0  Region: /sram_top_sv_unit File: sram_driv.sv Line: 27
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:14:16 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:14:16 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -coverage top 
+# Start time: 22:13:46 on Jan 05,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 17400
+#           Attempting to use alternate WLF file "./wlfta9rf4m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta9rf4m
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=5
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=15
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=25
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=25
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=30
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=35
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=10
+# data_out=0
+# addr=1
+# wren=0 Time=35
+# NAME:[======FROM BFM======]
+# data_in=10
+# data_out=0
+# addr=1
+# wren=0 Time=35
+# NAME:[========FROM COVERAGE======]
+# data_in=10
+# data_out=0
+# addr=1
+# wren=0 Time=35
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=1
+# wren=0 Time=40
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=1
+# wren=0 Time=45
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[======FROM BFM======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[========FROM COVERAGE======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[======FROM DRIVER======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=50
+# NAME:[======FROM MONITOR======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=55
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=30
+# data_out=0
+# addr=3
+# wren=0 Time=55
+# NAME:[======FROM BFM======]
+# data_in=30
+# data_out=0
+# addr=3
+# wren=0 Time=55
+# NAME:[========FROM COVERAGE======]
+# data_in=30
+# data_out=0
+# addr=3
+# wren=0 Time=55
+# NAME:[======FROM DRIVER======]
+# data_in=30
+# data_out=0
+# addr=3
+# wren=0 Time=60
+# NAME:[======FROM MONITOR======]
+# data_in=30
+# data_out=0
+# addr=3
+# wren=0 Time=65
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=70
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=75
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=5
+# wren=0 Time=75
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=5
+# wren=0 Time=75
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=5
+# wren=0 Time=75
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=5
+# wren=0 Time=80
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=5
+# wren=0 Time=85
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[======FROM BFM======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[========FROM COVERAGE======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[======FROM DRIVER======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=90
+# NAME:[======FROM MONITOR======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=95
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=70
+# data_out=0
+# addr=7
+# wren=0 Time=95
+# NAME:[======FROM BFM======]
+# data_in=70
+# data_out=0
+# addr=7
+# wren=0 Time=95
+# NAME:[========FROM COVERAGE======]
+# data_in=70
+# data_out=0
+# addr=7
+# wren=0 Time=95
+# NAME:[======FROM DRIVER======]
+# data_in=70
+# data_out=0
+# addr=7
+# wren=0 Time=100
+# NAME:[======FROM MONITOR======]
+# data_in=70
+# data_out=0
+# addr=7
+# wren=0 Time=105
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=90
+# data_out=0
+# addr=0
+# wren=1 Time=105
+# NAME:[======FROM BFM======]
+# data_in=90
+# data_out=0
+# addr=0
+# wren=1 Time=105
+# NAME:[========FROM COVERAGE======]
+# data_in=90
+# data_out=0
+# addr=0
+# wren=1 Time=105
+# NAME:[======FROM DRIVER======]
+# data_in=90
+# data_out=0
+# addr=0
+# wren=1 Time=110
+# NAME:[======FROM MONITOR======]
+# data_in=90
+# data_out=0
+# addr=0
+# wren=1 Time=115
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=90
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[======FROM BFM======]
+# data_in=90
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[========FROM COVERAGE======]
+# data_in=90
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[======FROM DRIVER======]
+# data_in=90
+# data_out=0
+# addr=1
+# wren=0 Time=120
+# NAME:[======FROM MONITOR======]
+# data_in=90
+# data_out=0
+# addr=1
+# wren=0 Time=125
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=110
+# data_out=0
+# addr=2
+# wren=1 Time=125
+# NAME:[======FROM BFM======]
+# data_in=110
+# data_out=0
+# addr=2
+# wren=1 Time=125
+# NAME:[========FROM COVERAGE======]
+# data_in=110
+# data_out=0
+# addr=2
+# wren=1 Time=125
+# NAME:[======FROM DRIVER======]
+# data_in=110
+# data_out=0
+# addr=2
+# wren=1 Time=130
+# NAME:[======FROM MONITOR======]
+# data_in=110
+# data_out=0
+# addr=2
+# wren=1 Time=135
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=110
+# data_out=0
+# addr=3
+# wren=0 Time=135
+# NAME:[======FROM BFM======]
+# data_in=110
+# data_out=0
+# addr=3
+# wren=0 Time=135
+# NAME:[========FROM COVERAGE======]
+# data_in=110
+# data_out=0
+# addr=3
+# wren=0 Time=135
+# NAME:[======FROM DRIVER======]
+# data_in=110
+# data_out=0
+# addr=3
+# wren=0 Time=140
+# NAME:[======FROM MONITOR======]
+# data_in=110
+# data_out=0
+# addr=3
+# wren=0 Time=145
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=130
+# data_out=0
+# addr=4
+# wren=1 Time=145
+# NAME:[======FROM BFM======]
+# data_in=130
+# data_out=0
+# addr=4
+# wren=1 Time=145
+# NAME:[========FROM COVERAGE======]
+# data_in=130
+# data_out=0
+# addr=4
+# wren=1 Time=145
+# NAME:[======FROM DRIVER======]
+# data_in=130
+# data_out=0
+# addr=4
+# wren=1 Time=150
+# NAME:[======FROM MONITOR======]
+# data_in=130
+# data_out=0
+# addr=4
+# wren=1 Time=155
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=130
+# data_out=0
+# addr=5
+# wren=0 Time=155
+# NAME:[======FROM BFM======]
+# data_in=130
+# data_out=0
+# addr=5
+# wren=0 Time=155
+# NAME:[========FROM COVERAGE======]
+# data_in=130
+# data_out=0
+# addr=5
+# wren=0 Time=155
+# NAME:[======FROM DRIVER======]
+# data_in=130
+# data_out=0
+# addr=5
+# wren=0 Time=160
+# NAME:[======FROM MONITOR======]
+# data_in=130
+# data_out=0
+# addr=5
+# wren=0 Time=165
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=150
+# data_out=0
+# addr=6
+# wren=1 Time=165
+# NAME:[======FROM BFM======]
+# data_in=150
+# data_out=0
+# addr=6
+# wren=1 Time=165
+# NAME:[========FROM COVERAGE======]
+# data_in=150
+# data_out=0
+# addr=6
+# wren=1 Time=165
+# NAME:[======FROM DRIVER======]
+# data_in=150
+# data_out=0
+# addr=6
+# wren=1 Time=170
+# NAME:[======FROM MONITOR======]
+# data_in=150
+# data_out=0
+# addr=6
+# wren=1 Time=175
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=150
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM BFM======]
+# data_in=150
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[========FROM COVERAGE======]
+# data_in=150
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM DRIVER======]
+# data_in=150
+# data_out=0
+# addr=7
+# wren=0 Time=180
+# NAME:[======FROM MONITOR======]
+# data_in=150
+# data_out=0
+# addr=7
+# wren=0 Time=185
+# ** Note: implicit $finish from program    : sram_pkt.sv(26)
+#    Time: 185 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:15:10 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:15:10 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:15:11 on Jan 05,2026, Elapsed time: 0:01:25
+# Errors: 6, Warnings: 2
+# vsim -coverage top 
+# Start time: 22:15:11 on Jan 05,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 17400
+#           Attempting to use alternate WLF file "./wlftc72f63".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftc72f63
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=5
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=15
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=25
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=25
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=30
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=35
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=0 Time=35
+# NAME:[========FROM COVERAGE======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=0 Time=35
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=0 Time=40
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=10
+# addr=0
+# wren=0 Time=45
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[======FROM BFM======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[========FROM COVERAGE======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=10
+# data_out=10
+# addr=0
+# wren=0 Time=45
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 45 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=50
+# NAME:[======FROM MONITOR======]
+# data_in=20
+# data_out=10
+# addr=1
+# wren=1 Time=55
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=0 Time=55
+# NAME:[========FROM COVERAGE======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=0 Time=55
+# NAME:[======FROM DRIVER======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=0 Time=60
+# NAME:[======FROM MONITOR======]
+# data_in=20
+# data_out=20
+# addr=1
+# wren=0 Time=65
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=65
+# NAME:[======FROM BFM======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=65
+# NAME:[========FROM COVERAGE======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=65
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=65
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=20
+# data_out=20
+# addr=1
+# wren=0 Time=65
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 65 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=70
+# NAME:[======FROM MONITOR======]
+# data_in=30
+# data_out=20
+# addr=2
+# wren=1 Time=75
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=0 Time=75
+# NAME:[========FROM COVERAGE======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=0 Time=75
+# NAME:[======FROM DRIVER======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=0 Time=80
+# NAME:[======FROM MONITOR======]
+# data_in=30
+# data_out=30
+# addr=2
+# wren=0 Time=85
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=85
+# NAME:[======FROM BFM======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=85
+# NAME:[========FROM COVERAGE======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=85
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=85
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=30
+# data_out=30
+# addr=2
+# wren=0 Time=85
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 85 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=90
+# NAME:[======FROM MONITOR======]
+# data_in=40
+# data_out=30
+# addr=3
+# wren=1 Time=95
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=0 Time=95
+# NAME:[========FROM COVERAGE======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=0 Time=95
+# NAME:[======FROM DRIVER======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=0 Time=100
+# NAME:[======FROM MONITOR======]
+# data_in=40
+# data_out=40
+# addr=3
+# wren=0 Time=105
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=105
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=105
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=105
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=105
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=40
+# data_out=40
+# addr=3
+# wren=0 Time=105
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 105 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=110
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=40
+# addr=4
+# wren=1 Time=115
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=0 Time=115
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=0 Time=115
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=0 Time=120
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=4
+# wren=0 Time=125
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=125
+# NAME:[======FROM BFM======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=125
+# NAME:[========FROM COVERAGE======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=125
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=125
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=50
+# data_out=50
+# addr=4
+# wren=0 Time=125
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 125 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=130
+# NAME:[======FROM MONITOR======]
+# data_in=60
+# data_out=50
+# addr=5
+# wren=1 Time=135
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=0 Time=135
+# NAME:[========FROM COVERAGE======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=0 Time=135
+# NAME:[======FROM DRIVER======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=0 Time=140
+# NAME:[======FROM MONITOR======]
+# data_in=60
+# data_out=60
+# addr=5
+# wren=0 Time=145
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=145
+# NAME:[======FROM BFM======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=145
+# NAME:[========FROM COVERAGE======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=145
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=145
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=60
+# data_out=60
+# addr=5
+# wren=0 Time=145
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 145 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=150
+# NAME:[======FROM MONITOR======]
+# data_in=70
+# data_out=60
+# addr=6
+# wren=1 Time=155
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=0 Time=155
+# NAME:[========FROM COVERAGE======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=0 Time=155
+# NAME:[======FROM DRIVER======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=0 Time=160
+# NAME:[======FROM MONITOR======]
+# data_in=70
+# data_out=70
+# addr=6
+# wren=0 Time=165
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=165
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=165
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=165
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=165
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=70
+# data_out=70
+# addr=6
+# wren=0 Time=165
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 165 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=170
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=1 Time=175
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=0 Time=180
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=80
+# addr=7
+# wren=0 Time=185
+# ** Note: implicit $finish from program    : sram_pkt.sv(26)
+#    Time: 185 ns  Iteration: 2  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:20:50 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:20:50 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:20:52 on Jan 05,2026, Elapsed time: 0:05:41
+# Errors: 0, Warnings: 2
+# vsim -coverage top 
+# Start time: 22:20:52 on Jan 05,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 17400
+#           Attempting to use alternate WLF file "./wlftdnjz76".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdnjz76
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=5
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=15
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=25
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=25
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=30
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=35
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=0 Time=35
+# NAME:[========FROM COVERAGE======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=0 Time=35
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=0 Time=40
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=10
+# addr=0
+# wren=0 Time=45
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[======FROM BFM======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[========FROM COVERAGE======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=10
+# data_out=10
+# addr=0
+# wren=0 Time=45
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 45 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=50
+# NAME:[======FROM MONITOR======]
+# data_in=20
+# data_out=10
+# addr=1
+# wren=1 Time=55
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=0 Time=55
+# NAME:[========FROM COVERAGE======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=0 Time=55
+# NAME:[======FROM DRIVER======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=0 Time=60
+# NAME:[======FROM MONITOR======]
+# data_in=20
+# data_out=20
+# addr=1
+# wren=0 Time=65
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=65
+# NAME:[======FROM BFM======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=65
+# NAME:[========FROM COVERAGE======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=65
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=65
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=20
+# data_out=20
+# addr=1
+# wren=0 Time=65
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 65 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=70
+# NAME:[======FROM MONITOR======]
+# data_in=30
+# data_out=20
+# addr=2
+# wren=1 Time=75
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=0 Time=75
+# NAME:[========FROM COVERAGE======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=0 Time=75
+# NAME:[======FROM DRIVER======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=0 Time=80
+# NAME:[======FROM MONITOR======]
+# data_in=30
+# data_out=30
+# addr=2
+# wren=0 Time=85
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=85
+# NAME:[======FROM BFM======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=85
+# NAME:[========FROM COVERAGE======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=85
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=85
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=30
+# data_out=30
+# addr=2
+# wren=0 Time=85
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 85 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=90
+# NAME:[======FROM MONITOR======]
+# data_in=40
+# data_out=30
+# addr=3
+# wren=1 Time=95
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=0 Time=95
+# NAME:[========FROM COVERAGE======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=0 Time=95
+# NAME:[======FROM DRIVER======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=0 Time=100
+# NAME:[======FROM MONITOR======]
+# data_in=40
+# data_out=40
+# addr=3
+# wren=0 Time=105
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=105
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=105
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=105
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=105
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=40
+# data_out=40
+# addr=3
+# wren=0 Time=105
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 105 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=110
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=40
+# addr=4
+# wren=1 Time=115
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=0 Time=115
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=0 Time=115
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=0 Time=120
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=4
+# wren=0 Time=125
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=125
+# NAME:[======FROM BFM======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=125
+# NAME:[========FROM COVERAGE======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=125
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=125
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=50
+# data_out=50
+# addr=4
+# wren=0 Time=125
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 125 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=130
+# NAME:[======FROM MONITOR======]
+# data_in=60
+# data_out=50
+# addr=5
+# wren=1 Time=135
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=0 Time=135
+# NAME:[========FROM COVERAGE======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=0 Time=135
+# NAME:[======FROM DRIVER======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=0 Time=140
+# NAME:[======FROM MONITOR======]
+# data_in=60
+# data_out=60
+# addr=5
+# wren=0 Time=145
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=145
+# NAME:[======FROM BFM======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=145
+# NAME:[========FROM COVERAGE======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=145
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=145
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=60
+# data_out=60
+# addr=5
+# wren=0 Time=145
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 145 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=150
+# NAME:[======FROM MONITOR======]
+# data_in=70
+# data_out=60
+# addr=6
+# wren=1 Time=155
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=0 Time=155
+# NAME:[========FROM COVERAGE======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=0 Time=155
+# NAME:[======FROM DRIVER======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=0 Time=160
+# NAME:[======FROM MONITOR======]
+# data_in=70
+# data_out=70
+# addr=6
+# wren=0 Time=165
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=165
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=165
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=165
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=165
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=70
+# data_out=70
+# addr=6
+# wren=0 Time=165
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 165 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=170
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=1 Time=175
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=0 Time=180
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=80
+# addr=7
+# wren=0 Time=185
+# ** Note: implicit $finish from program    : sram_pkt.sv(26)
+#    Time: 185 ns  Iteration: 2  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:25:18 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# ** Warning: sram_pkt.sv(1): (vlog-13233) Design unit "sram_top_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:25:18 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 22:25:19 on Jan 05,2026, Elapsed time: 0:04:27
+# Errors: 0, Warnings: 3
+# vsim -coverage top 
+# Start time: 22:25:19 on Jan 05,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 17400
+#           Attempting to use alternate WLF file "./wlftajyyma".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftajyyma
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=5
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=15
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=25
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=25
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=30
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=35
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=40
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=45
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=45
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=50
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=55
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=55
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=60
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=65
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=65
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=70
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=75
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=75
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=80
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=85
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=85
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=90
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=100
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=105
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=105
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=105
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=110
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=115
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=115
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 115 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=120
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=125
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=125
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=130
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=135
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=135
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=140
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=145
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=145
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=150
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=155
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=155
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=160
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=165
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=165
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=170
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=175
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=180
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=185
+# ** Note: implicit $finish from program    : sram_pkt.sv(26)
+#    Time: 185 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:26:15 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:26:15 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:26:16 on Jan 05,2026, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 2
+# vsim -coverage top 
+# Start time: 22:26:16 on Jan 05,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 17400
+#           Attempting to use alternate WLF file "./wlfty5q0re".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfty5q0re
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=5
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=15
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=25
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=25
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=30
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=35
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=40
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=45
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=45
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=45
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=50
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=55
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=55
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=55
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=60
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=65
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=65
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=65
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=70
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=75
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=75
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=75
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=80
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=85
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=85
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=85
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=90
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=100
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=105
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=105
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=105
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=105
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=110
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 115 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=120
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=125
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=125
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=125
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=130
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=135
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=135
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=135
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=140
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=145
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=145
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=145
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=150
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=155
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=155
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=155
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=160
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=165
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=165
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=165
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=170
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=175
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=180
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=185
+# ** Note: implicit $finish from program    : sram_pkt.sv(26)
+#    Time: 185 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:27:19 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:27:19 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:27:22 on Jan 05,2026, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# vsim -coverage top 
+# Start time: 22:27:22 on Jan 05,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 17400
+#           Attempting to use alternate WLF file "./wlftkdjid9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkdjid9
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=5
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=15
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=25
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=25
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=30
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=35
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=35
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=40
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=45
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=45
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=50
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=55
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=55
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=60
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=65
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=65
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=70
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=75
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=75
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=80
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=85
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=85
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=90
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=100
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=1 Time=105
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=105
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=105
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=110
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=115
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=115
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=115
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 115 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=120
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=125
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=125
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=130
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=135
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=135
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=140
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=145
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=145
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=150
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=155
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=155
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=160
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=165
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=165
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=170
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=175
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=7
+# wren=0 Time=180
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=50
+# addr=7
+# wren=0 Time=185
+# ** Note: implicit $finish from program    : sram_pkt.sv(26)
+#    Time: 185 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:28:59 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:28:59 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:29:00 on Jan 05,2026, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2
+# vsim -coverage top 
+# Start time: 22:29:00 on Jan 05,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 17400
+#           Attempting to use alternate WLF file "./wlfttnwcc2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttnwcc2
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=5
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=15
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=25
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=25
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=30
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=35
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=35
+# NAME:[========FROM COVERAGE======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=35
+# NAME:[======FROM BFM======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=35
+# NAME:[======FROM DRIVER======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=40
+# NAME:[======FROM MONITOR======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[========FROM COVERAGE======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[======FROM BFM======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[======FROM DRIVER======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=50
+# NAME:[======FROM MONITOR======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=55
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=55
+# NAME:[========FROM COVERAGE======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=55
+# NAME:[======FROM BFM======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=55
+# NAME:[======FROM DRIVER======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=60
+# NAME:[======FROM MONITOR======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=65
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=70
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=75
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=75
+# NAME:[========FROM COVERAGE======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=75
+# NAME:[======FROM BFM======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=75
+# NAME:[======FROM DRIVER======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=80
+# NAME:[======FROM MONITOR======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=85
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[========FROM COVERAGE======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[======FROM BFM======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[======FROM DRIVER======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=90
+# NAME:[======FROM MONITOR======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=95
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=100
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=105
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=0
+# addr=0
+# wren=0 Time=105
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=0
+# addr=0
+# wren=0 Time=105
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=0
+# wren=0 Time=105
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=0
+# addr=0
+# wren=0 Time=110
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=10
+# addr=0
+# wren=0 Time=115
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=10
+# addr=0
+# wren=0 Time=115
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 115 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=20
+# addr=1
+# wren=0 Time=120
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=20
+# addr=1
+# wren=0 Time=125
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=20
+# addr=2
+# wren=0 Time=125
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=20
+# addr=2
+# wren=0 Time=125
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=20
+# addr=2
+# wren=0 Time=125
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=20
+# addr=2
+# wren=0 Time=125
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=20
+# addr=1
+# wren=0 Time=125
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 125 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=30
+# addr=2
+# wren=0 Time=130
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=30
+# addr=2
+# wren=0 Time=135
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=30
+# addr=3
+# wren=0 Time=135
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=30
+# addr=3
+# wren=0 Time=135
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=30
+# addr=3
+# wren=0 Time=135
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=30
+# addr=3
+# wren=0 Time=135
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=30
+# addr=2
+# wren=0 Time=135
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 135 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=40
+# addr=3
+# wren=0 Time=140
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=40
+# addr=3
+# wren=0 Time=145
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=40
+# addr=4
+# wren=0 Time=145
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=40
+# addr=4
+# wren=0 Time=145
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=40
+# addr=4
+# wren=0 Time=145
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=40
+# addr=4
+# wren=0 Time=145
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=40
+# addr=3
+# wren=0 Time=145
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 145 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=50
+# addr=4
+# wren=0 Time=150
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=50
+# addr=4
+# wren=0 Time=155
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=50
+# addr=5
+# wren=0 Time=155
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=50
+# addr=5
+# wren=0 Time=155
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=50
+# addr=5
+# wren=0 Time=155
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=50
+# addr=5
+# wren=0 Time=155
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=50
+# addr=4
+# wren=0 Time=155
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 155 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=60
+# addr=5
+# wren=0 Time=160
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=60
+# addr=5
+# wren=0 Time=165
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=60
+# addr=6
+# wren=0 Time=165
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=60
+# addr=6
+# wren=0 Time=165
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=60
+# addr=6
+# wren=0 Time=165
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=60
+# addr=6
+# wren=0 Time=165
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=60
+# addr=5
+# wren=0 Time=165
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 165 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=70
+# addr=6
+# wren=0 Time=170
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=70
+# addr=6
+# wren=0 Time=175
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=0 Time=175
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=0 Time=175
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=0 Time=175
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=70
+# addr=6
+# wren=0 Time=175
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 175 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=80
+# addr=7
+# wren=0 Time=180
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=80
+# addr=7
+# wren=0 Time=185
+# ** Note: implicit $finish from program    : sram_pkt.sv(26)
+#    Time: 185 ns  Iteration: 2  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:30:09 on Jan 05,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# -- Compiling package sram_top_sv_unit
+# -- Compiling program sram_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:30:09 on Jan 05,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:30:12 on Jan 05,2026, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 2
+# vsim -coverage top 
+# Start time: 22:30:12 on Jan 05,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.sram_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.sram_intf(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_tb(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 17400
+#           Attempting to use alternate WLF file "./wlftkjsi7s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkjsi7s
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=5
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=15
+# NAME:[======FROM MONITOR======]
+# data_in=0
+# data_out=0
+# addr=0
+# wren=0 Time=25
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=25
+# NAME:[======FROM DRIVER======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=30
+# NAME:[======FROM MONITOR======]
+# data_in=10
+# data_out=0
+# addr=0
+# wren=1 Time=35
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=35
+# NAME:[========FROM COVERAGE======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=35
+# NAME:[======FROM BFM======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=35
+# NAME:[======FROM DRIVER======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=40
+# NAME:[======FROM MONITOR======]
+# data_in=20
+# data_out=0
+# addr=1
+# wren=1 Time=45
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[========FROM COVERAGE======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[======FROM BFM======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=45
+# NAME:[======FROM DRIVER======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=50
+# NAME:[======FROM MONITOR======]
+# data_in=30
+# data_out=0
+# addr=2
+# wren=1 Time=55
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=55
+# NAME:[========FROM COVERAGE======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=55
+# NAME:[======FROM BFM======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=55
+# NAME:[======FROM DRIVER======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=60
+# NAME:[======FROM MONITOR======]
+# data_in=40
+# data_out=0
+# addr=3
+# wren=1 Time=65
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[========FROM COVERAGE======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[======FROM BFM======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=65
+# NAME:[======FROM DRIVER======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=70
+# NAME:[======FROM MONITOR======]
+# data_in=50
+# data_out=0
+# addr=4
+# wren=1 Time=75
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=75
+# NAME:[========FROM COVERAGE======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=75
+# NAME:[======FROM BFM======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=75
+# NAME:[======FROM DRIVER======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=80
+# NAME:[======FROM MONITOR======]
+# data_in=60
+# data_out=0
+# addr=5
+# wren=1 Time=85
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[========FROM COVERAGE======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[======FROM BFM======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=85
+# NAME:[======FROM DRIVER======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=90
+# NAME:[======FROM MONITOR======]
+# data_in=70
+# data_out=0
+# addr=6
+# wren=1 Time=95
+# NAME:[======FROM GENRATOR - WRITE=====]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=95
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=100
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=0
+# addr=7
+# wren=1 Time=105
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=0
+# addr=0
+# wren=0 Time=105
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=0
+# addr=0
+# wren=0 Time=105
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=0
+# wren=0 Time=105
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=0
+# addr=0
+# wren=0 Time=110
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=10
+# addr=0
+# wren=0 Time=115
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=0
+# addr=1
+# wren=0 Time=115
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=10
+# addr=0
+# wren=0 Time=115
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 115 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 30
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=20
+# addr=1
+# wren=0 Time=120
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=20
+# addr=1
+# wren=0 Time=125
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=20
+# addr=2
+# wren=0 Time=125
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=20
+# addr=2
+# wren=0 Time=125
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=20
+# addr=2
+# wren=0 Time=125
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=20
+# addr=2
+# wren=0 Time=125
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=20
+# addr=1
+# wren=0 Time=125
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 125 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=30
+# addr=2
+# wren=0 Time=130
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=30
+# addr=2
+# wren=0 Time=135
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=30
+# addr=3
+# wren=0 Time=135
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=30
+# addr=3
+# wren=0 Time=135
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=30
+# addr=3
+# wren=0 Time=135
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=30
+# addr=3
+# wren=0 Time=135
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=30
+# addr=2
+# wren=0 Time=135
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 135 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=40
+# addr=3
+# wren=0 Time=140
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=40
+# addr=3
+# wren=0 Time=145
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=40
+# addr=4
+# wren=0 Time=145
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=40
+# addr=4
+# wren=0 Time=145
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=40
+# addr=4
+# wren=0 Time=145
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=40
+# addr=4
+# wren=0 Time=145
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=40
+# addr=3
+# wren=0 Time=145
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 145 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=50
+# addr=4
+# wren=0 Time=150
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=50
+# addr=4
+# wren=0 Time=155
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=50
+# addr=5
+# wren=0 Time=155
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=50
+# addr=5
+# wren=0 Time=155
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=50
+# addr=5
+# wren=0 Time=155
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=50
+# addr=5
+# wren=0 Time=155
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=50
+# addr=4
+# wren=0 Time=155
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 155 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=60
+# addr=5
+# wren=0 Time=160
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=60
+# addr=5
+# wren=0 Time=165
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=60
+# addr=6
+# wren=0 Time=165
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=60
+# addr=6
+# wren=0 Time=165
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=60
+# addr=6
+# wren=0 Time=165
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=60
+# addr=6
+# wren=0 Time=165
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=60
+# addr=5
+# wren=0 Time=165
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 165 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=70
+# addr=6
+# wren=0 Time=170
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=70
+# addr=6
+# wren=0 Time=175
+# NAME:[=======FROM GENERATOR - READ=======]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=0 Time=175
+# NAME:[======FROM BFM======]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=0 Time=175
+# NAME:[========FROM COVERAGE======]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=0 Time=175
+# NAME:[EXPECTED BFM OUTPUT]
+# data_in=80
+# data_out=70
+# addr=7
+# wren=0 Time=175
+# NAME:[ACTUAL DUT OUTPUT]
+# data_in=80
+# data_out=70
+# addr=6
+# wren=0 Time=175
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 175 ns  Scope: sram_top_sv_unit.sram_sb.sb File: sram_sb.sv Line: 25
+# NAME:[======FROM DRIVER======]
+# data_in=80
+# data_out=80
+# addr=7
+# wren=0 Time=180
+# NAME:[======FROM MONITOR======]
+# data_in=80
+# data_out=80
+# addr=7
+# wren=0 Time=185
+# ** Note: implicit $finish from program    : sram_pkt.sv(26)
+#    Time: 185 ns  Iteration: 2  Instance: /top/T
+# 1
+# Simulation stop requested.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/SYSTEM VERILOG CODES/SV_DYNAMIC_COMPLETE_ARCHITETURE/SRAM - 1/wave.do}

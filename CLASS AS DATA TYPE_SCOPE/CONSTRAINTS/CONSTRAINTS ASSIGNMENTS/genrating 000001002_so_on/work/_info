@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/CLASS AS DATA TYPE_SCOPE/CONSTRAINTS/CONSTRAINTS ASSIGNMENTS/genrating 000001002_so_on
+T_opt
+!s110 1769680088
+VHD>=N8KmBjnVOOW0nFHh[1
+Z1 04 12 4 work test_sv_unit fast 0
+04 3 4 work top fast 0
+=1-368f65cea897-697b2cd8-27a-f5c
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1769680608
+V>f5i7gCo;mgNhaiW@h`Ao0
+R1
+04 4 4 work test fast 0
+=1-368f65cea897-697b2ee0-13d-5778
+R2
+R3
+n@_opt1
+R4
+vtest
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+DXx4 work 12 test_sv_unit 0 22 4?8Kje>V[5N@^=8^T2D342
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 Oam8?Z>F?CNUWEYHR9Tz02
+IA]l930Th>Y:8hIe0j02VQ1
+Z7 !s105 test_sv_unit
+S1
+R0
+Z8 w1769680603
+Z9 8test.sv
+Z10 Ftest.sv
+L0 53
+Z11 OL;L;10.7c;67
+31
+Z12 !s108 1769680607.000000
+Z13 !s107 test.sv|
+Z14 !s90 test.sv|
+!i113 0
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Xtest_sv_unit
+R5
+V4?8Kje>V[5N@^=8^T2D342
+r1
+!s85 0
+!i10b 1
+!s100 7G;CeLL<bWi24C]^oD?BD3
+I4?8Kje>V[5N@^=8^T2D342
+!i103 1
+S1
+R0
+R8
+R9
+R10
+L0 28
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R3
+vtop
+R5
+DXx4 work 12 test_sv_unit 0 22 DCo8dE0oLj1<0T;1TLadh3
+R6
+r1
+!s85 0
+!i10b 1
+!s100 6^an0glA?4G[?>JoPYLFo2
+I8S<B]SZk5AB4Tzl`3CO;L2
+R7
+S1
+R0
+w1769680076
+R9
+R10
+L0 15
+R11
+31
+!s108 1769680082.000000
+R13
+R14
+!i113 0
+R15
+R3

@@ -1,0 +1,154 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/SV_DYNAMIC_COMPLETE_ARCHITETURE/SRAM
+T_opt
+Z1 !s110 1767435322
+VLKHbQFedRnfF`ekdZd9KC2
+04 3 4 work top fast 0
+=1-368f65cea897-6958ec3a-22f-43f0
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vsram_dut
+Z3 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+R1
+!i10b 1
+!s100 m1`b[1H]dW0gfE;V=M5d@0
+ICmanB8maZKUBm<zaT?>?52
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 sram_top_sv_unit
+S1
+R0
+w1767356793
+8sram_dut.sv
+Z6 Fsram_dut.sv
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1767435322.000000
+Z9 !s107 sram_sb.sv|sram_iomoni.sv|sram_bfm.sv|sram_driv.sv|sram_gen.sv|sram_pkt.sv|sram_env.sv|sram_tb.sv|sram_intf.sv|sram_dut.sv|sram_top.sv|
+Z10 !s90 -reportprogress|300|+cover|sram_top.sv|+acc|
+!i113 0
+Z11 !s102 +cover
+Z12 o+cover +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Ysram_intf
+R3
+R1
+!i10b 1
+!s100 f4TP2o@EZBS:9d^`5N?g11
+IMPKYKHb<X<9]aCmUSe;J52
+R4
+R5
+S1
+R0
+w1767356764
+8sram_intf.sv
+Z13 Fsram_intf.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R2
+4sram_tb
+R3
+Z14 DXx4 work 16 sram_top_sv_unit 0 22 KdckdZB_HjTHQ4Bg8G3E@0
+R4
+r1
+!s85 0
+!i10b 1
+!s100 ^O_zB@HOCA7;2`iO=GHB`3
+I5m>mdOz3QSYN`@z2n<iDc1
+R5
+S1
+R0
+w1767355141
+8sram_tb.sv
+Z15 Fsram_tb.sv
+L0 3
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R2
+Xsram_top_sv_unit
+!s115 sram_intf
+R3
+VKdckdZB_HjTHQ4Bg8G3E@0
+r1
+!s85 0
+!i10b 1
+!s100 ;h2oXZE@bl4[@25zi<Hbo2
+IKdckdZB_HjTHQ4Bg8G3E@0
+!i103 1
+S1
+R0
+w1767435319
+Z16 8sram_top.sv
+Z17 Fsram_top.sv
+R6
+R13
+R15
+Fsram_env.sv
+Fsram_pkt.sv
+Fsram_gen.sv
+Fsram_driv.sv
+Fsram_bfm.sv
+Fsram_iomoni.sv
+Fsram_sb.sv
+L0 1
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R2
+vtop
+R3
+R14
+R4
+r1
+!s85 0
+!i10b 1
+!s100 1HXQK;?4c`4cnkDT7KieN1
+I@9Ff99hngCA92oCOl17S63
+R5
+S1
+R0
+w1767373130
+R16
+R17
+L0 5
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R2

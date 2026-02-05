@@ -1,0 +1,14 @@
+var g_data = {
+a61:{
+scopes:[{s:'54',b:'1',val:'dff_top_sv_unit'},{val:'dff_gen'},{s:'60',b:'0',val:'gen'},{link:'z.htm?f=0&s=61',val:'#ublk#116241828#15'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__16',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+a90:{
+scopes:[{s:'83',b:'1',val:'work.dff_top_sv_unit'},{val:'dff_gen'},{s:'89',b:'0',val:'gen'},{link:'z.htm?f=0&s=90',val:'#ublk#116241828#15'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__16',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+dummyEnd:0
+};
+processAssertionsData(g_data,1);

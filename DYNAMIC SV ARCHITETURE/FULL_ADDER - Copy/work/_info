@@ -1,0 +1,165 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/DYNAMIC SV ARCHITETURE/FULL_ADDER - Copy
+vfull_adder
+Z1 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z2 !s110 1767795293
+!i10b 1
+!s100 ^@maIaOJl6?QW:KdYoU>43
+I=8:K`lTBQnAZ`]?ZPl2Q:3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 full_adder_dut_sv_unit
+S1
+R0
+w1766753905
+8full_adder_dut.sv
+Z4 Ffull_adder_dut.sv
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1767795293.000000
+!s107 full_adder_tb.sv|full_adder_env.sv|full_adder_sb.sv|full_adder_omoni.sv|full_adder_imoni.sv|full_adder_driv.sv|full_adder_bfm.sv|full_adder_gen.sv|full_adder_packet.sv|full_adder_intf.sv|full_adder_dut.sv|full_adder_top.sv|
+Z7 !s90 -sv|full_adder_top.sv|full_adder_dut.sv|full_adder_intf.sv|full_adder_packet.sv|full_adder_gen.sv|full_adder_bfm.sv|full_adder_driv.sv|full_adder_imoni.sv|full_adder_omoni.sv|full_adder_sb.sv|full_adder_env.sv|full_adder_tb.sv|
+!i113 0
+Z8 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+Yfull_adder_intf
+R1
+R2
+!i10b 1
+!s100 NCGFdmH17AggBSf53VhbS0
+IcnRJed76kMk]8M;;?R_cj0
+R3
+!s105 full_adder_intf_sv_unit
+S1
+R0
+w1766754024
+8full_adder_intf.sv
+Z10 Ffull_adder_intf.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 full_adder_tb.sv|full_adder_env.sv|full_adder_sb.sv|full_adder_omoni.sv|full_adder_imoni.sv|full_adder_driv.sv|full_adder_bfm.sv|full_adder_gen.sv|full_adder_packet.sv|full_adder_intf.sv|full_adder_dut.sv|full_adder_top.sv|
+R7
+!i113 0
+R8
+R9
+Xfull_adder_packet_sv_unit
+R1
+R2
+!i10b 1
+!s100 gmA5G1_EK7G349:OjDOSW0
+I?:8ZiPe7[dScM9dim5_EG2
+V?:8ZiPe7[dScM9dim5_EG2
+!i103 1
+S1
+R0
+Z12 w1767795252
+8full_adder_packet.sv
+Z13 Ffull_adder_packet.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 0
+R8
+R9
+4full_adder_tb
+R1
+Z14 DXx4 work 22 full_adder_top_sv_unit 0 22 gIMR`Ugb80G0oAN[zFm^k2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 Id<4LAN]VlETTcfj0NGTU3
+IMU8F9>D0F9TdS7?W43VLU2
+Z15 !s105 full_adder_top_sv_unit
+S1
+R0
+w1766758308
+8full_adder_tb.sv
+Z16 Ffull_adder_tb.sv
+L0 1
+R5
+31
+R6
+R11
+R7
+!i113 0
+R8
+R9
+Xfull_adder_top_sv_unit
+!s115 full_adder_intf
+R1
+VgIMR`Ugb80G0oAN[zFm^k2
+r1
+!s85 0
+!i10b 1
+!s100 YZh;<>FdY^I;K0H>8z_z31
+IgIMR`Ugb80G0oAN[zFm^k2
+!i103 1
+S1
+R0
+R12
+Z17 8full_adder_top.sv
+Z18 Ffull_adder_top.sv
+R4
+R10
+R13
+Ffull_adder_gen.sv
+Ffull_adder_driv.sv
+Ffull_adder_bfm.sv
+Ffull_adder_imoni.sv
+Ffull_adder_omoni.sv
+Ffull_adder_sb.sv
+Ffull_adder_env.sv
+R16
+L0 1
+R5
+31
+R6
+R11
+R7
+!i113 0
+R8
+R9
+vtop
+R1
+R14
+R3
+r1
+!s85 0
+!i10b 1
+!s100 7MIDbK>bb9QOP@VVm@bUA1
+I2OHa^::DDjS19TB;?;OJa2
+R15
+S1
+R0
+R12
+R17
+R18
+L0 13
+R5
+31
+R6
+R11
+R7
+!i113 0
+R8
+R9

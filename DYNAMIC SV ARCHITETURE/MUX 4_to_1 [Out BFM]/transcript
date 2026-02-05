@@ -1,0 +1,2693 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:10:15 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(2)
+# ** at mux_intf.sv(6): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '.'.
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(8)
+# ** at mux_sb.sv(23): near "else": syntax error, unexpected else.
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(8)
+# ** at mux_sb.sv(30): near "end": syntax error, unexpected end.
+# ** Error: ** while parsing file included at mux_top.sv(9)
+# ** at mux_env.sv(13): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(9)
+# ** at mux_env.sv(15): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# End time: 23:10:15 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:11:59 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(2)
+# ** at mux_intf.sv(6): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '.'.
+# End time: 23:11:59 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:13:09 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(2)
+# ** at mux_intf.sv(6): near "reg": syntax error, unexpected reg, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '.'.
+# End time: 23:13:09 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:13:33 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(2)
+# ** at mux_intf.sv(6): near "[": syntax error, unexpected '[', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '.'.
+# End time: 23:13:33 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:14:38 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:14:38 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:14:39 on Dec 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): mux_sb.sv(26): (vopt-7063) Failed to find 'io_pac' in hierarchical name '$root.io_pac.print'.
+#         Region: mux_top_sv_unit
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:15:03 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:15:03 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:14:39 on Dec 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:15:37 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:15:37 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 11 | PASS = 10 | FAIL =1
+#    Time: 50 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:15:39 on Dec 26,2025, Elapsed time: 0:01:00
+# Errors: 1, Warnings: 0
+# vsim top 
+# Start time: 23:15:39 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:17:20 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(2)
+# ** at mux_intf.sv(6): near "logic": syntax error, unexpected "SystemVerilog keyword 'logic'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '.'.
+# End time: 23:17:20 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:20:40 on Dec 26,2025
+# vlog -reportprogress 300 -sv mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(2)
+# ** at mux_intf.sv(6): near "logic": syntax error, unexpected "SystemVerilog keyword 'logic'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '.'.
+# End time: 23:20:40 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog -sv mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:20:43 on Dec 26,2025
+# vlog -reportprogress 300 -sv mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(2)
+# ** at mux_intf.sv(6): near "logic": syntax error, unexpected "SystemVerilog keyword 'logic'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '.'.
+# End time: 23:20:43 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog -sv mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:21:08 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:21:08 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 11 | PASS = 10 | FAIL =1
+#    Time: 50 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:21:08 on Dec 26,2025, Elapsed time: 0:05:29
+# Errors: 12, Warnings: 0
+# vsim top 
+# Start time: 23:21:08 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:21:11 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:21:11 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 11 | PASS = 10 | FAIL =1
+#    Time: 50 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:21:12 on Dec 26,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:21:12 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:21:59 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:21:59 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 11 | PASS = 10 | FAIL =1
+#    Time: 50 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:22:00 on Dec 26,2025, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:22:00 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:22:03 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:22:03 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 13 | PASS = 11 | FAIL =2
+#    Time: 55 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:22:04 on Dec 26,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:22:04 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:23:28 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:23:28 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 13 | PASS = 11 | FAIL =2
+#    Time: 55 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:23:28 on Dec 26,2025, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:23:28 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:23:32 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:23:32 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 13 | PASS = 11 | FAIL =2
+#    Time: 55 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:23:32 on Dec 26,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:23:32 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ==========================FINAL_SCOREBOARD CHECKED=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:24:59 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:24:59 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 13 | PASS = 11 | FAIL =2
+#    Time: 55 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:25:00 on Dec 26,2025, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:25:00 on Dec 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:25:03 on Dec 26,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:25:03 on Dec 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 13 | PASS = 11 | FAIL =2
+#    Time: 55 ns  Scope: top File: mux_top.sv Line: 25
+# End time: 23:25:04 on Dec 26,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 23:25:04 on Dec 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 15 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 10 | s = 0
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 2 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 11 | s = 2
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 25 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 30 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 4 | s = 3
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 35 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 8 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 40 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 5 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 45 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 3 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : =======FROM GENERATOR=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : =======FROM DRIVER=======
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# ** Info: ===============================SB -> TEST FAILED================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : ===============Input_Output Monitor=======================
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 1
+# NAME : ========FROM BFM LOGIC=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# NAME : ===========INPUT_OUTPUT_MONITOR=========
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0
+# ** Info: ================================SB -> TEST PASSED===============================================
+#    Time: 50 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 20
+# NAME : ================Input_Output Monitor===============
+# MUX_INPUTS : i = 9 | s = 1
+# MUX_OUTPUT : y = 0

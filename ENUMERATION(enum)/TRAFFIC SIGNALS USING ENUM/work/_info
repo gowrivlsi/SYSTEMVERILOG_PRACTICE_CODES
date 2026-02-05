@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/ENUMERATION(enum)/TRAFFIC SIGNALS USING ENUM
+T_opt
+!s110 1763547894
+VM[lX1konOnNeJU0Y8_HNc3
+04 7 4 work tcl_top fast 0
+=1-f66444b558ee-691d9af6-383-4ef0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+4tcl_tb
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1763547893
+!i10b 1
+!s100 g>IFlc8cdKjIk1PzA2gR;1
+I5No;k25ozW>U734SSMWe>0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 tcl_top_sv_unit
+S1
+R0
+w1763547355
+8tcl_tb.sv
+Ftcl_tb.sv
+L0 2
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1763547893.000000
+Z8 !s107 tcl_tb.sv|tlc.sv|tlc_intf.sv|tcl_top.sv|
+Z9 !s90 -reportprogress|300|tcl_top.sv|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtcl_top
+R2
+R3
+!i10b 1
+!s100 JlEJ0YLYYFUaZ=hcR]_=m3
+IH=hHc4jeE3Eo9oc]Ci>:f2
+R4
+R5
+S1
+R0
+Z11 w1763547888
+8tcl_top.sv
+Ftcl_top.sv
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vtlc
+R2
+R3
+!i10b 1
+!s100 <_fM9cdU=B8hHWL^T[NXX3
+I;z249^HX><@=iEdZ>ifG93
+R4
+R5
+S1
+R0
+R11
+8tlc.sv
+Ftlc.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+Ytlc_intf
+R2
+R3
+!i10b 1
+!s100 ?Ne7Lg^E0SN_b6M81Di4U2
+IRIf0C5S4Anmn0^XI5^jTF0
+R4
+R5
+S1
+R0
+w1763545249
+8tlc_intf.sv
+Ftlc_intf.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

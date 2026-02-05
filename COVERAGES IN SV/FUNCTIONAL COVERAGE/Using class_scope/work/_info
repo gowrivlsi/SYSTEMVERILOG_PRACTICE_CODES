@@ -1,0 +1,66 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/COVERAGES IN SV/FUNCTIONAL COVERAGE/Using class_scope
+T_opt
+!s110 1767095287
+VfTnD<OJ0PYKk2EkXhSO8e0
+04 3 4 work top fast 0
+=1-368f65cea897-6953bbf7-147-18f8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xfun_cove_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+V6:B4d2GPR^h:ODDM9i;Tf1
+r1
+!s85 0
+!i10b 1
+!s100 :zjCEc@35EGH7ijaD;UJ_1
+I6:B4d2GPR^h:ODDM9i;Tf1
+!i103 1
+S1
+R0
+Z3 w1767095278
+Z4 8fun_cove.sv
+Z5 Ffun_cove.sv
+L0 1
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1767095284.000000
+Z8 !s107 fun_cove.sv|
+Z9 !s90 -reportprogress|300|fun_cove.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 16 fun_cove_sv_unit 0 22 6:B4d2GPR^h:ODDM9i;Tf1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 ]PT2G^^Mg==DDCcA[2WDR1
+INi6I`5@EZ5[QSU1We4:V30
+!s105 fun_cove_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 24
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

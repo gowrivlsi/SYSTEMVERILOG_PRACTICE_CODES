@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/UNION AND STRUCTURE(STRUCT)/UNION
+T_opt
+!s110 1764070811
+V3AlhN]0Nznh6Z1]hDMjAO3
+04 8 4 work union_ex fast 0
+=1-f66444b558ee-6925959b-1ca-37ec
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vunion_ex
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764070810
+!i10b 1
+!s100 JE`]]be>J=^_0keiFzR8W0
+Iz8^UK6NJCQ]daQO[UGAof0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 union_ex_sv_unit
+S1
+R0
+w1764070774
+8union_ex.sv
+Funion_ex.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764070810.000000
+!s107 union_ex.sv|
+!s90 union_ex.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

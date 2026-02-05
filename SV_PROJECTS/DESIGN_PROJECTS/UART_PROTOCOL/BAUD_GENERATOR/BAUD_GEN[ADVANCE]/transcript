@@ -1,0 +1,779 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:50:55 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.v "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 20:50:55 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 20:50:55 on Jan 30,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810000 ns
+# TX_BAUD_TICK  @ -> 17490000 ns
+# TX_BAUD_TICK  @ -> 26170000 ns
+# TX_BAUD_TICK  @ -> 34850000 ns
+# TX_BAUD_TICK  @ -> 43530000 ns
+# TX_BAUD_TICK  @ -> 52210000 ns
+# TX_BAUD_TICK  @ -> 60890000 ns
+# TX_BAUD_TICK  @ -> 69570000 ns
+# TX_BAUD_TICK  @ -> 78250000 ns
+# TX_BAUD_TICK  @ -> 86930000 ns
+# TX_BAUD_TICK  @ -> 95610000 ns
+# TX_BAUD_TICK  @ -> 104290000 ns
+# TX_BAUD_TICK  @ -> 112970000 ns
+# TX_BAUD_TICK  @ -> 121650000 ns
+# TX_BAUD_TICK  @ -> 130330000 ns
+# TX_BAUD_TICK  @ -> 139010000 ns
+# TX_BAUD_TICK  @ -> 147690000 ns
+# TX_BAUD_TICK  @ -> 156370000 ns
+# TX_BAUD_TICK  @ -> 165050000 ns
+# TX_BAUD_TICK  @ -> 173730000 ns
+# TX_BAUD_TICK  @ -> 182410000 ns
+# TX_BAUD_TICK  @ -> 191090000 ns
+# TX_BAUD_TICK  @ -> 199770000 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530000 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910000 ns
+# RX_BAUD_TICK  @ -> 267590000 ns
+# RX_BAUD_TICK  @ -> 276270000 ns
+# RX_BAUD_TICK  @ -> 284950000 ns
+# RX_BAUD_TICK  @ -> 293630000 ns
+# RX_BAUD_TICK  @ -> 302310000 ns
+# RX_BAUD_TICK  @ -> 310990000 ns
+# RX_BAUD_TICK  @ -> 319670000 ns
+# RX_BAUD_TICK  @ -> 328350000 ns
+# RX_BAUD_TICK  @ -> 337030000 ns
+# RX_BAUD_TICK  @ -> 345710000 ns
+# RX_BAUD_TICK  @ -> 354390000 ns
+# RX_BAUD_TICK  @ -> 363070000 ns
+# RX_BAUD_TICK  @ -> 371750000 ns
+# RX_BAUD_TICK  @ -> 380430000 ns
+# RX_BAUD_TICK  @ -> 389110000 ns
+# RX_BAUD_TICK  @ -> 397790000 ns
+# RX_BAUD_TICK  @ -> 406470000 ns
+# RX_BAUD_TICK  @ -> 415150000 ns
+# RX_BAUD_TICK  @ -> 423830000 ns
+# RX_BAUD_TICK  @ -> 432510000 ns
+# RX_BAUD_TICK  @ -> 441190000 ns
+# RX_BAUD_TICK  @ -> 449870000 ns
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.v(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.v line 82
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:56:43 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.v "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 20:56:43 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:56:48 on Jan 30,2026, Elapsed time: 0:05:53
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 20:56:48 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# ******************TEST PASED***********
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810000 ns
+# TX_BAUD_TICK  @ -> 17490000 ns
+# TX_BAUD_TICK  @ -> 26170000 ns
+# TX_BAUD_TICK  @ -> 34850000 ns
+# TX_BAUD_TICK  @ -> 43530000 ns
+# TX_BAUD_TICK  @ -> 52210000 ns
+# TX_BAUD_TICK  @ -> 60890000 ns
+# TX_BAUD_TICK  @ -> 69570000 ns
+# TX_BAUD_TICK  @ -> 78250000 ns
+# TX_BAUD_TICK  @ -> 86930000 ns
+# TX_BAUD_TICK  @ -> 95610000 ns
+# TX_BAUD_TICK  @ -> 104290000 ns
+# TX_BAUD_TICK  @ -> 112970000 ns
+# TX_BAUD_TICK  @ -> 121650000 ns
+# TX_BAUD_TICK  @ -> 130330000 ns
+# TX_BAUD_TICK  @ -> 139010000 ns
+# TX_BAUD_TICK  @ -> 147690000 ns
+# TX_BAUD_TICK  @ -> 156370000 ns
+# TX_BAUD_TICK  @ -> 165050000 ns
+# TX_BAUD_TICK  @ -> 173730000 ns
+# TX_BAUD_TICK  @ -> 182410000 ns
+# TX_BAUD_TICK  @ -> 191090000 ns
+# TX_BAUD_TICK  @ -> 199770000 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530000 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910000 ns
+# RX_BAUD_TICK  @ -> 267590000 ns
+# RX_BAUD_TICK  @ -> 276270000 ns
+# RX_BAUD_TICK  @ -> 284950000 ns
+# RX_BAUD_TICK  @ -> 293630000 ns
+# RX_BAUD_TICK  @ -> 302310000 ns
+# RX_BAUD_TICK  @ -> 310990000 ns
+# RX_BAUD_TICK  @ -> 319670000 ns
+# RX_BAUD_TICK  @ -> 328350000 ns
+# RX_BAUD_TICK  @ -> 337030000 ns
+# RX_BAUD_TICK  @ -> 345710000 ns
+# RX_BAUD_TICK  @ -> 354390000 ns
+# RX_BAUD_TICK  @ -> 363070000 ns
+# RX_BAUD_TICK  @ -> 371750000 ns
+# RX_BAUD_TICK  @ -> 380430000 ns
+# RX_BAUD_TICK  @ -> 389110000 ns
+# RX_BAUD_TICK  @ -> 397790000 ns
+# RX_BAUD_TICK  @ -> 406470000 ns
+# RX_BAUD_TICK  @ -> 415150000 ns
+# RX_BAUD_TICK  @ -> 423830000 ns
+# RX_BAUD_TICK  @ -> 432510000 ns
+# RX_BAUD_TICK  @ -> 441190000 ns
+# RX_BAUD_TICK  @ -> 449870000 ns
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.v(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.v line 82
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:59:26 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.v "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 20:59:26 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:59:29 on Jan 30,2026, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 20:59:29 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# ******************TEST PASED***********
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810000 ns
+# TX_BAUD_TICK  @ -> 17490000 ns
+# TX_BAUD_TICK  @ -> 26170000 ns
+# TX_BAUD_TICK  @ -> 34850000 ns
+# TX_BAUD_TICK  @ -> 43530000 ns
+# TX_BAUD_TICK  @ -> 52210000 ns
+# TX_BAUD_TICK  @ -> 60890000 ns
+# TX_BAUD_TICK  @ -> 69570000 ns
+# TX_BAUD_TICK  @ -> 78250000 ns
+# TX_BAUD_TICK  @ -> 86930000 ns
+# TX_BAUD_TICK  @ -> 95610000 ns
+# TX_BAUD_TICK  @ -> 104290000 ns
+# TX_BAUD_TICK  @ -> 112970000 ns
+# TX_BAUD_TICK  @ -> 121650000 ns
+# TX_BAUD_TICK  @ -> 130330000 ns
+# TX_BAUD_TICK  @ -> 139010000 ns
+# TX_BAUD_TICK  @ -> 147690000 ns
+# TX_BAUD_TICK  @ -> 156370000 ns
+# TX_BAUD_TICK  @ -> 165050000 ns
+# TX_BAUD_TICK  @ -> 173730000 ns
+# TX_BAUD_TICK  @ -> 182410000 ns
+# TX_BAUD_TICK  @ -> 191090000 ns
+# TX_BAUD_TICK  @ -> 199770000 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530000 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910000 ns
+# RX_BAUD_TICK  @ -> 267590000 ns
+# RX_BAUD_TICK  @ -> 276270000 ns
+# RX_BAUD_TICK  @ -> 284950000 ns
+# RX_BAUD_TICK  @ -> 293630000 ns
+# RX_BAUD_TICK  @ -> 302310000 ns
+# RX_BAUD_TICK  @ -> 310990000 ns
+# RX_BAUD_TICK  @ -> 319670000 ns
+# RX_BAUD_TICK  @ -> 328350000 ns
+# RX_BAUD_TICK  @ -> 337030000 ns
+# RX_BAUD_TICK  @ -> 345710000 ns
+# RX_BAUD_TICK  @ -> 354390000 ns
+# RX_BAUD_TICK  @ -> 363070000 ns
+# RX_BAUD_TICK  @ -> 371750000 ns
+# RX_BAUD_TICK  @ -> 380430000 ns
+# RX_BAUD_TICK  @ -> 389110000 ns
+# RX_BAUD_TICK  @ -> 397790000 ns
+# RX_BAUD_TICK  @ -> 406470000 ns
+# RX_BAUD_TICK  @ -> 415150000 ns
+# RX_BAUD_TICK  @ -> 423830000 ns
+# RX_BAUD_TICK  @ -> 432510000 ns
+# RX_BAUD_TICK  @ -> 441190000 ns
+# RX_BAUD_TICK  @ -> 449870000 ns
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.v(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.v line 82
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:01:34 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.v "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 21:01:34 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:01:37 on Jan 30,2026, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 21:01:37 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# ******************TEST PASED***********
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810000 ns
+# TX_BAUD_TICK  @ -> 17490000 ns
+# TX_BAUD_TICK  @ -> 26170000 ns
+# TX_BAUD_TICK  @ -> 34850000 ns
+# TX_BAUD_TICK  @ -> 43530000 ns
+# TX_BAUD_TICK  @ -> 52210000 ns
+# TX_BAUD_TICK  @ -> 60890000 ns
+# TX_BAUD_TICK  @ -> 69570000 ns
+# TX_BAUD_TICK  @ -> 78250000 ns
+# TX_BAUD_TICK  @ -> 86930000 ns
+# TX_BAUD_TICK  @ -> 95610000 ns
+# TX_BAUD_TICK  @ -> 104290000 ns
+# TX_BAUD_TICK  @ -> 112970000 ns
+# TX_BAUD_TICK  @ -> 121650000 ns
+# TX_BAUD_TICK  @ -> 130330000 ns
+# TX_BAUD_TICK  @ -> 139010000 ns
+# TX_BAUD_TICK  @ -> 147690000 ns
+# TX_BAUD_TICK  @ -> 156370000 ns
+# TX_BAUD_TICK  @ -> 165050000 ns
+# TX_BAUD_TICK  @ -> 173730000 ns
+# TX_BAUD_TICK  @ -> 182410000 ns
+# TX_BAUD_TICK  @ -> 191090000 ns
+# TX_BAUD_TICK  @ -> 199770000 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530000 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910000 ns
+# RX_BAUD_TICK  @ -> 267590000 ns
+# RX_BAUD_TICK  @ -> 276270000 ns
+# RX_BAUD_TICK  @ -> 284950000 ns
+# RX_BAUD_TICK  @ -> 293630000 ns
+# RX_BAUD_TICK  @ -> 302310000 ns
+# RX_BAUD_TICK  @ -> 310990000 ns
+# RX_BAUD_TICK  @ -> 319670000 ns
+# RX_BAUD_TICK  @ -> 328350000 ns
+# RX_BAUD_TICK  @ -> 337030000 ns
+# RX_BAUD_TICK  @ -> 345710000 ns
+# RX_BAUD_TICK  @ -> 354390000 ns
+# RX_BAUD_TICK  @ -> 363070000 ns
+# RX_BAUD_TICK  @ -> 371750000 ns
+# RX_BAUD_TICK  @ -> 380430000 ns
+# RX_BAUD_TICK  @ -> 389110000 ns
+# RX_BAUD_TICK  @ -> 397790000 ns
+# RX_BAUD_TICK  @ -> 406470000 ns
+# RX_BAUD_TICK  @ -> 415150000 ns
+# RX_BAUD_TICK  @ -> 423830000 ns
+# RX_BAUD_TICK  @ -> 432510000 ns
+# RX_BAUD_TICK  @ -> 441190000 ns
+# RX_BAUD_TICK  @ -> 449870000 ns
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.v(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.v line 82
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:01:51 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.v "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 21:01:51 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:01:53 on Jan 30,2026, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 21:01:53 on Jan 30,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# ******************TEST PASED***********
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810000 ns
+# TX_BAUD_TICK  @ -> 17490000 ns
+# TX_BAUD_TICK  @ -> 26170000 ns
+# TX_BAUD_TICK  @ -> 34850000 ns
+# TX_BAUD_TICK  @ -> 43530000 ns
+# TX_BAUD_TICK  @ -> 52210000 ns
+# TX_BAUD_TICK  @ -> 60890000 ns
+# TX_BAUD_TICK  @ -> 69570000 ns
+# TX_BAUD_TICK  @ -> 78250000 ns
+# TX_BAUD_TICK  @ -> 86930000 ns
+# TX_BAUD_TICK  @ -> 95610000 ns
+# TX_BAUD_TICK  @ -> 104290000 ns
+# TX_BAUD_TICK  @ -> 112970000 ns
+# TX_BAUD_TICK  @ -> 121650000 ns
+# TX_BAUD_TICK  @ -> 130330000 ns
+# TX_BAUD_TICK  @ -> 139010000 ns
+# TX_BAUD_TICK  @ -> 147690000 ns
+# TX_BAUD_TICK  @ -> 156370000 ns
+# TX_BAUD_TICK  @ -> 165050000 ns
+# TX_BAUD_TICK  @ -> 173730000 ns
+# TX_BAUD_TICK  @ -> 182410000 ns
+# TX_BAUD_TICK  @ -> 191090000 ns
+# TX_BAUD_TICK  @ -> 199770000 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530000 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910000 ns
+# RX_BAUD_TICK  @ -> 267590000 ns
+# RX_BAUD_TICK  @ -> 276270000 ns
+# RX_BAUD_TICK  @ -> 284950000 ns
+# RX_BAUD_TICK  @ -> 293630000 ns
+# RX_BAUD_TICK  @ -> 302310000 ns
+# RX_BAUD_TICK  @ -> 310990000 ns
+# RX_BAUD_TICK  @ -> 319670000 ns
+# RX_BAUD_TICK  @ -> 328350000 ns
+# RX_BAUD_TICK  @ -> 337030000 ns
+# RX_BAUD_TICK  @ -> 345710000 ns
+# RX_BAUD_TICK  @ -> 354390000 ns
+# RX_BAUD_TICK  @ -> 363070000 ns
+# RX_BAUD_TICK  @ -> 371750000 ns
+# RX_BAUD_TICK  @ -> 380430000 ns
+# RX_BAUD_TICK  @ -> 389110000 ns
+# RX_BAUD_TICK  @ -> 397790000 ns
+# RX_BAUD_TICK  @ -> 406470000 ns
+# RX_BAUD_TICK  @ -> 415150000 ns
+# RX_BAUD_TICK  @ -> 423830000 ns
+# RX_BAUD_TICK  @ -> 432510000 ns
+# RX_BAUD_TICK  @ -> 441190000 ns
+# RX_BAUD_TICK  @ -> 449870000 ns
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.v(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.v line 82
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:04:48 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.v "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 21:04:48 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:04:51 on Jan 30,2026, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 21:04:51 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810000 ns
+# TX_BAUD_TICK  @ -> 17490000 ns
+# TX_BAUD_TICK  @ -> 26170000 ns
+# TX_BAUD_TICK  @ -> 34850000 ns
+# TX_BAUD_TICK  @ -> 43530000 ns
+# TX_BAUD_TICK  @ -> 52210000 ns
+# TX_BAUD_TICK  @ -> 60890000 ns
+# TX_BAUD_TICK  @ -> 69570000 ns
+# TX_BAUD_TICK  @ -> 78250000 ns
+# TX_BAUD_TICK  @ -> 86930000 ns
+# TX_BAUD_TICK  @ -> 95610000 ns
+# TX_BAUD_TICK  @ -> 104290000 ns
+# TX_BAUD_TICK  @ -> 112970000 ns
+# TX_BAUD_TICK  @ -> 121650000 ns
+# TX_BAUD_TICK  @ -> 130330000 ns
+# TX_BAUD_TICK  @ -> 139010000 ns
+# TX_BAUD_TICK  @ -> 147690000 ns
+# TX_BAUD_TICK  @ -> 156370000 ns
+# TX_BAUD_TICK  @ -> 165050000 ns
+# TX_BAUD_TICK  @ -> 173730000 ns
+# TX_BAUD_TICK  @ -> 182410000 ns
+# TX_BAUD_TICK  @ -> 191090000 ns
+# TX_BAUD_TICK  @ -> 199770000 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530000 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 267590000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 276270000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 284950000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 293630000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 302310000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 310990000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 319670000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 328350000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 337030000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 345710000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 354390000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 363070000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 371750000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 380430000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 389110000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 397790000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 406470000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 415150000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 423830000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 432510000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 441190000 ns
+# ****************** TEST PASSED ******************
+# RX_BAUD_TICK  @ -> 449870000 ns
+# ****************** TEST PASSED ******************
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.v(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.v line 82
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:05:32 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.v "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 21:05:32 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:05:35 on Jan 30,2026, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 21:05:35 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810000 ns
+# TX_BAUD_TICK  @ -> 17490000 ns
+# TX_BAUD_TICK  @ -> 26170000 ns
+# TX_BAUD_TICK  @ -> 34850000 ns
+# TX_BAUD_TICK  @ -> 43530000 ns
+# TX_BAUD_TICK  @ -> 52210000 ns
+# TX_BAUD_TICK  @ -> 60890000 ns
+# TX_BAUD_TICK  @ -> 69570000 ns
+# TX_BAUD_TICK  @ -> 78250000 ns
+# TX_BAUD_TICK  @ -> 86930000 ns
+# TX_BAUD_TICK  @ -> 95610000 ns
+# TX_BAUD_TICK  @ -> 104290000 ns
+# TX_BAUD_TICK  @ -> 112970000 ns
+# TX_BAUD_TICK  @ -> 121650000 ns
+# TX_BAUD_TICK  @ -> 130330000 ns
+# TX_BAUD_TICK  @ -> 139010000 ns
+# TX_BAUD_TICK  @ -> 147690000 ns
+# TX_BAUD_TICK  @ -> 156370000 ns
+# TX_BAUD_TICK  @ -> 165050000 ns
+# TX_BAUD_TICK  @ -> 173730000 ns
+# TX_BAUD_TICK  @ -> 182410000 ns
+# TX_BAUD_TICK  @ -> 191090000 ns
+# TX_BAUD_TICK  @ -> 199770000 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530000 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910000 ns
+# RX_BAUD_TICK  @ -> 267590000 ns
+# RX_BAUD_TICK  @ -> 276270000 ns
+# RX_BAUD_TICK  @ -> 284950000 ns
+# RX_BAUD_TICK  @ -> 293630000 ns
+# RX_BAUD_TICK  @ -> 302310000 ns
+# RX_BAUD_TICK  @ -> 310990000 ns
+# RX_BAUD_TICK  @ -> 319670000 ns
+# RX_BAUD_TICK  @ -> 328350000 ns
+# RX_BAUD_TICK  @ -> 337030000 ns
+# RX_BAUD_TICK  @ -> 345710000 ns
+# RX_BAUD_TICK  @ -> 354390000 ns
+# RX_BAUD_TICK  @ -> 363070000 ns
+# RX_BAUD_TICK  @ -> 371750000 ns
+# RX_BAUD_TICK  @ -> 380430000 ns
+# RX_BAUD_TICK  @ -> 389110000 ns
+# RX_BAUD_TICK  @ -> 397790000 ns
+# RX_BAUD_TICK  @ -> 406470000 ns
+# RX_BAUD_TICK  @ -> 415150000 ns
+# RX_BAUD_TICK  @ -> 423830000 ns
+# RX_BAUD_TICK  @ -> 432510000 ns
+# RX_BAUD_TICK  @ -> 441190000 ns
+# RX_BAUD_TICK  @ -> 449870000 ns
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.v(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.v line 82
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:06:29 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.v "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 21:06:29 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:06:32 on Jan 30,2026, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 21:06:32 on Jan 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810 ns
+# TX_BAUD_TICK  @ -> 17490 ns
+# TX_BAUD_TICK  @ -> 26170 ns
+# TX_BAUD_TICK  @ -> 34850 ns
+# TX_BAUD_TICK  @ -> 43530 ns
+# TX_BAUD_TICK  @ -> 52210 ns
+# TX_BAUD_TICK  @ -> 60890 ns
+# TX_BAUD_TICK  @ -> 69570 ns
+# TX_BAUD_TICK  @ -> 78250 ns
+# TX_BAUD_TICK  @ -> 86930 ns
+# TX_BAUD_TICK  @ -> 95610 ns
+# TX_BAUD_TICK  @ -> 104290 ns
+# TX_BAUD_TICK  @ -> 112970 ns
+# TX_BAUD_TICK  @ -> 121650 ns
+# TX_BAUD_TICK  @ -> 130330 ns
+# TX_BAUD_TICK  @ -> 139010 ns
+# TX_BAUD_TICK  @ -> 147690 ns
+# TX_BAUD_TICK  @ -> 156370 ns
+# TX_BAUD_TICK  @ -> 165050 ns
+# TX_BAUD_TICK  @ -> 173730 ns
+# TX_BAUD_TICK  @ -> 182410 ns
+# TX_BAUD_TICK  @ -> 191090 ns
+# TX_BAUD_TICK  @ -> 199770 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910 ns
+# RX_BAUD_TICK  @ -> 267590 ns
+# RX_BAUD_TICK  @ -> 276270 ns
+# RX_BAUD_TICK  @ -> 284950 ns
+# RX_BAUD_TICK  @ -> 293630 ns
+# RX_BAUD_TICK  @ -> 302310 ns
+# RX_BAUD_TICK  @ -> 310990 ns
+# RX_BAUD_TICK  @ -> 319670 ns
+# RX_BAUD_TICK  @ -> 328350 ns
+# RX_BAUD_TICK  @ -> 337030 ns
+# RX_BAUD_TICK  @ -> 345710 ns
+# RX_BAUD_TICK  @ -> 354390 ns
+# RX_BAUD_TICK  @ -> 363070 ns
+# RX_BAUD_TICK  @ -> 371750 ns
+# RX_BAUD_TICK  @ -> 380430 ns
+# RX_BAUD_TICK  @ -> 389110 ns
+# RX_BAUD_TICK  @ -> 397790 ns
+# RX_BAUD_TICK  @ -> 406470 ns
+# RX_BAUD_TICK  @ -> 415150 ns
+# RX_BAUD_TICK  @ -> 423830 ns
+# RX_BAUD_TICK  @ -> 432510 ns
+# RX_BAUD_TICK  @ -> 441190 ns
+# RX_BAUD_TICK  @ -> 449870 ns
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.v(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.v line 82
+# End time: 21:25:36 on Jan 30,2026, Elapsed time: 0:19:04
+# Errors: 0, Warnings: 0
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:45:30 on Jan 30,2026
+# vlog -reportprogress 300 baud_gen_tb.sv "+acc" 
+# -- Compiling module baud_gen
+# -- Compiling module baud_gen_tb
+# 
+# Top level modules:
+# 	baud_gen_tb
+# End time: 22:45:30 on Jan 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim baud_gen_tb 
+# Start time: 22:45:30 on Jan 30,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.baud_gen_tb(fast)
+# Loading work.baud_gen(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Gowrish Balegar  Hostname: LAPTOP-6DNVVMVE  ProcessID: 3148
+#           Attempting to use alternate WLF file "./wlft6fwv96".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6fwv96
+# 
+# --- TX baud test start ---
+# TX_BAUD_TICK  @ -> 8810 ns
+# TX_BAUD_TICK  @ -> 17490 ns
+# TX_BAUD_TICK  @ -> 26170 ns
+# TX_BAUD_TICK  @ -> 34850 ns
+# TX_BAUD_TICK  @ -> 43530 ns
+# TX_BAUD_TICK  @ -> 52210 ns
+# TX_BAUD_TICK  @ -> 60890 ns
+# TX_BAUD_TICK  @ -> 69570 ns
+# TX_BAUD_TICK  @ -> 78250 ns
+# TX_BAUD_TICK  @ -> 86930 ns
+# TX_BAUD_TICK  @ -> 95610 ns
+# TX_BAUD_TICK  @ -> 104290 ns
+# TX_BAUD_TICK  @ -> 112970 ns
+# TX_BAUD_TICK  @ -> 121650 ns
+# TX_BAUD_TICK  @ -> 130330 ns
+# TX_BAUD_TICK  @ -> 139010 ns
+# TX_BAUD_TICK  @ -> 147690 ns
+# TX_BAUD_TICK  @ -> 156370 ns
+# TX_BAUD_TICK  @ -> 165050 ns
+# TX_BAUD_TICK  @ -> 173730 ns
+# TX_BAUD_TICK  @ -> 182410 ns
+# TX_BAUD_TICK  @ -> 191090 ns
+# TX_BAUD_TICK  @ -> 199770 ns
+# --- TX baud test end ---
+# 
+# 
+# --- RX half-baud alignment test start ---
+# RX_HALF_TICK  @ -> 204530 ns
+# --- RX half-baud alignment test end ---
+# 
+# 
+# --- RX full baud test start ---
+# RX_BAUD_TICK  @ -> 258910 ns
+# RX_BAUD_TICK  @ -> 267590 ns
+# RX_BAUD_TICK  @ -> 276270 ns
+# RX_BAUD_TICK  @ -> 284950 ns
+# RX_BAUD_TICK  @ -> 293630 ns
+# RX_BAUD_TICK  @ -> 302310 ns
+# RX_BAUD_TICK  @ -> 310990 ns
+# RX_BAUD_TICK  @ -> 319670 ns
+# RX_BAUD_TICK  @ -> 328350 ns
+# RX_BAUD_TICK  @ -> 337030 ns
+# RX_BAUD_TICK  @ -> 345710 ns
+# RX_BAUD_TICK  @ -> 354390 ns
+# RX_BAUD_TICK  @ -> 363070 ns
+# RX_BAUD_TICK  @ -> 371750 ns
+# RX_BAUD_TICK  @ -> 380430 ns
+# RX_BAUD_TICK  @ -> 389110 ns
+# RX_BAUD_TICK  @ -> 397790 ns
+# RX_BAUD_TICK  @ -> 406470 ns
+# RX_BAUD_TICK  @ -> 415150 ns
+# RX_BAUD_TICK  @ -> 423830 ns
+# RX_BAUD_TICK  @ -> 432510 ns
+# RX_BAUD_TICK  @ -> 441190 ns
+# RX_BAUD_TICK  @ -> 449870 ns
+# --- RX full baud test end ---
+# 
+# ** Note: $stop    : baud_gen_tb.sv(82)
+#    Time: 550250 ns  Iteration: 0  Instance: /baud_gen_tb
+# Break in Module baud_gen_tb at baud_gen_tb.sv line 82

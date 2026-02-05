@@ -1,0 +1,12 @@
+var g_data = {'dummy':null,
+'4':'deco_dut.sv',
+'8':'enco_driv.sv',
+'3':'enco_dut.sv',
+'11':'enco_env.sv',
+'7':'enco_gen.sv',
+'1':'enco_intf.sv',
+'9':'enco_iomoni.sv',
+'6':'enco_packet.sv',
+'10':'enco_sb.sv',
+'5':'enco_tb.sv',
+'2':'enco_top.sv'};

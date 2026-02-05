@@ -1,0 +1,69 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/CLASS AS DATA TYPE_SCOPE/CLASS ASSIGNMENTS1/1]CLASS_ARCHI - Copy
+T_opt
+!s110 1765629165
+VKoXmTmzY6jLkJUNiPf5O]3
+04 3 4 work top fast 0
+=1-5e02cfdfbea1-693d5ced-37-315c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtop
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+DXx4 work 11 top_sv_unit 0 22 ghkVDMGMQGcCQOOQjC96h0
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 W3M0[^EMZiKLJB6PGgNU30
+IE6AQ;8Wm2AGj2_L[^;X?F1
+!s105 top_sv_unit
+S1
+R0
+w1765628438
+Z3 8top.sv
+Z4 Ftop.sv
+L0 4
+Z5 OL;L;10.7c;67
+31
+Z6 !s108 1765629163.000000
+Z7 !s107 class_trans.sv|class_gen.sv|class_driver.sv|top.sv|
+Z8 !s90 -reportprogress|300|top.sv|+acc|
+!i113 0
+Z9 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xtop_sv_unit
+R2
+VghkVDMGMQGcCQOOQjC96h0
+r1
+!s85 0
+!i10b 1
+!s100 MnVMDEizEKM16fdzdI5DW0
+IghkVDMGMQGcCQOOQjC96h0
+!i103 1
+S1
+R0
+w1765629161
+R3
+R4
+Fclass_driver.sv
+Fclass_gen.sv
+Fclass_trans.sv
+L0 2
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

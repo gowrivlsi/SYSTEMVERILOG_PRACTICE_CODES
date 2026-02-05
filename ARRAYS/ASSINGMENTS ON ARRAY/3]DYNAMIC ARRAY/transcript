@@ -1,0 +1,1009 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# dy_array.sv  transcript            
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:34:18 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 21:34:19 on Nov 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim dy_array
+# vsim dy_array 
+# Start time: 21:34:26 on Nov 24,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:36:18 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 21:36:18 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 21:36:21 on Nov 24,2025, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 21:36:21 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:41:20 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 21:41:20 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 21:41:23 on Nov 24,2025, Elapsed time: 0:05:02
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 21:41:23 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:45:23 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# ** Error: dy_array.sv(24): (vlog-2730) Undefined variable: 'i'.
+# End time: 21:45:23 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:45:43 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 21:45:43 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 21:45:46 on Nov 24,2025, Elapsed time: 0:04:23
+# Errors: 2, Warnings: 0
+# vsim dy_array 
+# Start time: 21:45:46 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:49:00 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# ** Error (suppressible): dy_array.sv(34): (vlog-2998) Cannot mix packed and unpacked types in this operation.
+# End time: 21:49:00 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:49:26 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 21:49:26 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 21:49:29 on Nov 24,2025, Elapsed time: 0:03:43
+# Errors: 1, Warnings: 0
+# vsim dy_array 
+# Start time: 21:49:29 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# dy_array.sv   transcript            work    
+# qverilog.log  vsim_stacktrace.vstf          
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:06:28 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# ** Error: (vlog-13069) dy_array.sv(46): near "end": syntax error, unexpected end, expecting ';'.
+# End time: 22:06:28 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:06:43 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:06:43 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# vsim dy_array 
+# Start time: 22:06:49 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:10:25 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:10:25 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:10:29 on Nov 24,2025, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:10:29 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{0, -1, 0, -1, 0, -1, 0, -1, 0, -1}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:10:54 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:10:54 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:10:57 on Nov 24,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:10:57 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, -2, 1, -2, 1, -2, 1, -2, 1, -2}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:11:53 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:11:53 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:11:55 on Nov 24,2025, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:11:55 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:13:59 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:13:59 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:14:01 on Nov 24,2025, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:14:01 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:16:56 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:16:56 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:16:59 on Nov 24,2025, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:16:59 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:18:10 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:18:10 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:18:12 on Nov 24,2025, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:18:12 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:18:54 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:18:54 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:18:58 on Nov 24,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:18:58 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:22:29 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:22:30 on Nov 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:22:32 on Nov 24,2025, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:22:32 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# dy_array.sv   transcript            work    
+# qverilog.log  vsim_stacktrace.vstf          
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:57:27 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:57:27 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# vsim dy_array 
+# Start time: 22:57:33 on Nov 24,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:58:25 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 22:58:25 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 22:58:28 on Nov 24,2025, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 22:58:28 on Nov 24,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:00:00 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:00:00 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:00:02 on Nov 24,2025, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 23:00:02 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:16:17 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:16:17 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:16:21 on Nov 24,2025, Elapsed time: 0:16:19
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 23:16:21 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:18:21 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# ** Error: dy_array.sv(79): (vlog-2730) Undefined variable: 'c'.
+# End time: 23:18:21 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:18:41 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:18:41 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:18:44 on Nov 24,2025, Elapsed time: 0:02:23
+# Errors: 2, Warnings: 0
+# vsim dy_array 
+# Start time: 23:18:44 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:27:04 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:27:04 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:27:07 on Nov 24,2025, Elapsed time: 0:08:23
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 23:27:08 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOREACH LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:30:12 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:30:12 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:30:16 on Nov 24,2025, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 23:30:16 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOREACH LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING WHILE LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:33:18 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:33:18 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:33:22 on Nov 24,2025, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 23:33:22 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOREACH LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING WHILE LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING DO WHILE LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:43:20 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:43:20 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:43:23 on Nov 24,2025, Elapsed time: 0:10:01
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 23:43:23 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# =================BLOCK_1[EVEN NUMBERS]=================
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOR LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING FOREACH LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING WHILE LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 90 USING DO WHILE LOOP================================
+# Filling With 10 to 90='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:46:07 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:46:07 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:46:10 on Nov 24,2025, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 23:46:10 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ======================BLOCK_1[EVEN NUMBERS]================================
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ======================BLOCK_2[1's and 0's]================================
+# ========================D_ARRAY FILLING WITH 10 to 100================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 100 USING FOR LOOP================================
+# Filling With 10 to 100='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 100 USING FOREACH LOOP================================
+# Filling With 10 to 100='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 100 USING WHILE LOOP================================
+# Filling With 10 to 100='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 100 USING DO WHILE LOOP================================
+# Filling With 10 to 100='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ======================BLOCK_3[10 TO 100]================================
+vlog dy_array.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:48:37 on Nov 24,2025
+# vlog -reportprogress 300 dy_array.sv 
+# -- Compiling module dy_array
+# 
+# Top level modules:
+# 	dy_array
+# End time: 23:48:37 on Nov 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim dy_array
+# End time: 23:48:39 on Nov 24,2025, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 0
+# vsim dy_array 
+# Start time: 23:48:39 on Nov 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dy_array(fast)
+run -all
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOR LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING FOREACH LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH EVEN NUMBERS USING DO WHILE LOOP================================
+# Dynamic Array with Even Numbers = '{0, 2, 4, 6, 8, 10, 12, 14, 16, 18}
+# ========================D_ARRAY FILLING WITH 1's and 0's ================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOR LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING FOREACH LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 1'S AND 0'S USING DO WHILE LOOP================================
+# Filling With 1's and 0's='{1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
+# ========================D_ARRAY FILLING WITH 10 to 100================================
+# D_array Contents='{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+# ========================D_ARRAY FILLING WITH 10 to 100 USING FOR LOOP================================
+# Filling With 10 to 100='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 100 USING FOREACH LOOP================================
+# Filling With 10 to 100='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 100 USING WHILE LOOP================================
+# Filling With 10 to 100='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+# ========================D_ARRAY FILLING WITH 10 to 100 USING DO WHILE LOOP================================
+# Filling With 10 to 100='{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}

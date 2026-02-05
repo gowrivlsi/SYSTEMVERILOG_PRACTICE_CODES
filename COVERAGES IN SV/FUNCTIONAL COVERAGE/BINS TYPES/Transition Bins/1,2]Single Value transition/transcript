@@ -1,0 +1,339 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:09:17 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:09:17 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim test 
+# Start time: 16:09:17 on Dec 31,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: test.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# ** Fatal: (vsim-8541) A fixed-size array transition bin 'b2' is found in Coverpoint 'L1' of Covergroup instance '\/test/c1 '. It is illegal to have such fixed-szie array transition bin per LRM.
+#    Time: 0 ns  Iteration: 0  Process: /test/#INITIAL#14 File: test.sv
+# Fatal error at test.sv line 6
+# 
+# HDL call sequence:
+# Stopped at test.sv 6  
+# called from  test.sv 15  
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:09:59 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:09:59 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:10:00 on Dec 31,2025, Elapsed time: 0:00:43
+# Errors: 2, Warnings: 2
+# vsim test 
+# Start time: 16:10:00 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# ** Fatal: (vsim-8541) A fixed-size array transition bin 'b2' is found in Coverpoint 'L1' of Covergroup instance '\/test/c1 '. It is illegal to have such fixed-szie array transition bin per LRM.
+#    Time: 0 ns  Iteration: 0  Process: /test/#INITIAL#14 File: test.sv
+# Fatal error at test.sv line 6
+# 
+# HDL call sequence:
+# Stopped at test.sv 6  
+# called from  test.sv 15  
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:12:23 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:12:23 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:12:23 on Dec 31,2025, Elapsed time: 0:02:23
+# Errors: 2, Warnings: 2
+# vsim test 
+# Start time: 16:12:23 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184
+# a = 38
+# a = 102
+# a = 182
+# a = 198
+# a = 70
+# a = 114
+# a = 46
+# a = 103
+# a = 58
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:13:26 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:13:27 on Dec 31,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 16:13:27 on Dec 31,2025, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:13:27 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184
+# a = 38
+# a = 102
+# a = 182
+# a = 198
+# a = 70
+# a = 114
+# a = 46
+# a = 103
+# a = 58
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:16:58 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:16:58 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:16:59 on Dec 31,2025, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:16:59 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184
+# a = 38
+# a = 102
+# a = 182
+# a = 198
+# a = 70
+# a = 114
+# a = 46
+# a = 103
+# a = 58
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:18:25 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:18:25 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:18:25 on Dec 31,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:18:26 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184
+# a = 38
+# a = 102
+# a = 182
+# a = 198
+# a = 70
+# a = 114
+# a = 46
+# a = 103
+# a = 58
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:20:37 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:20:37 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:20:38 on Dec 31,2025, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:20:38 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184
+# a = 38
+# a = 102
+# a = 182
+# a = 198
+# a = 70
+# a = 114
+# a = 46
+# a = 103
+# a = 58
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:21:06 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:21:06 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:21:07 on Dec 31,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:21:07 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184
+# a = 38
+# a = 102
+# a = 182
+# a = 198
+# a = 70
+# a = 114
+# a = 46
+# a = 103
+# a = 58
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:27:51 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:27:51 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:27:52 on Dec 31,2025, Elapsed time: 0:06:45
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:27:52 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(19): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184
+# a = 38
+# a = 102
+# a = 182
+# a = 198
+# a = 70
+# a = 114
+# a = 46
+# a = 103
+# a = 58
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:28:48 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:28:48 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:28:49 on Dec 31,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:28:49 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(19): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184 | b=38
+# a = 102 | b=182
+# a = 198 | b=70
+# a = 114 | b=46
+# a = 103 | b=58
+# a = 106 | b=180
+# a = 111 | b=86
+# a = 53 | b=212
+# a = 174 | b=125
+# a = 219 | b=5
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:30:03 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:30:03 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:30:03 on Dec 31,2025, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:30:03 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(19): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184 | b=38
+# a = 102 | b=182
+# a = 198 | b=70
+# a = 114 | b=46
+# a = 103 | b=58
+# a = 106 | b=180
+# a = 111 | b=86
+# a = 53 | b=212
+# a = 174 | b=125
+# a = 219 | b=5

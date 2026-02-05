@@ -1,0 +1,160 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:17:24 on Nov 17,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module comp4b
+# -- Compiling program comp4b_tb
+# -- Compiling module comp4b_wrapper
+# -- Compiling interface comp4b_intf
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:17:25 on Nov 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:17:25 on Nov 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.comp4b_intf(fast)
+# Loading work.comp4b_wrapper(fast)
+# Loading work.comp4b(fast)
+# Loading work.comp4b_tb(fast)
+# ** Info: =============================TEST PASED==============================
+#    Time: 10 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 2 B in = 4 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 20 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 8 B in = 1 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 30 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 0 B in = 9 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 40 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 6 B in = 3 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 50 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 0 B in = 13 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 60 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 8 B in = 13 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 70 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 6 B in = 5 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 80 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 1 B in = 2 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 90 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 0 B in = 1 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 100 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 0 B in = 13 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 110 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 7 B in = 6 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 120 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 3 B in = 13 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 130 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 14 B in = 13 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 140 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 8 B in = 12 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 150 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 15 B in = 9 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Note: implicit $finish from program    : comp4b.sv(42)
+#    Time: 150 ns  Iteration: 0  Instance: /top/rtl3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:33:29 on Nov 17,2025
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module comp4b
+# -- Compiling program comp4b_tb
+# -- Compiling module comp4b_wrapper
+# -- Compiling interface comp4b_intf
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:33:29 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:33:32 on Nov 17,2025, Elapsed time: 0:16:07
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:33:32 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.comp4b_intf(fast)
+# Loading work.comp4b_wrapper(fast)
+# Loading work.comp4b(fast)
+# Loading work.comp4b_tb(fast)
+# ** Info: =============================TEST PASED==============================
+#    Time: 10 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 2 B in = 4 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 20 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 8 B in = 1 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 30 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 0 B in = 9 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 40 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 6 B in = 3 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 50 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 0 B in = 13 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 60 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 8 B in = 13 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 70 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 6 B in = 5 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 80 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 1 B in = 2 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 90 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 0 B in = 1 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 100 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 0 B in = 13 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 110 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 7 B in = 6 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 120 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 3 B in = 13 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 130 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 14 B in = 13 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Info: =============================TEST PASED==============================
+#    Time: 140 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 8 B in = 12 GRATER = 0|g=0 EQUAL = 0|e=0 LESSTHAN = 1|l=1
+# ** Info: =============================TEST PASED==============================
+#    Time: 150 ns  Scope: top.rtl3.sc File: comp4b.sv Line: 41
+# A in = 15 B in = 9 GRATER = 1|g=1 EQUAL = 0|e=0 LESSTHAN = 0|l=0
+# ** Note: implicit $finish from program    : comp4b.sv(42)
+#    Time: 150 ns  Iteration: 0  Instance: /top/rtl3
+# 1
+# Simulation stop requested.

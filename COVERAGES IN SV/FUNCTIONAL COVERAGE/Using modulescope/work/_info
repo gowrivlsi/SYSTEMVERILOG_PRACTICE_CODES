@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/COVERAGES IN SV/FUNCTIONAL COVERAGE
+T_opt
+!s110 1767093171
+VEYG2zD;`AIY[3LOoGWEUj2
+04 4 4 work sram fast 0
+=1-368f65cea897-6953b3b3-110-4ec0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vsram
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1767093168
+!i10b 1
+!s100 lb8A5NlkZ1VHf[d7dbknb0
+I<@7ZVc7ZF_C;Z0LUHMOB13
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 fun_cover_sv_unit
+S1
+R0
+w1767093158
+8fun_cover.sv
+Ffun_cover.sv
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1767093168.000000
+!s107 fun_cover.sv|
+!s90 -reportprogress|300|fun_cover.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

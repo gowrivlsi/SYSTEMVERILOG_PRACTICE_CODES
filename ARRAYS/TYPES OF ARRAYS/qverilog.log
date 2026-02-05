@@ -1,0 +1,77 @@
+Start time: 16:05:28 on Nov 24,2025
+qverilog arrays_ex.sv 
+-- Compiling module array_ex
+** Warning: arrays_ex.sv(110): (qverilog-2240) Treating stand-alone use of function 'first' as an implicit VOID cast.
+** Warning: arrays_ex.sv(112): (qverilog-2240) Treating stand-alone use of function 'last' as an implicit VOID cast.
+** Warning: arrays_ex.sv(115): (qverilog-2240) Treating stand-alone use of function 'next' as an implicit VOID cast.
+** Warning: arrays_ex.sv(117): (qverilog-2240) Treating stand-alone use of function 'prev' as an implicit VOID cast.
+
+Top level modules:
+	array_ex
+# vsim -lib work work.array_ex -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: arrays_ex.sv(110): (vopt-2240) Treating stand-alone use of function 'first' as an implicit VOID cast.
+# ** Warning: arrays_ex.sv(112): (vopt-2240) Treating stand-alone use of function 'last' as an implicit VOID cast.
+# ** Warning: arrays_ex.sv(115): (vopt-2240) Treating stand-alone use of function 'next' as an implicit VOID cast.
+# ** Warning: arrays_ex.sv(117): (vopt-2240) Treating stand-alone use of function 'prev' as an implicit VOID cast.
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.array_ex(fast)
+# run -all
+# ==============Queue Array============
+# Q_array = '{}
+# Q_array of Direct Inti='{10, 52, 54, 84, 25, 24}
+# Q_arry of Using While loop[0] =52
+# Q_arry of Using While loop[1] =22
+# Q_arry of Using While loop[2] =26
+# Q_arry of Using While loop[3] =38
+# Q_arry of Using While loop[4] =59
+# Q_arry of Using While loop[5] =35
+# Q_arry of Using While loop[6] =36
+# Q_arry of Using While loop[7] =51
+# Q_arry of Using While loop[8] =47
+# Q_arry of Using While loop[9] =29
+# Queue Contents = '{52, 22, 26, 38, 59, 35, 36, 51, 47, 29}
+# Q_array of Size  = 10
+# Q_array of Delete 4 index  = '{52, 22, 26, 38, 35, 36, 51, 47, 29}
+# Q_array of insert 30 at 5 index:'{52, 22, 26, 38, 35, 30, 36, 51, 47, 29}
+# Q_array of Push front value of 45:'{45, 52, 22, 26, 38, 35, 30, 36, 51, 47, 29}
+# Q_array of Push Back value of 35:'{45, 52, 22, 26, 38, 35, 30, 36, 51, 47, 29, 35}
+# Q_array of Pop front value of :45
+# Q_array of Push front value of :35
+# =============================Operators in QUEUES===========================
+# Queue Contents = '{52, 22, 26, 38, 35, 30, 36, 51, 47, 29}
+# Queue Contents 0 index value removed = '{22, 26, 38, 35, 30, 36, 51, 47, 29}
+# Queue Contents = '{22, 26, 38, 35, 30, 36, 51, 47, 29}
+# Queue Contents last index value removed = '{22, 26, 38, 35, 30, 36, 51, 47}
+# Queue Contents = '{22, 26, 38, 35, 30, 36, 51, 47}
+# Queue Contents 1st & last index value removed = '{26, 38, 35, 30, 36, 51}
+# Queue Contents = '{26, 38, 35, 30, 36, 51}
+# Queue Contents After insrting 38 at 5 index = '{26, 38, 35, 30, 36, 38, 51}
+# Queue Contents = '{26, 38, 35, 30, 36, 38, 51}
+# Queue Contents Before(4th) insrting 48 at 5 index = '{26, 38, 35, 30, 48, 36, 38, 51}
+# Queue Contents = '{26, 38, 35, 30, 48, 36, 38, 51}
+# Queue Contents Before(6th) insrting 58 at 5 index = '{26, 38, 35, 30, 48, 36, 58, 48, 36, 38, 51}
+# Queue Contents = '{26, 38, 35, 30, 48, 36, 58, 48, 36, 38, 51}
+# Queue Contents 52 at 0th index with conti of d = '{52, 26, 38, 35, 30, 48, 36, 58, 48, 36, 38, 51}
+# Queue Contents = '{52, 26, 38, 35, 30, 48, 36, 58, 48, 36, 38, 51}
+# Queue Contents 43 at $(last) index with conti of d = '{52, 26, 38, 35, 30, 48, 36, 58, 48, 36, 38, 51, 43}
+# Queue Contents = '{52, 26, 38, 35, 30, 48, 36, 58, 48, 36, 38, 51, 43}
+# Queue Contents Deleted All='{}
+# Q_array of Direct Inti='{10, 52, 54, 84, 25, 24}
+#  quit -f
+# End time: 16:05:29 on Nov 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 8

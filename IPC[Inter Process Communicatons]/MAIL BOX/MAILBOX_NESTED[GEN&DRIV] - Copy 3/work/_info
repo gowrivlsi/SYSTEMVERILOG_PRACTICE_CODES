@@ -1,0 +1,69 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/MAIL BOX/MAILBOX_NESTED[GEN&DRIV] - Copy 3
+T_opt
+!s110 1766553470
+V:Tm:KH<jT?RkL5:iKUInA1
+04 3 4 work top fast 0
+=1-ee4a6aecb0bd-694b777e-d4-4dd8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xmailbox_top_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+V;bi9bBBflC0U;PzAhb_Qi1
+r1
+!s85 0
+!i10b 1
+!s100 >THVfQQC]Rc]<6PaL^hMn0
+I;bi9bBBflC0U;PzAhb_Qi1
+!i103 1
+S1
+R0
+w1766553466
+Z3 8mailbox_top.sv
+Z4 Fmailbox_top.sv
+Fclass_pack_sig.sv
+Fclass_mailbox_pack.sv
+Fclass_mailbox_driver.sv
+L0 1
+Z5 OL;L;10.7c;67
+31
+Z6 !s108 1766553469.000000
+Z7 !s107 class_mailbox_driver.sv|class_mailbox_pack.sv|class_pack_sig.sv|mailbox_top.sv|
+Z8 !s90 -reportprogress|300|mailbox_top.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 19 mailbox_top_sv_unit 0 22 ;bi9bBBflC0U;PzAhb_Qi1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 Wz91X_0>1Pf^nD3<Ro@A82
+IHiJV>C8A_C7dTIb46FbCn0
+!s105 mailbox_top_sv_unit
+S1
+R0
+w1766492376
+R3
+R4
+L0 5
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

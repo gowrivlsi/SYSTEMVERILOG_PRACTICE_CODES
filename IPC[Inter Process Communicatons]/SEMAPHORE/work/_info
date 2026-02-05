@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/IPC[Inter Process Communicatons]/SEMAPHORE
+T_opt
+!s110 1766673910
+VN9>dBNDX25Y?PU53fS]:>3
+04 4 4 work test fast 0
+=1-9ac3c3f168e9-694d4df5-3a6-51b8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtest
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1766673909
+!i10b 1
+!s100 e[1]YNG5`HeZ6T>B_fSIK3
+IGSJOTR;YoQFDI7R1GWmhB1
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 sema_test_sv_unit
+S1
+R0
+w1766673906
+8sema_test.sv
+Fsema_test.sv
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1766673909.000000
+!s107 sema_test.sv|
+!s90 sema_test.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

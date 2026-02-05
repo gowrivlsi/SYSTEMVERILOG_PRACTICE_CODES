@@ -1,0 +1,150 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/SV GRAND TEST/FIFO SV ENVIRONMENT
+T_opt
+Z1 !s110 1769161059
+VbWz@P5zf49315LbM;3NCP1
+04 3 4 work top fast 0
+=1-f66444b558ee-69734163-1db-2398
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vfifo_dut
+Z3 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+R1
+!i10b 1
+!s100 hW8IC_^W5?7XCl4>cm@8^3
+IGQnSlM9Zi9ckBNAHbSlT22
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 fifo_top_sv_unit
+S1
+R0
+Z6 w1769161020
+8fifo_dut.sv
+Z7 Ffifo_dut.sv
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1769161059.000000
+Z10 !s107 fifo_sb.sv|fifo_moni.sv|fifo_bfm.sv|fifo_driv.sv|fifo_gen.sv|fifo_pkt.sv|fifo_env.sv|fifo_write_read.sv|fifo_tb.sv|fifo_intf.sv|fifo_dut.sv|fifo_top.sv|
+Z11 !s90 -reportprogress|300|fifo_top.sv|+acc|
+!i113 0
+Z12 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Yfifo_intf
+R3
+R1
+!i10b 1
+!s100 UAZGc76Gl_;`4VU49URgg3
+IOeR5M_4HY2LXGlg5F09H>1
+R4
+R5
+S1
+R0
+w1769153180
+8fifo_intf.sv
+Z13 Ffifo_intf.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+4fifo_tb
+R3
+Z14 DXx4 work 16 fifo_top_sv_unit 0 22 kIgU<Y3kT7bVO3WTIBF1z0
+R4
+r1
+!s85 0
+!i10b 1
+!s100 L955Wo>UPW_@Z7OF1Ud5U2
+I06OGLFkR:JcaiHT0ifzhV2
+R5
+S1
+R0
+w1769160807
+8fifo_tb.sv
+Z15 Ffifo_tb.sv
+L0 3
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+Xfifo_top_sv_unit
+!s115 fifo_intf
+R3
+VkIgU<Y3kT7bVO3WTIBF1z0
+r1
+!s85 0
+!i10b 1
+!s100 HF2i<d4^oi5F7M:cB=nf>2
+IkIgU<Y3kT7bVO3WTIBF1z0
+!i103 1
+S1
+R0
+R6
+Z16 8fifo_top.sv
+Z17 Ffifo_top.sv
+R7
+R13
+R15
+Ffifo_write_read.sv
+Ffifo_env.sv
+Ffifo_pkt.sv
+Ffifo_gen.sv
+Ffifo_driv.sv
+Ffifo_bfm.sv
+Ffifo_moni.sv
+Ffifo_sb.sv
+L0 1
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vtop
+R3
+R14
+R4
+r1
+!s85 0
+!i10b 1
+!s100 jNcb_gLh;g:@8j8h@9`LZ0
+I>bRSf5^[YZJllUW[@bnPW1
+R5
+S1
+R0
+w1769160593
+R16
+R17
+L0 5
+R8
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2

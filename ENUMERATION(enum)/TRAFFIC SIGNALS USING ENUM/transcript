@@ -1,0 +1,318 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# tcl_run.do  tcl_tb.sv  tcl_top.sv  tlc.sv  tlc_intf.sv  transcript    
+do tcl_run.do 
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:48:12 on Nov 19,2025
+# vlog -reportprogress 300 tcl_top.sv "+acc" 
+# -- Compiling interface tlc_intf
+# -- Compiling module tlc
+# -- Compiling program tcl_tb
+# -- Compiling module tcl_top
+# 
+# Top level modules:
+# 	tcl_top
+# End time: 15:48:12 on Nov 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tcl_top 
+# Start time: 15:48:12 on Nov 19,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "tlc(fast)".
+# Loading sv_std.std
+# Loading work.tcl_top(fast)
+# Loading work.tlc_intf(fast)
+# Loading work.tlc(fast)
+# Loading work.tcl_tb(fast)
+# ** Note: $stop    : tcl_tb.sv(20)
+#    Time: 2500 ns  Iteration: 1  Instance: /tcl_top/R3
+# Break in Module tcl_tb at tcl_tb.sv line 20
+do tcl_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:54:53 on Nov 19,2025
+# vlog -reportprogress 300 tcl_top.sv "+acc" 
+# -- Compiling interface tlc_intf
+# -- Compiling module tlc
+# -- Compiling program tcl_tb
+# -- Compiling module tcl_top
+# 
+# Top level modules:
+# 	tcl_top
+# End time: 15:54:53 on Nov 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:54:54 on Nov 19,2025, Elapsed time: 0:06:42
+# Errors: 0, Warnings: 0
+# vsim tcl_top 
+# Start time: 15:54:54 on Nov 19,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "tlc(fast)".
+# Loading sv_std.std
+# Loading work.tcl_top(fast)
+# Loading work.tlc_intf(fast)
+# Loading work.tlc(fast)
+# Loading work.tcl_tb(fast)
+# Time = 25 Lights = RED
+# Time = 35 Lights = RED
+# Time = 45 Lights = RED
+# Time = 55 Lights = RED
+# Time = 65 Lights = RED
+# Time = 75 Lights = RED
+# Time = 85 Lights = RED
+# Time = 95 Lights = RED
+# Time = 105 Lights = RED
+# Time = 115 Lights = RED
+# Time = 125 Lights = RED
+# Time = 135 Lights = RED
+# Time = 145 Lights = RED
+# Time = 155 Lights = RED
+# Time = 165 Lights = RED
+# Time = 175 Lights = RED
+# Time = 185 Lights = RED
+# Time = 195 Lights = RED
+# Time = 205 Lights = RED
+# Time = 215 Lights = RED
+# Time = 225 Lights = RED
+# Time = 235 Lights = RED
+# Time = 245 Lights = RED
+# Time = 255 Lights = RED
+# Time = 265 Lights = RED
+# Time = 275 Lights = RED
+# Time = 285 Lights = RED
+# Time = 295 Lights = RED
+# Time = 305 Lights = RED
+# Time = 315 Lights = RED
+# Time = 325 Lights = RED
+# Time = 335 Lights = RED
+# Time = 345 Lights = RED
+# Time = 355 Lights = RED
+# Time = 365 Lights = RED
+# Time = 375 Lights = RED
+# Time = 385 Lights = RED
+# Time = 395 Lights = RED
+# Time = 405 Lights = RED
+# Time = 415 Lights = RED
+# Time = 425 Lights = RED
+# Time = 435 Lights = RED
+# Time = 445 Lights = RED
+# Time = 455 Lights = RED
+# Time = 465 Lights = RED
+# Time = 475 Lights = RED
+# Time = 485 Lights = RED
+# Time = 495 Lights = RED
+# Time = 505 Lights = RED
+# Time = 515 Lights = RED
+# Time = 525 Lights = RED
+# Time = 535 Lights = RED
+# Time = 545 Lights = RED
+# Time = 555 Lights = RED
+# Time = 565 Lights = RED
+# Time = 575 Lights = RED
+# Time = 585 Lights = RED
+# Time = 595 Lights = RED
+# Time = 605 Lights = RED
+# Time = 615 Lights = YELLOW
+# Time = 625 Lights = YELLOW
+# Time = 635 Lights = YELLOW
+# Time = 645 Lights = YELLOW
+# Time = 655 Lights = YELLOW
+# Time = 665 Lights = YELLOW
+# Time = 675 Lights = YELLOW
+# Time = 685 Lights = YELLOW
+# Time = 695 Lights = YELLOW
+# Time = 705 Lights = YELLOW
+# Time = 715 Lights = YELLOW
+# Time = 725 Lights = YELLOW
+# Time = 735 Lights = YELLOW
+# Time = 745 Lights = YELLOW
+# Time = 755 Lights = YELLOW
+# Time = 765 Lights = YELLOW
+# Time = 775 Lights = YELLOW
+# Time = 785 Lights = YELLOW
+# Time = 795 Lights = YELLOW
+# Time = 805 Lights = YELLOW
+# Time = 815 Lights = YELLOW
+# Time = 825 Lights = YELLOW
+# Time = 835 Lights = YELLOW
+# Time = 845 Lights = YELLOW
+# Time = 855 Lights = YELLOW
+# Time = 865 Lights = YELLOW
+# Time = 875 Lights = YELLOW
+# Time = 885 Lights = YELLOW
+# Time = 895 Lights = YELLOW
+# Time = 905 Lights = YELLOW
+# Time = 915 Lights = YELLOW
+# Time = 925 Lights = YELLOW
+# Time = 935 Lights = YELLOW
+# Time = 945 Lights = YELLOW
+# Time = 955 Lights = YELLOW
+# Time = 965 Lights = YELLOW
+# Time = 975 Lights = YELLOW
+# Time = 985 Lights = YELLOW
+# Time = 995 Lights = YELLOW
+# Time = 1005 Lights = YELLOW
+# Time = 1015 Lights = YELLOW
+# Time = 1025 Lights = YELLOW
+# Time = 1035 Lights = YELLOW
+# Time = 1045 Lights = YELLOW
+# Time = 1055 Lights = YELLOW
+# Time = 1065 Lights = YELLOW
+# Time = 1075 Lights = YELLOW
+# Time = 1085 Lights = YELLOW
+# Time = 1095 Lights = YELLOW
+# Time = 1105 Lights = YELLOW
+# Time = 1115 Lights = YELLOW
+# Time = 1125 Lights = YELLOW
+# Time = 1135 Lights = YELLOW
+# Time = 1145 Lights = YELLOW
+# Time = 1155 Lights = YELLOW
+# Time = 1165 Lights = YELLOW
+# Time = 1175 Lights = YELLOW
+# Time = 1185 Lights = YELLOW
+# Time = 1195 Lights = YELLOW
+# Time = 1205 Lights = YELLOW
+# Time = 1215 Lights = GREEN
+# Time = 1225 Lights = GREEN
+# Time = 1235 Lights = GREEN
+# Time = 1245 Lights = GREEN
+# Time = 1255 Lights = GREEN
+# Time = 1265 Lights = GREEN
+# Time = 1275 Lights = GREEN
+# Time = 1285 Lights = GREEN
+# Time = 1295 Lights = GREEN
+# Time = 1305 Lights = GREEN
+# Time = 1315 Lights = GREEN
+# Time = 1325 Lights = GREEN
+# Time = 1335 Lights = GREEN
+# Time = 1345 Lights = GREEN
+# Time = 1355 Lights = GREEN
+# Time = 1365 Lights = GREEN
+# Time = 1375 Lights = GREEN
+# Time = 1385 Lights = GREEN
+# Time = 1395 Lights = GREEN
+# Time = 1405 Lights = GREEN
+# Time = 1415 Lights = GREEN
+# Time = 1425 Lights = GREEN
+# Time = 1435 Lights = GREEN
+# Time = 1445 Lights = GREEN
+# Time = 1455 Lights = GREEN
+# Time = 1465 Lights = GREEN
+# Time = 1475 Lights = GREEN
+# Time = 1485 Lights = GREEN
+# Time = 1495 Lights = GREEN
+# Time = 1505 Lights = GREEN
+# Time = 1515 Lights = GREEN
+# Time = 1525 Lights = GREEN
+# Time = 1535 Lights = GREEN
+# Time = 1545 Lights = GREEN
+# Time = 1555 Lights = GREEN
+# Time = 1565 Lights = GREEN
+# Time = 1575 Lights = GREEN
+# Time = 1585 Lights = GREEN
+# Time = 1595 Lights = GREEN
+# Time = 1605 Lights = GREEN
+# Time = 1615 Lights = GREEN
+# Time = 1625 Lights = GREEN
+# Time = 1635 Lights = GREEN
+# Time = 1645 Lights = GREEN
+# Time = 1655 Lights = GREEN
+# Time = 1665 Lights = GREEN
+# Time = 1675 Lights = GREEN
+# Time = 1685 Lights = GREEN
+# Time = 1695 Lights = GREEN
+# Time = 1705 Lights = GREEN
+# Time = 1715 Lights = GREEN
+# Time = 1725 Lights = GREEN
+# Time = 1735 Lights = GREEN
+# Time = 1745 Lights = GREEN
+# Time = 1755 Lights = GREEN
+# Time = 1765 Lights = GREEN
+# Time = 1775 Lights = GREEN
+# Time = 1785 Lights = GREEN
+# Time = 1795 Lights = GREEN
+# Time = 1805 Lights = GREEN
+# Time = 1815 Lights = RED
+# Time = 1825 Lights = RED
+# Time = 1835 Lights = RED
+# Time = 1845 Lights = RED
+# Time = 1855 Lights = RED
+# Time = 1865 Lights = RED
+# Time = 1875 Lights = RED
+# Time = 1885 Lights = RED
+# Time = 1895 Lights = RED
+# Time = 1905 Lights = RED
+# Time = 1915 Lights = RED
+# Time = 1925 Lights = RED
+# Time = 1935 Lights = RED
+# Time = 1945 Lights = RED
+# Time = 1955 Lights = RED
+# Time = 1965 Lights = RED
+# Time = 1975 Lights = RED
+# Time = 1985 Lights = RED
+# Time = 1995 Lights = RED
+# Time = 2005 Lights = RED
+# Time = 2015 Lights = RED
+# Time = 2025 Lights = RED
+# Time = 2035 Lights = RED
+# Time = 2045 Lights = RED
+# Time = 2055 Lights = RED
+# Time = 2065 Lights = RED
+# Time = 2075 Lights = RED
+# Time = 2085 Lights = RED
+# Time = 2095 Lights = RED
+# Time = 2105 Lights = RED
+# Time = 2115 Lights = RED
+# Time = 2125 Lights = RED
+# Time = 2135 Lights = RED
+# Time = 2145 Lights = RED
+# Time = 2155 Lights = RED
+# Time = 2165 Lights = RED
+# Time = 2175 Lights = RED
+# Time = 2185 Lights = RED
+# Time = 2195 Lights = RED
+# Time = 2205 Lights = RED
+# Time = 2215 Lights = RED
+# Time = 2225 Lights = RED
+# Time = 2235 Lights = RED
+# Time = 2245 Lights = RED
+# Time = 2255 Lights = RED
+# Time = 2265 Lights = RED
+# Time = 2275 Lights = RED
+# Time = 2285 Lights = RED
+# Time = 2295 Lights = RED
+# Time = 2305 Lights = RED
+# Time = 2315 Lights = RED
+# Time = 2325 Lights = RED
+# Time = 2335 Lights = RED
+# Time = 2345 Lights = RED
+# Time = 2355 Lights = RED
+# Time = 2365 Lights = RED
+# Time = 2375 Lights = RED
+# Time = 2385 Lights = RED
+# Time = 2395 Lights = RED
+# Time = 2405 Lights = RED
+# Time = 2415 Lights = RED
+# Time = 2425 Lights = YELLOW
+# Time = 2435 Lights = YELLOW
+# Time = 2445 Lights = YELLOW
+# Time = 2455 Lights = YELLOW
+# Time = 2465 Lights = YELLOW
+# Time = 2475 Lights = YELLOW
+# Time = 2485 Lights = YELLOW
+# Time = 2495 Lights = YELLOW
+# ** Note: $stop    : tcl_tb.sv(20)
+#    Time: 2500 ns  Iteration: 1  Instance: /tcl_top/R3
+# Break in Module tcl_tb at tcl_tb.sv line 20
+# End time: 15:58:38 on Nov 19,2025, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 0

@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/CLASS AS DATA TYPE_SCOPE/CONSTRAINTS/CONSTRAINTS ASSIGNMENTS/3] Generating Even No in Byte
+T_opt
+!s110 1765797835
+VCJA[PHOUZkF7ZkNiA[N:51
+04 18 4 work class_test_sv_unit fast 0
+04 3 4 work top fast 0
+=1-5e02cfdfbea1-693fefcb-2a2-46b4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xclass_test_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VH_P><]oef9THoILWA<UGW2
+r1
+!s85 0
+!i10b 1
+!s100 <1DFM]b5PZXf8aW0VbKg50
+IH_P><]oef9THoILWA<UGW2
+!i103 1
+S1
+R0
+Z3 w1765797830
+Z4 8class_test.sv
+Z5 Fclass_test.sv
+L0 2
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1765797833.000000
+Z8 !s107 class_test.sv|
+Z9 !s90 class_test.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 18 class_test_sv_unit 0 22 H_P><]oef9THoILWA<UGW2
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 bB@eEaC@EBoJ^dRS[1afL3
+IDnfYB7O@KK6VZK;nhPHgd1
+!s105 class_test_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 13
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

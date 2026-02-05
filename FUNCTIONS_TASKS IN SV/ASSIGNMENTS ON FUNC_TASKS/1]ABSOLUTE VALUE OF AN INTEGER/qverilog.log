@@ -1,0 +1,39 @@
+Start time: 15:09:15 on Dec 04,2025
+qverilog fun_test.sv 
+-- Compiling module fun_test
+
+Top level modules:
+	fun_test
+# vsim -lib work work.fun_test -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.fun_test(fast)
+# run -all
+# Absolute value -26=26
+# Absolute Value -5=5
+# Absolute Value -4=4
+# Absolute Value -3=3
+# Absolute Value -2=2
+# Absolute Value -1=1
+# Absolute Value 0=0
+# Absolute Value 1=1
+# Absolute Value 2=2
+# Absolute Value 3=3
+# Absolute Value 4=4
+#  quit -f
+# End time: 15:09:17 on Dec 04,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

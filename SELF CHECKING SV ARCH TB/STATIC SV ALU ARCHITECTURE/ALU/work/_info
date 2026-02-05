@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/STATIC SV ALU ARCHITECTURE/ALU
+T_opt
+!s110 1763383954
+Vd:SlUWWD_HO;99POA]LeS2
+04 8 4 work alup_top fast 0
+=1-f66444b558ee-691b1a91-3b9-26dc
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Yalu_intf
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1763383952
+!i10b 1
+!s100 SH>QJ7HWjfKQo3IQCE;Xn3
+Ie1K[MMXLFF@3W=?TPZ_Wf2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 alup_top_sv_unit
+S1
+R0
+w1763379478
+8alu_intf.sv
+Falu_intf.sv
+L0 2
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1763383952.000000
+Z8 !s107 alup_tb.sv|alup.v|alu_intf.sv|alup_top.sv|
+Z9 !s90 -reportprogress|300|alup_top.sv|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+valup
+R2
+R3
+!i10b 1
+!s100 D>FR0GIh<Li7TB0KT7Q6J2
+IWKz2BZeG?AcIUECKYUeN90
+R4
+R5
+S1
+R0
+w1763383951
+8alup.v
+Falup.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+4alup_tb
+R2
+R3
+!i10b 1
+!s100 ATbHf3?co05:6=EJ^4^jd3
+I<nndi9TdcQi6Hm1J3iYcm2
+R4
+R5
+S1
+R0
+w1763383639
+8alup_tb.sv
+Falup_tb.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+valup_top
+R2
+R3
+!i10b 1
+!s100 fcPao3NAM57WjA^CflH6g2
+I6T?Kd:ncembCmOzVJY4NQ2
+R4
+R5
+S1
+R0
+w1763383878
+8alup_top.sv
+Falup_top.sv
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/FUNCTIONS_TASKS IN SV/FUNCTIONS/STATIC_AUTOMATIC FUNCTIONS
+T_opt
+!s110 1764864899
+V;XU6J9ELboXUNdj1@S2AB2
+04 6 4 work fun_ex fast 0
+=1-9ac3c3f168e9-6931b383-274-2898
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vfun_ex
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764864898
+!i10b 1
+!s100 Pl1neYFl=Z9MkR9BG?o010
+IFDSTgUK]:b`FD:TPaz3Og1
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 fun_ex_sv_unit
+S1
+R0
+w1764864896
+8fun_ex.sv
+Ffun_ex.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764864898.000000
+!s107 fun_ex.sv|
+!s90 fun_ex.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/MULTI BIT DFF ASSIGNMENT/DFF 8 BIT
+T_opt
+!s110 1763377404
+VnKMQzXi9^JgeF=Z3X8f_72
+04 9 4 work dff8b_top fast 0
+=1-f66444b558ee-691b00fb-3a7-3998
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdff8b
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1763377403
+!i10b 1
+!s100 j2O;FVHL2D?[5n=MSUP`I0
+IDfQ57DVeTjbB6F8CLn7<o1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 dff8b_top_sv_unit
+S1
+R0
+w1763372425
+8dff8b.v
+Fdff8b.v
+L0 2
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1763377402.000000
+Z8 !s107 dff8b_tb.sv|dff8b.v|dff8b_intf.sv|dff8b_top.sv|
+Z9 !s90 -reportprogress|300|dff8b_top.sv|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Ydff8b_intf
+R2
+R3
+!i10b 1
+!s100 K;VoP7R<^<8Ym@m]DCl^33
+IBAee4fU_4cMn2K6AdZj]i2
+R4
+R5
+S1
+R0
+w1763372546
+8dff8b_intf.sv
+Fdff8b_intf.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+4dff8b_tb
+R2
+R3
+!i10b 1
+!s100 Zz3n8Db4M=EHV=^>2SVoE2
+INZBOWdB8H_DmQf>jS14d@1
+R4
+R5
+S1
+R0
+w1763376149
+8dff8b_tb.sv
+Fdff8b_tb.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vdff8b_top
+R2
+R3
+!i10b 1
+!s100 fGY3Egeez0UDHoTAjC3Fj1
+IOX<]?GVjHbRI^QE<E<VCc3
+R4
+R5
+S1
+R0
+w1763377400
+8dff8b_top.sv
+Fdff8b_top.sv
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

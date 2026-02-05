@@ -1,0 +1,225 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:02:36 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Error: test.sv(9): set expression is not supported in wildcard bin 'b1'.
+# End time: 17:02:36 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:03:28 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Error: test.sv(9): set expression is not supported in wildcard bin 'b1'.
+# End time: 17:03:28 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:04 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Error: test.sv(9): set expression is not supported in wildcard bin 'b1'.
+# End time: 17:04:04 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:32 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Error: test.sv(9): (vlog-2221) Zero-Length transition sequence specified is not allowed.
+# End time: 17:04:32 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:51 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Error: test.sv(9): set expression is not supported in wildcard bin 'b1'.
+# End time: 17:04:51 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:07:02 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Error: test.sv(9): set expression is not supported in wildcard bin 'b1'.
+# End time: 17:07:02 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:08:06 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Error: test.sv(9): set expression is not supported in wildcard bin 'b1'.
+# End time: 17:08:06 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:09:37 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 17:09:37 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim test 
+# Start time: 17:09:37 on Jan 01,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 1000 | b=0110
+# a = 0110 | b=0110
+# a = 0110 | b=0110
+# a = 0010 | b=1110
+# a = 0111 | b=1010
+# a = 1010 | b=0100
+# a = 1111 | b=0110
+# a = 0101 | b=0100
+# a = 1110 | b=1101
+# a = 1011 | b=0101
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:10:36 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 17:10:36 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:10:38 on Jan 01,2026, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 17:10:38 on Jan 01,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 000 | b=110
+# a = 110 | b=110
+# a = 110 | b=110
+# a = 010 | b=110
+# a = 111 | b=010
+# a = 010 | b=100
+# a = 111 | b=110
+# a = 101 | b=100
+# a = 110 | b=101
+# a = 011 | b=101
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:11:49 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 17:11:49 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:11:50 on Jan 01,2026, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 17:11:50 on Jan 01,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# ** Warning: (vsim-8474) A higher value ''b10xx' is found in bin 'b2' of Coverpoint 'L2'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /test/#INITIAL#17 File: test.sv Line: 12
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'b2' in Coverpoint 'L2' of Covergroup instance '\/test/c1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: (vsim-8522) The number of coverpoint bins is zero for the coverpoint 'L2' of covergroup instance '\/test/c1 '. All the user defined bins in the coverpoint are empty bins and hence it would not contribute towards the overall coverage result.
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# a = 000 | b=110
+# a = 110 | b=110
+# a = 110 | b=110
+# a = 010 | b=110
+# a = 111 | b=010
+# a = 010 | b=100
+# a = 111 | b=110
+# a = 101 | b=100
+# a = 110 | b=101
+# a = 011 | b=101
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:12:20 on Jan 01,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 17:12:20 on Jan 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:12:21 on Jan 01,2026, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 5
+# vsim test 
+# Start time: 17:12:21 on Jan 01,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 000 | b=0110
+# a = 110 | b=0110
+# a = 110 | b=0110
+# a = 010 | b=1110
+# a = 111 | b=1010
+# a = 010 | b=0100
+# a = 111 | b=0110
+# a = 101 | b=0100
+# a = 110 | b=1101
+# a = 011 | b=0101

@@ -1,0 +1,847 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:21:22 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:21:23 on Dec 30,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -coverage top 
+# Start time: 15:21:23 on Dec 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.dff_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dff_intf(fast)
+# Loading work.dff_dut(fast)
+# Loading work.dff_tb(fast)
+# Loading work.dff_intf(fast)
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 0 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 5 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 5 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 5 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 5 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 5 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 5 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 15 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 20 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 25 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 25 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 25 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 25 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 25 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 25 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 30 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 35 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 35 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 35 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 35 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 35 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 35 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 40 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 45 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 45 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 45 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 45 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 45 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 45 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# ** Note: implicit $finish from program    : dff_sb.sv(27)
+#    Time: 50 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:23:11 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:23:11 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:23:12 on Dec 30,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+# vsim -coverage top 
+# Start time: 15:23:12 on Dec 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dff_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dff_intf(fast)
+# Loading work.dff_dut(fast)
+# Loading work.dff_tb(fast)
+# Loading work.dff_intf(fast)
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 0 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 5 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 5 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 10 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 15 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 20 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 25 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 25 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 30 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 30 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 30 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 30 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 0 | Time = 30 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 35 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 0 | Time = 35 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 35 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 0 | Time = 35 
+# ** Info: =========================================TEST FAILED===============================
+#    Time: 35 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 33
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 0 | Time = 40 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 45 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 0 | Time = 45 
+# ** Note: implicit $finish from program    : dff_packet.sv(16)
+#    Time: 50 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:32:19 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:32:19 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:32:21 on Dec 30,2025, Elapsed time: 0:09:09
+# Errors: 0, Warnings: 0
+# vsim -coverage top 
+# Start time: 15:32:21 on Dec 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dff_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dff_intf(fast)
+# Loading work.dff_dut(fast)
+# Loading work.dff_tb(fast)
+# Loading work.dff_intf(fast)
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 0 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 20 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 20 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 1 | Time = 20 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 25 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 1 | Time = 30 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 1 | Time = 30 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 0 | Time = 30 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 35 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 0 | Time = 35 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 35 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 35 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 0 | Time = 40 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 0 | Time = 40 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 1 | Time = 40 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 45 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 1 | Time = 45 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 45 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 45 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# ** Note: implicit $finish from program    : dff_sb.sv(27)
+#    Time: 50 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:36:05 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:36:05 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:36:07 on Dec 30,2025, Elapsed time: 0:03:46
+# Errors: 0, Warnings: 0
+# vsim -coverage top 
+# Start time: 15:36:07 on Dec 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dff_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dff_intf(fast)
+# Loading work.dff_dut(fast)
+# Loading work.dff_tb(fast)
+# Loading work.dff_intf(fast)
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 1 | q = 0 | Time = 0 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 5 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 10 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 0 | Time = 10 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 15 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 0 | Time = 20 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 0 | Time = 20 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 1 | Time = 20 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 25 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 1 | Time = 25 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 25 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 25 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 1 | Time = 30 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 1 | Time = 30 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 0 | Time = 30 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 35 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 0 | q = 0 | Time = 35 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 0 | Time = 35 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 35 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 0 | Time = 40 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 0 | Time = 40 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 1 | Time = 40 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 45 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 1 | q = 1 | Time = 45 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 0 | q = 1 | Time = 45 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 45 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# ** Note: implicit $finish from program    : dff_sb.sv(27)
+#    Time: 50 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:38:27 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# ** Error: (vlog-13069) ** while parsing file included at dff_top.sv(3)
+# ** at dff_packet.sv(6): near "byte": syntax error, unexpected "SystemVerilog keyword 'byte'", expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# ** Error: ** while parsing file included at dff_top.sv(3)
+# ** at dff_packet.sv(20): (vlog-2730) Undefined variable: 'a'.
+# ** Error: ** while parsing file included at dff_top.sv(3)
+# ** at dff_packet.sv(23): (vlog-2730) Undefined variable: 'a'.
+# End time: 15:38:27 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog +cover dff_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:39:02 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:39:02 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:39:03 on Dec 30,2025, Elapsed time: 0:02:56
+# Errors: 6, Warnings: 0
+# vsim -coverage top 
+# Start time: 15:39:03 on Dec 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.dff_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dff_intf(fast)
+# Loading work.dff_dut(fast)
+# Loading work.dff_tb(fast)
+# Loading work.dff_intf(fast)
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 10100010 | q = 00000000 | Time = 0 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101110 | q = 00000000 | Time = 20 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101110 | q = 00000000 | Time = 20 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11101110 | q = 11101110 | Time = 20 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11101110 | Time = 25 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 11101110 | Time = 30 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 11101110 | Time = 30 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 10000110 | Time = 30 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10000110 | Time = 35 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 10000110 | Time = 35 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10000110 | Time = 35 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 35 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 10000110 | Time = 40 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 10000110 | Time = 40 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 01101111 | Time = 40 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101111 | Time = 45 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 01101111 | Time = 45 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101111 | Time = 45 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 45 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101111 | Time = 50 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101111 | Time = 50 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101001 | Time = 50 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101001 | Time = 55 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101001 | Time = 55 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101001 | Time = 55 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 55 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 01101001 | Time = 60 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 01101001 | Time = 60 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 00000110 | Time = 60 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00000110 | Time = 65 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 00000110 | Time = 65 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00000110 | Time = 65 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 65 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 00000110 | Time = 70 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 00000110 | Time = 70 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 10100010 | Time = 70 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10100010 | Time = 75 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 10100010 | Time = 75 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10100010 | Time = 75 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 75 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 10100010 | Time = 80 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 10100010 | Time = 80 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 00010001 | Time = 80 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00010001 | Time = 85 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 00010001 | Time = 85 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00010001 | Time = 85 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 85 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 00010001 | Time = 90 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 00010001 | Time = 90 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 10101100 | Time = 90 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10101100 | Time = 95 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 10101100 | Time = 95 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10101100 | Time = 95 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 95 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 10101100 | Time = 100 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 10101100 | Time = 100 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 11110000 | Time = 100 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11110000 | Time = 105 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 11110000 | Time = 105 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11110000 | Time = 105 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 105 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 11110000 | Time = 110 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 11110000 | Time = 110 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 00110001 | Time = 110 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00110001 | Time = 115 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 00110001 | Time = 115 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00110001 | Time = 115 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 115 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 00110001 | Time = 120 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 00110001 | Time = 120 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 01001100 | Time = 120 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01001100 | Time = 125 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 01001100 | Time = 125 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01001100 | Time = 125 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 125 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 01001100 | Time = 130 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 01001100 | Time = 130 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 00100110 | Time = 130 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00100110 | Time = 135 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 00100110 | Time = 135 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00100110 | Time = 135 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 135 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 00100110 | Time = 140 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 00100110 | Time = 140 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 01000000 | Time = 140 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01000000 | Time = 145 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 01000000 | Time = 145 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01000000 | Time = 145 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 145 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 27
+# ** Note: implicit $finish from program    : dff_sb.sv(27)
+#    Time: 150 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:57:36 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:57:36 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:57:38 on Dec 30,2025, Elapsed time: 0:18:35
+# Errors: 0, Warnings: 0
+# vsim -coverage top 
+# Start time: 15:57:38 on Dec 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): dff_top.sv(43): (vopt-2122) Invalid format specification '% '.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:58:26 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:58:26 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -coverage top 
+# Start time: 15:57:38 on Dec 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.dff_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dff_intf(fast)
+# Loading work.dff_dut(fast)
+# Loading work.dff_tb(fast)
+# Loading work.dff_intf(fast)
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 10100010 | q = 00000000 | Time = 0 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101110 | q = 00000000 | Time = 20 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101110 | q = 00000000 | Time = 20 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11101110 | q = 11101110 | Time = 20 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11101110 | Time = 25 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 11101110 | Time = 30 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 11101110 | Time = 30 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 10000110 | Time = 30 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10000110 | Time = 35 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 10000110 | Time = 35 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10000110 | Time = 35 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 35 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 10000110 | Time = 40 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 10000110 | Time = 40 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 01101111 | Time = 40 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101111 | Time = 45 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 01101111 | Time = 45 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101111 | Time = 45 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 45 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101111 | Time = 50 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101111 | Time = 50 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101001 | Time = 50 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101001 | Time = 55 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101001 | Time = 55 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101001 | Time = 55 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 55 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 01101001 | Time = 60 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 01101001 | Time = 60 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 00000110 | Time = 60 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00000110 | Time = 65 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 00000110 | Time = 65 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00000110 | Time = 65 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 65 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 00000110 | Time = 70 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 00000110 | Time = 70 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 10100010 | Time = 70 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10100010 | Time = 75 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 10100010 | Time = 75 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10100010 | Time = 75 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 75 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 10100010 | Time = 80 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 10100010 | Time = 80 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 00010001 | Time = 80 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00010001 | Time = 85 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 00010001 | Time = 85 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00010001 | Time = 85 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 85 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 00010001 | Time = 90 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 00010001 | Time = 90 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 10101100 | Time = 90 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10101100 | Time = 95 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 10101100 | Time = 95 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10101100 | Time = 95 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 95 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 10101100 | Time = 100 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 10101100 | Time = 100 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 11110000 | Time = 100 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11110000 | Time = 105 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 11110000 | Time = 105 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11110000 | Time = 105 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 105 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 11110000 | Time = 110 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 11110000 | Time = 110 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 00110001 | Time = 110 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00110001 | Time = 115 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 00110001 | Time = 115 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00110001 | Time = 115 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 115 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 00110001 | Time = 120 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 00110001 | Time = 120 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 01001100 | Time = 120 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01001100 | Time = 125 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 01001100 | Time = 125 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01001100 | Time = 125 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 125 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 01001100 | Time = 130 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 01001100 | Time = 130 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 00100110 | Time = 130 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00100110 | Time = 135 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 00100110 | Time = 135 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00100110 | Time = 135 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 135 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 00100110 | Time = 140 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 00100110 | Time = 140 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 01000000 | Time = 140 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01000000 | Time = 145 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 01000000 | Time = 145 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01000000 | Time = 145 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 145 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# ** Note: implicit $finish from program    : dff_sb.sv(28)
+#    Time: 150 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:58:36 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:58:36 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 12 | PASS = 12 | FAIL = 0
+#    Time: 150 ns  Scope: top File: dff_top.sv Line: 43
+# End time: 15:58:38 on Dec 30,2025, Elapsed time: 0:01:00
+# Errors: 2, Warnings: 0
+# vsim -coverage top 
+# Start time: 15:58:38 on Dec 30,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.dff_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dff_intf(fast)
+# Loading work.dff_dut(fast)
+# Loading work.dff_tb(fast)
+# Loading work.dff_intf(fast)
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 10100010 | q = 00000000 | Time = 0 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101110 | q = 00000000 | Time = 20 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101110 | q = 00000000 | Time = 20 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11101110 | q = 11101110 | Time = 20 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11101110 | Time = 25 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 11101110 | Time = 30 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 11101110 | Time = 30 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 10000110 | Time = 30 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10000110 | Time = 35 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 10000110 | Time = 35 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10000110 | Time = 35 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 35 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 10000110 | Time = 40 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 10000110 | Time = 40 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 01101111 | Time = 40 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101111 | Time = 45 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 01101111 | Time = 45 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101111 | Time = 45 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 45 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101111 | Time = 50 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101111 | Time = 50 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101001 | Time = 50 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101001 | Time = 55 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101001 | Time = 55 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101001 | Time = 55 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 55 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 01101001 | Time = 60 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 01101001 | Time = 60 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 00000110 | Time = 60 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00000110 | Time = 65 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 00000110 | Time = 65 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00000110 | Time = 65 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 65 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 00000110 | Time = 70 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 00000110 | Time = 70 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 10100010 | Time = 70 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10100010 | Time = 75 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 10100010 | Time = 75 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10100010 | Time = 75 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 75 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 10100010 | Time = 80 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 10100010 | Time = 80 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 00010001 | Time = 80 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00010001 | Time = 85 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 00010001 | Time = 85 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00010001 | Time = 85 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 85 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 00010001 | Time = 90 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 00010001 | Time = 90 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 10101100 | Time = 90 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10101100 | Time = 95 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 10101100 | Time = 95 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10101100 | Time = 95 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 95 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 10101100 | Time = 100 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 10101100 | Time = 100 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 11110000 | Time = 100 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11110000 | Time = 105 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 11110000 | Time = 105 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11110000 | Time = 105 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 105 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 11110000 | Time = 110 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 11110000 | Time = 110 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 00110001 | Time = 110 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00110001 | Time = 115 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 00110001 | Time = 115 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00110001 | Time = 115 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 115 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 00110001 | Time = 120 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 00110001 | Time = 120 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 01001100 | Time = 120 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01001100 | Time = 125 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 01001100 | Time = 125 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01001100 | Time = 125 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 125 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 01001100 | Time = 130 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 01001100 | Time = 130 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 00100110 | Time = 130 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00100110 | Time = 135 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 00100110 | Time = 135 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00100110 | Time = 135 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 135 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 00100110 | Time = 140 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 00100110 | Time = 140 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 01000000 | Time = 140 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01000000 | Time = 145 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 01000000 | Time = 145 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01000000 | Time = 145 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 145 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# ** Note: implicit $finish from program    : dff_sb.sv(28)
+#    Time: 150 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:02:08 on Dec 30,2025
+# vlog -reportprogress 300 "+cover" dff_top.sv "+acc" 
+# -- Compiling module dff_dut
+# -- Compiling interface dff_intf
+# -- Compiling package dff_top_sv_unit
+# -- Compiling program dff_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:02:08 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 12 | PASS = 12 | FAIL = 0
+#    Time: 150 ns  Scope: top File: dff_top.sv Line: 43
+# End time: 16:02:09 on Dec 30,2025, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 0
+# vsim -coverage top 
+# Start time: 16:02:09 on Dec 30,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.dff_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dff_intf(fast)
+# Loading work.dff_dut(fast)
+# Loading work.dff_tb(fast)
+# Loading work.dff_intf(fast)
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 10100010 | q = 00000000 | Time = 0 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101010 | q = 00000000 | Time = 10 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101110 | q = 00000000 | Time = 20 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 11101110 | q = 00000000 | Time = 20 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11101110 | q = 11101110 | Time = 20 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11101110 | Time = 25 
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 11101110 | Time = 30 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 11101110 | Time = 30 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 10000110 | Time = 30 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10000110 | Time = 35 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10000110 | q = 10000110 | Time = 35 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10000110 | Time = 35 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 35 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 10000110 | Time = 40 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 10000110 | Time = 40 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 01101111 | Time = 40 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101111 | Time = 45 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101111 | q = 01101111 | Time = 45 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101111 | Time = 45 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 45 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101111 | Time = 50 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101111 | Time = 50 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101001 | Time = 50 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101001 | Time = 55 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01101001 | q = 01101001 | Time = 55 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01101001 | Time = 55 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 55 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 01101001 | Time = 60 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 01101001 | Time = 60 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 00000110 | Time = 60 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00000110 | Time = 65 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00000110 | q = 00000110 | Time = 65 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00000110 | Time = 65 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 65 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 00000110 | Time = 70 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 00000110 | Time = 70 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 10100010 | Time = 70 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10100010 | Time = 75 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10100010 | q = 10100010 | Time = 75 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10100010 | Time = 75 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 75 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 10100010 | Time = 80 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 10100010 | Time = 80 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 00010001 | Time = 80 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00010001 | Time = 85 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00010001 | q = 00010001 | Time = 85 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00010001 | Time = 85 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 85 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 00010001 | Time = 90 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 00010001 | Time = 90 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 10101100 | Time = 90 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10101100 | Time = 95 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 10101100 | q = 10101100 | Time = 95 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 10101100 | Time = 95 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 95 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 10101100 | Time = 100 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 10101100 | Time = 100 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 11110000 | Time = 100 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11110000 | Time = 105 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 11110000 | q = 11110000 | Time = 105 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 11110000 | Time = 105 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 105 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 11110000 | Time = 110 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 11110000 | Time = 110 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 00110001 | Time = 110 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00110001 | Time = 115 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00110001 | q = 00110001 | Time = 115 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00110001 | Time = 115 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 115 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 00110001 | Time = 120 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 00110001 | Time = 120 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 01001100 | Time = 120 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01001100 | Time = 125 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01001100 | q = 01001100 | Time = 125 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01001100 | Time = 125 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 125 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 01001100 | Time = 130 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 01001100 | Time = 130 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 00100110 | Time = 130 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00100110 | Time = 135 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 00100110 | q = 00100110 | Time = 135 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 00100110 | Time = 135 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 135 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# NAME [FROM GENERATOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 00100110 | Time = 140 
+# NAME [FROM ->  DRIVER] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 00100110 | Time = 140 
+# NAME [FROM ->   BFM] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 01000000 | Time = 140 
+# NAME [FROM -> MONITOR] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01000000 | Time = 145 
+# NAME [EXPECTED BFM OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 1 | din = 01000000 | q = 01000000 | Time = 145 
+# NAME [ACTUAL DUT OUTPUT] : DFF INPUTS_OUTPUT ->clk = 0 | rst = 0 | din = 00000000 | q = 01000000 | Time = 145 
+# ** Info: =========================================TEST PASSED===============================
+#    Time: 145 ns  Scope: dff_top_sv_unit.dff_sb.sb File: dff_sb.sv Line: 28
+# ** Note: implicit $finish from program    : dff_sb.sv(28)
+#    Time: 150 ns  Iteration: 1  Instance: /top/T
+# 1
+# Simulation stop requested.
+coverage report -html -htmldir covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90
+# Report created in covhtmlreport/index.html
+# ** Info: TRANS = 12 | PASS = 12 | FAIL = 0
+#    Time: 150 ns  Scope: top File: dff_top.sv Line: 43
+# End time: 16:35:45 on Dec 30,2025, Elapsed time: 0:33:36
+# Errors: 0, Warnings: 0

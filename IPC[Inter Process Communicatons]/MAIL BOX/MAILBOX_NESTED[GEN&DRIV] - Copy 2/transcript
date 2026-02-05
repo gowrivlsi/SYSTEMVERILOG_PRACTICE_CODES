@@ -1,0 +1,148 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:56:25 on Dec 22,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# ** Error: ** while parsing file included at mailbox_top.sv(3)
+# ** at class_mailbox_driver.sv(12): (vlog-2730) Undefined variable: 'num2'.
+# End time: 19:56:25 on Dec 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mailbox_top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:56:54 on Dec 22,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# ** Error: class_mailbox_pack.sv(26): (vlog-13266) No actual value has been specified for a formal argument 'num1' that does not have a default value.
+# ** Error: class_mailbox_pack.sv(26): (vlog-13265) Number of actuals and formals does not match in function call.
+# ** Error: class_mailbox_driver.sv(26): (vlog-13266) No actual value has been specified for a formal argument 'num2' that does not have a default value.
+# ** Error: class_mailbox_driver.sv(26): (vlog-13265) Number of actuals and formals does not match in function call.
+# -- Compiling module top
+# ** Error: class_mailbox_pack.sv(26): (vlog-13266) No actual value has been specified for a formal argument 'num1' that does not have a default value.
+# ** Error: class_mailbox_pack.sv(26): (vlog-13265) Number of actuals and formals does not match in function call.
+# ** Error: class_mailbox_driver.sv(26): (vlog-13266) No actual value has been specified for a formal argument 'num2' that does not have a default value.
+# ** Error: class_mailbox_driver.sv(26): (vlog-13265) Number of actuals and formals does not match in function call.
+# ** Error: mailbox_top.sv(13): Number of actuals and formals does not match in function call.
+# ** Error: mailbox_top.sv(14): Number of actuals and formals does not match in function call.
+# End time: 19:56:54 on Dec 22,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mailbox_top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:03:37 on Dec 22,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:03:37 on Dec 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 20:03:37 on Dec 22,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Mux_output : y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:08:01 on Dec 22,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:08:01 on Dec 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:08:02 on Dec 22,2025, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 20:08:02 on Dec 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Mux_output : y=0
+# End time: 20:36:30 on Dec 22,2025, Elapsed time: 0:28:28
+# Errors: 0, Warnings: 0

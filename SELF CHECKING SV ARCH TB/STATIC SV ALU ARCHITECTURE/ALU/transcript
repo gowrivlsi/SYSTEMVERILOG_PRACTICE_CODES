@@ -1,0 +1,794 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:55:47 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# ** Error: (vlog-13069) ** while parsing file included at alup_top.sv(3)
+# ** at alup.v(10): near "=": syntax error, unexpected '='.
+# ** Error: ** while parsing file included at alup_top.sv(3)
+# ** at alup.v(10): (vlog-13205) Syntax error found in the scope following 'y'. Is there a missing '::'?
+# End time: 17:55:47 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog alup_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:56:54 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# ** Error: (vlog-13069) ** while parsing file included at alup_top.sv(4)
+# ** at alup_tb.sv(5): near "task": syntax error, unexpected task, expecting ';' or ','.
+# ** Error (suppressible): ** while parsing file included at alup_top.sv(4)
+# ** at alup_tb.sv(7): (vlog-2720) A generate begin/end pair has been found outside of generate construct.
+# End time: 17:56:54 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog alup_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:57:29 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 17:57:29 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 17:57:29 on Nov 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$dispaly' is not defined.
+#    Time: 0 ns  Iteration: 0  Region: /alup_top/R3/sc File: alup_tb.sv Line: 42
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$dispaly' is not defined.
+#    Time: 0 ns  Iteration: 0  Region: /alup_top/R3/sc File: alup_tb.sv Line: 47
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 10 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11011011 | Y=11011011
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 20 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111111 | Y=11111111
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 30 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111111 | Y=11111111
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 40 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=10111101 | Y=10111101
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 50 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11110110 | Y=11110110
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 60 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1110110 | Y=1110110
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 70 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111011 | Y=11111011
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 80 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11101101 | Y=11101101
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 90 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111110 | Y=11111110
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$dispaly'
+#    Time: 100 ns  Iteration: 0  Process: /alup_top/R3/#INITIAL#54 File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11110010 | Y=11110010
+# ** Note: implicit $finish from program    : alup_tb.sv(43)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:58:29 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 17:58:29 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:58:30 on Nov 17,2025, Elapsed time: 0:01:01
+# Errors: 10, Warnings: 2
+# vsim alup_top 
+# Start time: 17:58:30 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11011011 | Y=11011011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111111 | Y=11111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111111 | Y=11111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=10111101 | Y=10111101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11110110 | Y=11110110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1110110 | Y=1110110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111011 | Y=11111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11101101 | Y=11101101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111110 | Y=11111110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11110010 | Y=11110010
+# ** Note: implicit $finish from program    : alup_tb.sv(43)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:03:54 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:03:54 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:03:55 on Nov 17,2025, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:03:55 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11011011 | Y=11011011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111111 | Y=11111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111111 | Y=11111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=10111101 | Y=10111101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11110110 | Y=11110110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1110110 | Y=1110110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111011 | Y=11111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11101101 | Y=11101101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11111110 | Y=11111110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=11110010 | Y=11110010
+# ** Note: implicit $finish from program    : alup_tb.sv(43)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:04:13 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:04:13 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:04:13 on Nov 17,2025, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:04:13 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1110111111111011 | Y=1110111111111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1011111101111110 | Y=1011111101111110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=111101111111111 | Y=111101111111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1110111110011111 | Y=1110111110011111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111110111110110 | Y=1111110111110110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111111101110010 | Y=1111111101110010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=111111110111111 | Y=111111110111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111111111101101 | Y=1111111111101101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111111111111110 | Y=1111111111111110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111101111111010 | Y=1111101111111010
+# ** Note: implicit $finish from program    : alup_tb.sv(43)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:09:40 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:09:40 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:09:40 on Nov 17,2025, Elapsed time: 0:05:27
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:09:40 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1110111111111011 | Y=1110111111111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1011111101111110 | Y=1011111101111110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=111101111111111 | Y=111101111111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1110111110011111 | Y=1110111110011111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111110111110110 | Y=1111110111110110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111111101110010 | Y=1111111101110010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=111111110111111 | Y=111111110111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111111111101101 | Y=1111111111101101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111111111111110 | Y=1111111111111110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE OUPUT y=1111101111111010 | Y=1111101111111010
+# ** Note: implicit $finish from program    : alup_tb.sv(43)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:12:02 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:12:02 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:12:02 on Nov 17,2025, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:12:02 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): alup_tb.sv(43): (vopt-7063) Failed to find 'opc' in hierarchical name 'opc'.
+#         Region: alup_top.R3
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:12:33 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:12:33 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:12:02 on Nov 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=1110111111111011 | Y=1110111111111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=1011111101111110 | Y=1011111101111110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=111101111111111 | Y=111101111111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=1110111110011111 | Y=1110111110011111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=1111110111110110 | Y=1111110111110110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=1111111101110010 | Y=1111111101110010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=111111110111111 | Y=111111110111111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=1111111111101101 | Y=1111111111101101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=1111111111111110 | Y=1111111111111110
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 42
+# OPCODE = xxxxx OUPUT y=1111101111111010 | Y=1111101111111010
+# ** Note: implicit $finish from program    : alup_tb.sv(43)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:16:54 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:16:54 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:16:55 on Nov 17,2025, Elapsed time: 0:04:53
+# Errors: 1, Warnings: 0
+# vsim alup_top 
+# Start time: 18:16:55 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# ADDITHION 0 = 0100011100111001
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00000 OUPUT y=100011100111001 | Y=100011100111001
+# SUB 1 = 0110001000001000
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00001 OUPUT y=110001000001000 | Y=110001000001000
+# SUB 1 = 1010111001111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00001 OUPUT y=1010111001111011 | Y=1010111001111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 01000 OUPUT y=1110011110010011 | Y=1110011110010011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00100 OUPUT y=11010111001 | Y=11010111001
+# SUB 1 = 1010110101010010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00001 OUPUT y=1010110101010010 | Y=1010110101010010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00100 OUPUT y=10111001011101 | Y=10111001011101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00111 OUPUT y=10010 | Y=10010
+# MUL 2 = 0111100111110011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00010 OUPUT y=111100111110011 | Y=111100111110011
+# SUB 1 = 0011100111001010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE = 00001 OUPUT y=11100111001010 | Y=11100111001010
+# ** Note: implicit $finish from program    : alup_tb.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:17:24 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:17:24 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:17:25 on Nov 17,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:17:25 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# ADDITHION 0 = 0100011100111001
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  0 OUPUT y=100011100111001 | Y=100011100111001
+# SUB 1 = 0110001000001000
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=110001000001000 | Y=110001000001000
+# SUB 1 = 1010111001111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=1010111001111011 | Y=1010111001111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  8 OUPUT y=1110011110010011 | Y=1110011110010011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=11010111001 | Y=11010111001
+# SUB 1 = 1010110101010010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=1010110101010010 | Y=1010110101010010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=10111001011101 | Y=10111001011101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  7 OUPUT y=10010 | Y=10010
+# MUL 2 = 0111100111110011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  2 OUPUT y=111100111110011 | Y=111100111110011
+# SUB 1 = 0011100111001010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11100111001010 | Y=11100111001010
+# ** Note: implicit $finish from program    : alup_tb.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:20:26 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:20:26 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:20:26 on Nov 17,2025, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:20:26 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# a= 4629 b =13604 ADDITHION 0 = 0100011100111001
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  0 OUPUT y=100011100111001 | Y=100011100111001
+# a =49289 b= 0101111010000001 SUB 1 = 0110001000001000
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=110001000001000 | Y=110001000001000
+# a =33924 b= 1101011000001001 SUB 1 = 1010111001111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=1010111001111011 | Y=1010111001111011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  8 OUPUT y=1110011110010011 | Y=1110011110010011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=11010111001 | Y=11010111001
+# a =18143 b= 1001100110001101 SUB 1 = 1010110101010010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=1010110101010010 | Y=1010110101010010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=10111001011101 | Y=10111001011101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  7 OUPUT y=10010 | Y=10010
+# a=  243 b=58113 MUL 2 = 0111100111110011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  2 OUPUT y=111100111110011 | Y=111100111110011
+# a = 1751 b= 1100110100001101 SUB 1 = 0011100111001010
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11100111001010 | Y=11100111001010
+# ** Note: implicit $finish from program    : alup_tb.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:21:20 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:21:20 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:21:20 on Nov 17,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:21:20 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# a= 53 b = 36 ADDITHION 0 = 01011001
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  0 OUPUT y=1011001 | Y=1011001
+# a = 94 b= 10000001 SUB 1 = 11011101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11011101 | Y=11011101
+# a =214 b= 00001001 SUB 1 = 11001101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11001101 | Y=11001101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  8 OUPUT y=110101 | Y=110101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=110 | Y=110
+# a =153 b= 10001101 SUB 1 = 00001100
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=1100 | Y=1100
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=11111 | Y=11111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  7 OUPUT y=10010 | Y=10010
+# a=227 b=  1 MUL 2 = 11100011
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  2 OUPUT y=11100011 | Y=11100011
+# a =205 b= 00001101 SUB 1 = 11000000
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11000000 | Y=11000000
+# ** Note: implicit $finish from program    : alup_tb.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:22:02 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:22:02 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:22:03 on Nov 17,2025, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:22:03 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# a= 53 b = 36 ADDITHION 0 =  89
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  0 OUPUT y=1011001 | Y=1011001
+# a = 94 b= 10000001 SUB 1 = 221
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11011101 | Y=11011101
+# a =214 b= 00001001 SUB 1 = 205
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11001101 | Y=11001101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  8 OUPUT y=110101 | Y=110101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=110 | Y=110
+# a =153 b= 10001101 SUB 1 =  12
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=1100 | Y=1100
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=11111 | Y=11111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  7 OUPUT y=10010 | Y=10010
+# a=227 b=  1 MUL 2 = 227
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  2 OUPUT y=11100011 | Y=11100011
+# a =205 b= 00001101 SUB 1 = 192
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11000000 | Y=11000000
+# ** Note: implicit $finish from program    : alup_tb.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:22:32 on Nov 17,2025
+# vlog -reportprogress 300 alup_top.sv "+acc" 
+# -- Compiling interface alu_intf
+# -- Compiling module alup
+# -- Compiling program alup_tb
+# -- Compiling module alup_top
+# 
+# Top level modules:
+# 	alup_top
+# End time: 18:22:32 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:22:33 on Nov 17,2025, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim alup_top 
+# Start time: 18:22:33 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.alup_top(fast)
+# Loading work.alu_intf(fast)
+# Loading work.alup(fast)
+# Loading work.alup_tb(fast)
+# a= 53 b = 36 ADDITHION 0 =  89
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 10 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  0 OUPUT y=1011001 | Y=1011001
+# a = 94 b= 129 SUB 1 = 221
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 20 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11011101 | Y=11011101
+# a =214 b=   9 SUB 1 = 205
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 30 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11001101 | Y=11001101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 40 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  8 OUPUT y=110101 | Y=110101
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 50 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=110 | Y=110
+# a =153 b= 141 SUB 1 =  12
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 60 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=1100 | Y=1100
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 70 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  4 OUPUT y=11111 | Y=11111
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 80 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  7 OUPUT y=10010 | Y=10010
+# a=227 b=  1 MUL 2 = 227
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 90 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  2 OUPUT y=11100011 | Y=11100011
+# a =205 b=  13 SUB 1 = 192
+# ** Info: ====================================ALU PASSED===============================================
+#    Time: 100 ns  Scope: alup_top.R3.sc File: alup_tb.sv Line: 43
+# OPCODE =  1 OUPUT y=11000000 | Y=11000000
+# ** Note: implicit $finish from program    : alup_tb.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /alup_top/R3
+# 1
+# Simulation stop requested.

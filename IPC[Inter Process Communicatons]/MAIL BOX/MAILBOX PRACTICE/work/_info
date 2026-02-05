@@ -1,0 +1,44 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/MAIL BOX
+T_opt
+!s110 1765794247
+VVO2iAl47jDFZ=XHbk4GC>0
+04 8 4 work mail_box fast 0
+=1-5e02cfdfbea1-693fe1c7-be-43f0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vmail_box
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1765794653
+!i10b 1
+!s100 <]o_W3XL1H[l1aD?LGL>?1
+IDOS_BWT=f^68NJjo7n`^z2
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 mai_lbox_sv_unit
+S1
+R0
+w1765794227
+8mai_lbox.sv
+Fmai_lbox.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1765794653.000000
+!s107 mai_lbox.sv|
+!s90 mai_lbox.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

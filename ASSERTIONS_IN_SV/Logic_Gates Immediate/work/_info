@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/ASSERTIONS/Logic_Gates
+T_opt
+!s110 1767615763
+VHSPX;A8:7f63m1QFi>5QR1
+04 3 4 work top fast 0
+=1-f66444b558ee-695bad12-395-2058
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Ylogic_intf
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1767615760
+!i10b 1
+!s100 ;JN=K7<Az1Umb=3HP_FYH3
+IJl=Vb5TRCkEOkY3ImVS[d3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 logic_top_sv_unit
+S1
+R0
+w1767610234
+8logic_intf.sv
+Flogic_intf.sv
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1767615760.000000
+Z8 !s107 logic_tb.sv|logic_intf.sv|logic_test.sv|logic_top.sv|
+Z9 !s90 -reportprogress|300|logic_top.sv|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+4logic_tb
+R2
+R3
+!i10b 1
+!s100 n1PSdQ1:H7A;b=:JT_ODC2
+IgfmC2P@3f2Xm3jV1?:o7Q0
+R4
+R5
+S1
+R0
+w1767615728
+8logic_tb.sv
+Flogic_tb.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vlogic_test
+R2
+R3
+!i10b 1
+!s100 fSgS[3R7LRlUAlz[]K8VO0
+I=zEb>hA[ZCTja1>zXWV6h2
+R4
+R5
+S1
+R0
+w1767610104
+8logic_test.sv
+Flogic_test.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vtop
+R2
+R3
+!i10b 1
+!s100 lHbkGI[hW40Cnim:2jRW;0
+I?HnS0JS[?lTl[2n3=:@U01
+R4
+R5
+S1
+R0
+w1767611452
+8logic_top.sv
+Flogic_top.sv
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

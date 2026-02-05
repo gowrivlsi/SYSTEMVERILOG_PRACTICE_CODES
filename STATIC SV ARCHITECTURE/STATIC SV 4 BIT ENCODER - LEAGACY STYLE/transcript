@@ -1,0 +1,950 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:52:02 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 12:52:03 on Nov 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 12:52:03 on Nov 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:53:48 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 12:53:48 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:53:50 on Nov 17,2025, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 12:53:50 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:06 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 12:55:06 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:55:08 on Nov 17,2025, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 12:55:08 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:56:01 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 12:56:01 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:56:02 on Nov 17,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 12:56:02 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:56:30 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 12:56:30 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:56:31 on Nov 17,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 12:56:31 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:57:08 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 12:57:09 on Nov 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:57:09 on Nov 17,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 12:57:09 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:59:23 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 12:59:23 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:59:24 on Nov 17,2025, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 12:59:24 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:09 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:00:09 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:00:10 on Nov 17,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:00:10 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:47 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:00:48 on Nov 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:00:48 on Nov 17,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:00:48 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:01:09 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:01:09 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:01:10 on Nov 17,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:01:10 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:01:40 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:01:40 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:01:41 on Nov 17,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:01:41 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:02:07 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:02:07 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:02:08 on Nov 17,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:02:08 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:02:45 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:02:46 on Nov 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:02:46 on Nov 17,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:02:46 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:03:24 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:03:24 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:03:24 on Nov 17,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:03:25 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:02 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:04:02 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:04:03 on Nov 17,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:04:03 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:26 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:04:26 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:04:27 on Nov 17,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:04:27 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:05:23 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:05:24 on Nov 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:05:24 on Nov 17,2025, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:05:24 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:05:55 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:05:55 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:05:55 on Nov 17,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:05:56 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:44 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:06:44 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:06:45 on Nov 17,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:06:45 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:07:09 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:07:10 on Nov 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:07:10 on Nov 17,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:07:11 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:08:31 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:08:31 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:08:32 on Nov 17,2025, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:08:32 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST FALIED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(29)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:11:32 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:11:32 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:11:33 on Nov 17,2025, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:11:33 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(25)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:12:47 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:12:47 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:12:48 on Nov 17,2025, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:12:48 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=00 BFM_Y=00
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST PASED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(25)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:42:27 on Nov 17,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 13:42:27 on Nov 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:42:28 on Nov 17,2025, Elapsed time: 0:29:40
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 13:42:28 on Nov 17,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=00 BFM_Y=00
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(25)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+# End time: 13:43:19 on Nov 17,2025, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0

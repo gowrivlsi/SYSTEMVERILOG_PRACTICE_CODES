@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/FUNCTIONS_TASKS IN SV/ASSIGNMENTS1[Shashank Sir]/Palindrome Using Function
+T_opt
+!s110 1766482550
+VO6]8X?aZXoUmg?QZBdGac2
+04 4 4 work test fast 0
+=1-368f65cea897-694a6275-3b6-2b3c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtest
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1766482547
+!i10b 1
+!s100 nejEOY]jEl^?a;LT3G0>o0
+I1A:hfLQCfBZRRZZXD3]n21
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 fun_test_sv_unit
+S1
+R0
+w1766482519
+8fun_test.sv
+Ffun_test.sv
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1766482547.000000
+!s107 fun_test.sv|
+!s90 fun_test.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

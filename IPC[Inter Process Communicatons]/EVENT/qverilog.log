@@ -1,0 +1,47 @@
+Start time: 20:27:05 on Dec 25,2025
+qverilog event_test.sv 
+-- Compiling module test
+
+Top level modules:
+	test
+# vsim -lib work work.test -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.test(fast)
+# run -all
+# =================Monitor=================
+# Moni => statement1
+# Moni => statement2
+# Moni => statement3
+# Moni => statement4
+# ==================GENERATOR==============
+# gen => Statement1
+# gen => statement2
+# gen => statement3
+# =================ScoreBoard=================
+# SB => statement1
+# SB => statement2
+# SB => statement3
+# SB => statement4
+# =================Driver=================
+# driv => statement1
+# driv => statement2
+# driv => statement3
+# driv => statement4
+#  quit -f
+# End time: 20:27:06 on Dec 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

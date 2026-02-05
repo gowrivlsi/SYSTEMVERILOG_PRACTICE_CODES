@@ -1,0 +1,115 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:56:53 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:56:53 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim test 
+# Start time: 16:56:53 on Dec 31,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 184 | b=38
+# a = 102 | b=182
+# a = 198 | b=70
+# a = 114 | b=46
+# a = 103 | b=58
+# a = 106 | b=180
+# a = 111 | b=86
+# a = 53 | b=212
+# a = 174 | b=125
+# a = 219 | b=5
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:57:42 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:57:42 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:57:43 on Dec 31,2025, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 2
+# vsim test 
+# Start time: 16:57:43 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# ** Warning: (vsim-8474) A higher value '182' is found in bin 'b1' of Coverpoint 'L1'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /test/#INITIAL#17 File: test.sv Line: 9
+# ** Warning: (vsim-8478) The value range list is empty for the transition item #1 of transition set #1 of the bin '\/test/c1 .L1.b1'. This may be because all value ranges specified in the transition item are invalid values and can not be casted to the expression type of the coverpoint. This will result in the removal of the whole transition set.
+#    Time: 0 ns  Iteration: 0  Process: /test/#INITIAL#17 File: test.sv Line: 9
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid transitions, the transitions list associated with scalar bin 'b1' in Coverpoint 'L1' of Covergroup instance '\/test/c1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: (vsim-8522) The number of coverpoint bins is zero for the coverpoint 'L1' of covergroup instance '\/test/c1 '. All the user defined bins in the coverpoint are empty bins and hence it would not contribute towards the overall coverage result.
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: (vsim-8474) A higher value '98' is found in bin 'b2' of Coverpoint 'L2'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /test/#INITIAL#17 File: test.sv Line: 12
+# ** Warning: (vsim-8478) The value range list is empty for the transition item #1 of transition set #1 of the bin '\/test/c1 .L2.b2'. This may be because all value ranges specified in the transition item are invalid values and can not be casted to the expression type of the coverpoint. This will result in the removal of the whole transition set.
+#    Time: 0 ns  Iteration: 0  Process: /test/#INITIAL#17 File: test.sv Line: 12
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid transitions, the transitions list associated with scalar bin 'b2' in Coverpoint 'L2' of Covergroup instance '\/test/c1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: (vsim-8522) The number of coverpoint bins is zero for the coverpoint 'L2' of covergroup instance '\/test/c1 '. All the user defined bins in the coverpoint are empty bins and hence it would not contribute towards the overall coverage result.
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# a = 0 | b=6
+# a = 6 | b=6
+# a = 6 | b=6
+# a = 2 | b=6
+# a = 7 | b=2
+# a = 2 | b=4
+# a = 7 | b=6
+# a = 5 | b=4
+# a = 6 | b=5
+# a = 3 | b=5
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:59:07 on Dec 31,2025
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module test
+# ** Warning: test.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	test
+# End time: 16:59:07 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:59:08 on Dec 31,2025, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 10
+# vsim test 
+# Start time: 16:59:08 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.test(fast)
+# a = 0 | b=6
+# a = 6 | b=6
+# a = 6 | b=6
+# a = 2 | b=6
+# a = 7 | b=2
+# a = 2 | b=4
+# a = 7 | b=6
+# a = 5 | b=4
+# a = 6 | b=5
+# a = 3 | b=5

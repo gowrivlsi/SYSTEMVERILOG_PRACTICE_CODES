@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/SV_PROJECTS/DESIGN_PROJECTS/UART_PROTOCOL/UART_RX_CODE1
+T_opt
+!s110 1770224969
+VenY>KSIJAgXzAzGM_3_O13
+Z1 04 10 4 work uart_rx_tb fast 0
+=1-9ac3c3f168e9-69837d49-1f8-4f18
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1770225136
+Vb]Z?7:f1aXhB9CC^6KWR^1
+R1
+=1-9ac3c3f168e9-69837def-39d-4214
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+vuart_rx
+Z4 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z5 !s110 1770224967
+!i10b 1
+!s100 d?X>2LFf;7A<lR:GIZTO[2
+IH_88FY[klSO7Q6CcjAQXJ1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 !s105 uart_rx_tb_sv_unit
+S1
+R0
+w1770224428
+8uart_rx.sv
+Fuart_rx.sv
+L0 27
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1770224967.000000
+Z10 !s107 uart_rx.sv|uart_rx_tb.sv|
+Z11 !s90 -reportprogress|300|uart_rx_tb.sv|+acc|
+!i113 0
+Z12 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vuart_rx_tb
+R4
+R5
+!i10b 1
+!s100 m0EoYYlX:A>ETi<V[W<;82
+Ih@_6WMh_^GneV9fQLQ[L?2
+R6
+R7
+S1
+R0
+w1770224963
+8uart_rx_tb.sv
+Fuart_rx_tb.sv
+L0 13
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2

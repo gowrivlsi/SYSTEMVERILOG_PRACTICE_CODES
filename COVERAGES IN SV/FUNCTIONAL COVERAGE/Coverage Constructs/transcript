@@ -1,0 +1,852 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:00:23 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Error: test.sv(22): 'sram_pkt' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: test.sv(22): 'sram_pkt' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: test.sv(24): 's1' is not a variable
+# ** Error: test.sv(24): Illegal LHS of assignment.
+# ** Error: test.sv(24): 'new' must be used to assign to a class or covergroup handle.
+# ** Error: test.sv(25): 's2' is not a variable
+# ** Error: test.sv(25): Illegal LHS of assignment.
+# ** Error: test.sv(25): 'new' must be used to assign to a class or covergroup handle.
+# ** Warning: test.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# End time: 12:00:23 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:01:01 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:01:01 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim sram_pkt 
+# Start time: 12:01:01 on Jan 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: test.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:01:21 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:01:21 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:01:22 on Jan 03,2026, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:01:22 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:02:56 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(29): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:02:56 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:02:56 on Jan 03,2026, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:02:56 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(29): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:04:07 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(29): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:04:07 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:04:07 on Jan 03,2026, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:04:08 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(29): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:06:32 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:06:32 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:06:33 on Jan 03,2026, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:06:33 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:07:21 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Error (suppressible): (vlog-13276) test.sv(8): Could not find field/method name (auto_bins_max) in 'option' of 'this.option.auto_bins_max'.
+# ** Warning: test.sv(32): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# End time: 12:07:21 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:08:00 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(32): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:08:00 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:08:01 on Jan 03,2026, Elapsed time: 0:01:28
+# Errors: 3, Warnings: 3
+# vsim sram_pkt 
+# Start time: 12:08:01 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(32): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:11:04 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Error: (vlog-13069) test.sv(24): near "address": syntax error, unexpected IDENTIFIER, expecting '('.
+# ** Error: test.sv(31): (vlog-2730) Undefined variable: 's1'.
+# ** Error: test.sv(32): (vlog-2730) Undefined variable: 's2'.
+# End time: 12:11:04 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:11:41 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:11:41 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:11:41 on Jan 03,2026, Elapsed time: 0:03:40
+# Errors: 6, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:11:41 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:11:45 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:11:45 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:11:46 on Jan 03,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:11:46 on Jan 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:12:16 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:12:16 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:12:17 on Jan 03,2026, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 1
+# vsim sram_pkt 
+# Start time: 12:12:17 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:16:18 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Error: test.sv(25): Could not find Coverpoint bin 'data.x2' in local scope. Please provide a valid Coverpoint bin.
+# ** Error: test.sv(26): Could not find Coverpoint bin 'data.x2' in local scope. Please provide a valid Coverpoint bin.
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# End time: 12:16:18 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog test.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:16:42 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:16:42 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:16:43 on Jan 03,2026, Elapsed time: 0:04:26
+# Errors: 5, Warnings: 3
+# vsim sram_pkt 
+# Start time: 12:16:43 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(37): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:16:46 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:16:46 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 12:16:47 on Jan 03,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:16:47 on Jan 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:19:58 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:19:58 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:19:59 on Jan 03,2026, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:19:59 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): test.sv(48): (vopt-7063) Failed to find 'p2' in hierarchical name 'p2.stop'.
+#         Region: sram_pkt
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:20:16 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:20:16 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:19:59 on Jan 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: test.sv(37): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# addr2=183,data2=137,wen2=0,rden2=1
+# addr2=254,data2= 76,wen2=0,rden2=1
+# addr2=136,data2=188,wen2=1,rden2=1
+# addr2= 47,data2=183,wen2=1,rden2=1
+# addr2=  0,data2=  9,wen2=0,rden2=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:20:20 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:20:20 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:20:21 on Jan 03,2026, Elapsed time: 0:00:22
+# Errors: 1, Warnings: 4
+# vsim sram_pkt 
+# Start time: 12:20:21 on Jan 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# addr2=183,data2=137,wen2=0,rden2=1
+# addr2=254,data2= 76,wen2=0,rden2=1
+# addr2=136,data2=188,wen2=1,rden2=1
+# addr2= 47,data2=183,wen2=1,rden2=1
+# addr2=  0,data2=  9,wen2=0,rden2=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:21:52 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:21:52 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:21:53 on Jan 03,2026, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:21:53 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(37): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# addr2=183,data2=137,wen2=0,rden2=1
+# addr2=254,data2= 76,wen2=0,rden2=1
+# addr2=136,data2=188,wen2=1,rden2=1
+# addr2= 47,data2=183,wen2=1,rden2=1
+# addr2=  0,data2=  9,wen2=0,rden2=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:25:59 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:25:59 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:26:00 on Jan 03,2026, Elapsed time: 0:04:07
+# Errors: 0, Warnings: 4
+# vsim sram_pkt 
+# Start time: 12:26:00 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(37): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# addr2=183,data2=137,wen2=0,rden2=1
+# addr2=254,data2= 76,wen2=0,rden2=1
+# addr2=136,data2=188,wen2=1,rden2=1
+# addr2= 47,data2=183,wen2=1,rden2=1
+# addr2=  0,data2=  9,wen2=0,rden2=1
+# ** Fatal: (vsim-8324) Parameter 2 is bad. This may involve a null ref handle.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /sram_pkt/#INITIAL#32 File: test.sv
+# Fatal error at test.sv line 50
+# 
+# HDL call sequence:
+# Stopped at test.sv 50  
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:26:16 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:26:16 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:26:17 on Jan 03,2026, Elapsed time: 0:00:17
+# Errors: 2, Warnings: 4
+# vsim sram_pkt 
+# Start time: 12:26:17 on Jan 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# addr2=183,data2=137,wen2=0,rden2=1
+# addr2=254,data2= 76,wen2=0,rden2=1
+# addr2=136,data2=188,wen2=1,rden2=1
+# addr2= 47,data2=183,wen2=1,rden2=1
+# addr2=  0,data2=  9,wen2=0,rden2=1
+# ** Fatal: (vsim-8324) Parameter 2 is bad. This may involve a null ref handle.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /sram_pkt/#INITIAL#32 File: test.sv
+# Fatal error at test.sv line 50
+# 
+# HDL call sequence:
+# Stopped at test.sv 50  
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:27:54 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:27:54 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:27:55 on Jan 03,2026, Elapsed time: 0:01:38
+# Errors: 2, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:27:55 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(37): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# addr2=183,data2=137,wen2=0,rden2=1
+# addr2=254,data2= 76,wen2=0,rden2=1
+# addr2=136,data2=188,wen2=1,rden2=1
+# addr2= 47,data2=183,wen2=1,rden2=1
+# addr2=  0,data2=  9,wen2=0,rden2=1
+# coverage withot static=        52,covered=         34,total=        652
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:30:17 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:30:17 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:30:18 on Jan 03,2026, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 4
+# vsim sram_pkt 
+# Start time: 12:30:18 on Jan 03,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# addr2=183,data2=137,wen2=0,rden2=1
+# addr2=254,data2= 76,wen2=0,rden2=1
+# addr2=136,data2=188,wen2=1,rden2=1
+# addr2= 47,data2=183,wen2=1,rden2=1
+# addr2=  0,data2=  9,wen2=0,rden2=1
+# coverage withot static=        52,covered=         34,total=        652
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:31:16 on Jan 03,2026
+# vlog -reportprogress 300 test.sv 
+# -- Compiling module sram_pkt
+# ** Warning: test.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_pkt
+# End time: 12:31:16 on Jan 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:31:17 on Jan 03,2026, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 2
+# vsim sram_pkt 
+# Start time: 12:31:17 on Jan 03,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: test.sv(37): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: test.sv(44): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_pkt(fast)
+# addr= 38|data=184|wen=0|rden=0
+# addr= 70|data=198|wen=0|rden=0
+# addr= 58|data=103|wen=0|rden=0
+# addr= 86|data=111|wen=1|rden=0
+# addr=125|data=174|wen=1|rden=1
+# addr= 32|data=227|wen=1|rden=1
+# addr=233|data= 37|wen=1|rden=0
+# addr=139|data= 88|wen=0|rden=1
+# addr= 64|data=185|wen=0|rden=0
+# addr=142|data=212|wen=0|rden=1
+# addr=199|data= 37|wen=0|rden=1
+# addr= 35|data= 50|wen=0|rden=1
+# addr=230|data= 90|wen=0|rden=1
+# addr= 15|data=234|wen=1|rden=0
+# addr=203|data=201|wen=1|rden=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# addr2=183,data2=137,wen2=0,rden2=1
+# addr2=254,data2= 76,wen2=0,rden2=1
+# addr2=136,data2=188,wen2=1,rden2=1
+# addr2= 47,data2=183,wen2=1,rden2=1
+# addr2=  0,data2=  9,wen2=0,rden2=1
+# coverage withot static=52,covered=34,total=652

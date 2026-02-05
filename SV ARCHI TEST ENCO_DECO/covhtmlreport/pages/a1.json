@@ -1,0 +1,14 @@
+var g_data = {
+a50:{
+scopes:[{s:'44',b:'1',val:'enco_top_sv_unit'},{val:'enco_gen'},{s:'49',b:'0',val:'gen'},{link:'z.htm?f=0&s=50',val:'#ublk#267069380#16'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__17',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+a74:{
+scopes:[{s:'68',b:'1',val:'work.enco_top_sv_unit'},{val:'enco_gen'},{s:'73',b:'0',val:'gen'},{link:'z.htm?f=0&s=74',val:'#ublk#267069380#16'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__17',fc:'Gr',pc:'Gr',h0:'0',h1:'1'}
+],
+},
+dummyEnd:0
+};
+processAssertionsData(g_data,1);

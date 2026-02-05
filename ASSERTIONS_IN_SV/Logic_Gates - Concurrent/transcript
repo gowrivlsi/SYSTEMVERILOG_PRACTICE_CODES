@@ -1,0 +1,1021 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:58:15 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(12): near "sequence": syntax error, unexpected "SystemVerilog keyword 'sequence'".
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(13): near "!=": syntax error, unexpected !=.
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(36): near "&&": syntax error, unexpected &&.
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(52): near "iff": syntax error, unexpected "SystemVerilog keyword 'iff'".
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(54): near "endproperty": syntax error, unexpected "SystemVerilog keyword 'endproperty'".
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(59): near "iff": syntax error, unexpected "SystemVerilog keyword 'iff'".
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(61): near "endproperty": syntax error, unexpected "SystemVerilog keyword 'endproperty'".
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(66): near "iff": syntax error, unexpected "SystemVerilog keyword 'iff'".
+# ** Error: ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(67): (vlog-2730) Undefined variable: 's_or1'.
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(73): near "iff": syntax error, unexpected "SystemVerilog keyword 'iff'".
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(75): near "endproperty": syntax error, unexpected "SystemVerilog keyword 'endproperty'".
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(86): near "initial": syntax error, unexpected initial.
+# ** Error: logic_top.sv(8): Illegal declaration after the statement near line '5'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: logic_top.sv(14): (vlog-2730) Undefined variable: 'rst'.
+# ** Error: logic_top.sv(18): Checker 'logic_intf' not found.  Instantiation 'I' must be of a visible checker.
+# ** Error: logic_top.sv(32): Checker 'logic_test' not found.  Instantiation 'D' must be of a visible checker.
+# ** Error: logic_top.sv(34): Checker 'logic_tb' not found.  Instantiation 'T' must be of a visible checker.
+# ** Error: (vlog-13069) logic_top.sv(36): near "endmodule": syntax error, unexpected endmodule, expecting "SystemVerilog keyword 'assert' " or "SystemVerilog keyword 'assume' " or restrict .
+# End time: 15:58:15 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:59:34 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(52): near ";": syntax error, unexpected ';'.
+# End time: 15:59:34 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:00:06 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(51): near ";": syntax error, unexpected ';', expecting disable.
+# End time: 16:00:06 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:00:38 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(52): near ";": syntax error, unexpected ';'.
+# End time: 16:00:38 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:01:30 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(52): near ";": syntax error, unexpected ';'.
+# End time: 16:01:30 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:02:13 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(51): near ";": syntax error, unexpected ';', expecting disable.
+# End time: 16:02:13 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:03:47 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(74): (vlog-2730) Undefined variable: 's_xor'.
+# ** Error (suppressible): ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(83): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error: ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(74): (vlog-2730) Undefined variable: 's_xor'.
+# -- Compiling module top
+# End time: 16:03:47 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:04:36 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(74): (vlog-2730) Undefined variable: 's_xor'.
+# ** Error (suppressible): ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(83): (vlog-1957) The sva directive is not sensitive to a clock. Unclocked directives are not supported.
+# ** Error: ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(74): (vlog-2730) Undefined variable: 's_xor'.
+# -- Compiling module top
+# End time: 16:04:37 on Jan 06,2026, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:05:00 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:05:00 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:05:00 on Jan 06,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: (vish-4014) No objects found matching '/top/T/NOT1'.
+# Executing ONERROR command at macro ./wave.do line 38
+# ** Error: (vish-4014) No objects found matching '/top/T/AND1'.
+# Executing ONERROR command at macro ./wave.do line 39
+# ** Error: (vish-4014) No objects found matching '/top/T/OR1'.
+# Executing ONERROR command at macro ./wave.do line 40
+# ** Error: (vish-4014) No objects found matching '/top/T/NAND1'.
+# Executing ONERROR command at macro ./wave.do line 41
+# ** Error: (vish-4014) No objects found matching '/top/T/NOR1'.
+# Executing ONERROR command at macro ./wave.do line 42
+# ** Error: (vish-4014) No objects found matching '/top/T/XOR1'.
+# Executing ONERROR command at macro ./wave.do line 43
+# ** Error: (vish-4014) No objects found matching '/top/T/XNOR1'.
+# Executing ONERROR command at macro ./wave.do line 44
+# ** Error: (vish-4014) No objects found matching '/top/T/NOT1'.
+# (vish-4014) No objects found matching '/top/T/AND1'.
+# (vish-4014) No objects found matching '/top/T/OR1'.
+# (vish-4014) No objects found matching '/top/T/NAND1'.
+# (vish-4014) No objects found matching '/top/T/NOR1'.
+# (vish-4014) No objects found matching '/top/T/XOR1'.
+# (vish-4014) No objects found matching '/top/T/XNOR1'.
+# Error in macro ./run.do line 5
+# (vish-4014) No objects found matching '/top/T/NOT1'.
+# (vish-4014) No objects found matching '/top/T/AND1'.
+# (vish-4014) No objects found matching '/top/T/OR1'.
+# (vish-4014) No objects found matching '/top/T/NAND1'.
+# (vish-4014) No objects found matching '/top/T/NOR1'.
+# (vish-4014) No objects found matching '/top/T/XOR1'.
+# (vish-4014) No objects found matching '/top/T/XNOR1'.
+#     while executing
+# "add wave /top/T/NOT1 /top/T/AND1 /top/T/OR1 /top/T/NAND1 /top/T/NOR1 /top/T/XOR1 /top/T/XNOR1"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:05:36 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:05:36 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:05:37 on Jan 06,2026, Elapsed time: 0:00:37
+# Errors: 24, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:05:37 on Jan 06,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 82 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 81 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 81 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(86)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 86
+add wave /top/T/NOT /top/T/AND /top/T/OR /top/T/XOR
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+run
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 82 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 81 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 81 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(86)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 86
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/SYSTEM VERILOG CODES/ASSERTIONS_IN_SV/Logic_Gates - Concurrent/wave.do}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:11:18 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:11:18 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:11:19 on Jan 06,2026, Elapsed time: 0:05:42
+# Errors: 14, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:11:19 on Jan 06,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 82 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 81 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 81 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(86)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 86
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/SYSTEM VERILOG CODES/ASSERTIONS_IN_SV/Logic_Gates - Concurrent/wave.do}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/SYSTEM VERILOG CODES/ASSERTIONS_IN_SV/Logic_Gates - Concurrent/wave.do}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:12:56 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:12:56 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:12:57 on Jan 06,2026, Elapsed time: 0:01:38
+# Errors: 14, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:12:57 on Jan 06,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 82 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 81 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 81 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 80 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 83 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(86)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 86
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:14:25 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:14:25 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:14:28 on Jan 06,2026, Elapsed time: 0:01:31
+# Errors: 14, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:14:28 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 81 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(85)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 85
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:24:20 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(79): near "@": syntax error, unexpected '@', expecting '('.
+# End time: 16:24:20 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:24:38 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(79): near "@": syntax error, unexpected '@', expecting '('.
+# End time: 16:24:38 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:24:54 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(79): near ")": syntax error, unexpected ')', expecting disable.
+# End time: 16:24:54 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:25:06 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:25:06 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:25:07 on Jan 06,2026, Elapsed time: 0:10:39
+# Errors: 26, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:25:07 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 81 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(85)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 85
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:25:52 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# ** Error: (vlog-13069) ** while parsing file included at logic_top.sv(3)
+# ** at logic_tb.sv(79): near ")": syntax error, unexpected ')', expecting disable.
+# End time: 16:25:52 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog logic_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:26:07 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:26:07 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:26:08 on Jan 06,2026, Elapsed time: 0:01:01
+# Errors: 18, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:26:08 on Jan 06,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 81 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(85)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 85
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:26:40 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:26:40 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:26:42 on Jan 06,2026, Elapsed time: 0:00:34
+# Errors: 14, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:26:42 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 81 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(85)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 85
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:28:06 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:28:06 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:28:07 on Jan 06,2026, Elapsed time: 0:01:25
+# Errors: 14, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:28:07 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 81 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(85)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 85
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:28:55 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:28:55 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:28:57 on Jan 06,2026, Elapsed time: 0:00:50
+# Errors: 14, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:28:57 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.OR File: logic_tb.sv Line: 81 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.a!=I.b
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.AND File: logic_tb.sv Line: 80 Expr: I.and1==0
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 79 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: top.T.XOR File: logic_tb.sv Line: 82 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(85)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 85
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:30:56 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:30:56 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:30:58 on Jan 06,2026, Elapsed time: 0:02:01
+# Errors: 14, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:30:58 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.OR File: logic_tb.sv Line: 85 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.XOR File: logic_tb.sv Line: 86 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.XOR File: logic_tb.sv Line: 86 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.XOR File: logic_tb.sv Line: 86 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.XOR File: logic_tb.sv Line: 86 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.XOR File: logic_tb.sv Line: 86 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.XOR File: logic_tb.sv Line: 86 Expr: I.xor1==0
+# ** Error: Assertion error.
+#    Time: 100 ns Started: 100 ns  Scope: top.T.XOR File: logic_tb.sv Line: 86 Expr: I.xor1==0
+# ** Note: $finish    : logic_tb.sv(89)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 89
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:33:14 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:33:14 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:33:16 on Jan 06,2026, Elapsed time: 0:02:18
+# Errors: 9, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:33:16 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.XOR File: logic_tb.sv Line: 86 Expr: I.xor1==1
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.OR File: logic_tb.sv Line: 85 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Note: $finish    : logic_tb.sv(89)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 89
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:35:47 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:35:47 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:35:49 on Jan 06,2026, Elapsed time: 0:02:33
+# Errors: 3, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:35:49 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.XOR File: logic_tb.sv Line: 87 Expr: I.xor1==1
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.OR File: logic_tb.sv Line: 86 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Note: $finish    : logic_tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:36:29 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:36:29 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:36:31 on Jan 06,2026, Elapsed time: 0:00:42
+# Errors: 3, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:36:31 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.XOR File: logic_tb.sv Line: 87 Expr: I.xor1==1
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.OR File: logic_tb.sv Line: 86 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 35 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Note: $finish    : logic_tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:37:10 on Jan 06,2026
+# vlog -reportprogress 300 logic_top.sv "+acc" 
+# -- Compiling module logic_test
+# -- Compiling interface logic_intf
+# -- Compiling program logic_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:37:10 on Jan 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:37:15 on Jan 06,2026, Elapsed time: 0:00:44
+# Errors: 7, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 16:37:15 on Jan 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.logic_intf(fast)
+# Loading work.logic_test(fast)
+# Loading work.logic_tb(fast)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.XOR File: logic_tb.sv Line: 87 Expr: I.xor1==1
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.OR File: logic_tb.sv Line: 86 Expr: I.or1==1
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.NOT File: logic_tb.sv Line: 83 Expr: I.a!=I.not1
+# ** Note: $finish    : logic_tb.sv(90)
+#    Time: 100 ns  Iteration: 1  Instance: /top/T
+# 1
+# Break in Module logic_tb at logic_tb.sv line 90
+# End time: 17:04:01 on Jan 06,2026, Elapsed time: 0:26:46
+# Errors: 3, Warnings: 0

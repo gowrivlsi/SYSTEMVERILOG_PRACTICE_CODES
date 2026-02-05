@@ -1,0 +1,51 @@
+Start time: 16:32:59 on Nov 28,2025
+qverilog fork_join_ex.sv 
+-- Compiling module fork_join_ex
+** Warning: fork_join_ex.sv(34): (qverilog-2244) Variable 'd1' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: fork_join_ex.sv(35): (qverilog-2244) Variable 'd2' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: fork_join_ex.sv(36): (qverilog-2244) Variable 'd3' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+
+Top level modules:
+	fork_join_ex
+# vsim -lib work work.fork_join_ex -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fork_join_ex.sv(34): (vopt-2244) Variable 'd1' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: fork_join_ex.sv(35): (vopt-2244) Variable 'd2' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: fork_join_ex.sv(36): (vopt-2244) Variable 'd3' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.fork_join_ex(fast)
+# run -all
+# PROCESS2 STS1                   2
+# PROCESS3 STS1                   3
+# PROCESS1 STS1                   4
+# PROCESS1 STS2                   6
+# PROCESS2 STS2                   8
+# PROCESS3 STS2                   9
+# PROCESS1 STS3                   9
+# PROCESS4 STS1                  13
+# PROCESS3 STS3                  14
+# PROCESS2 STS3                  16
+# PROCESS2 STS4                  17
+#  quit -f
+# End time: 16:33:03 on Nov 28,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 6

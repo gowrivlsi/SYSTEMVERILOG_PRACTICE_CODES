@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/ARRAYS/ASSINGMENTS ON ARRAY/2]STATIC ARRAY
+T_opt
+!s110 1763999475
+VQ?[4dbWCf6FgTCzid0A]V0
+Z1 04 12 4 work static_array fast 0
+=1-e02e0b99037c-69247ef3-384-4a90
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+T_opt1
+!s110 1763999456
+VCdDG[@`BF8b@>7?P4hDl60
+R1
+=1-e02e0b99037c-69247ee0-249-1acc
+R2
+R3
+n@_opt1
+R4
+R0
+vstatic_array
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1763999472
+!i10b 1
+!s100 9NikLaiHG1m=dE<^k:i]N2
+IP;]NU=[=CfK[c0=L4?B@63
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 static_array_sv_unit
+S1
+R0
+w1763999450
+8static_array.sv
+Fstatic_array.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1763999472.000000
+!s107 static_array.sv|
+!s90 -reportprogress|300|static_array.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3

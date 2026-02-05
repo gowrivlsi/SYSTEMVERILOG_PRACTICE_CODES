@@ -1,0 +1,292 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# clk_gene.sv  transcript            
+vlog clk_gene.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:59:36 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv 
+# -- Compiling module clk_gene
+# ** Error: (vlog-13069) clk_gene.sv(8): near "endmodule": syntax error, unexpected endmodule, expecting ';'.
+# End time: 14:59:36 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog clk_gene.sv
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:59:52 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 14:59:52 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# vsim clk_gene 
+# Start time: 14:59:58 on Nov 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+run -all
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:00:20 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:00:20 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:01:08 on Nov 26,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:01:08 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# Break key hit
+# Break in Module clk_gene at clk_gene.sv line 7
+
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:02:45 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# ** Error: (vlog-13069) clk_gene.sv(9): near "#": syntax error, unexpected '#'.
+# End time: 15:02:45 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:03:09 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:03:09 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:03:16 on Nov 26,2025, Elapsed time: 0:02:08
+# Errors: 2, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:03:16 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(9)
+#    Time: 20 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 9
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:05:35 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:05:35 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:05:39 on Nov 26,2025, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:05:39 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(16)
+#    Time: 40 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 16
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:06:33 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:06:33 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:06:37 on Nov 26,2025, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:06:37 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(16)
+#    Time: 40 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 16
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:11:22 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:11:23 on Nov 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:11:29 on Nov 26,2025, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:11:29 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(16)
+#    Time: 40 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 16
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:25:56 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:25:56 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:26:02 on Nov 26,2025, Elapsed time: 0:14:33
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:26:02 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(61)
+#    Time: 250 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 61
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:31:17 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:31:17 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:31:21 on Nov 26,2025, Elapsed time: 0:05:19
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:31:21 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(65)
+#    Time: 250 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 65
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:34:19 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:34:19 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+add wave *
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:34:26 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:34:26 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:34:39 on Nov 26,2025, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:34:39 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(65)
+#    Time: 250 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 65
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:35:42 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:35:42 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:35:51 on Nov 26,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:35:51 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(65)
+#    Time: 250 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 65
+vlog clk_gene.sv +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:39:09 on Nov 26,2025
+# vlog -reportprogress 300 clk_gene.sv "+acc" 
+# -- Compiling module clk_gene
+# 
+# Top level modules:
+# 	clk_gene
+# End time: 15:39:09 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim clk_gene
+# End time: 15:39:16 on Nov 26,2025, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 0
+# vsim clk_gene 
+# Start time: 15:39:16 on Nov 26,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.clk_gene(fast)
+add wave *
+run -all
+# ** Note: $stop    : clk_gene.sv(65)
+#    Time: 250 ns  Iteration: 0  Instance: /clk_gene
+# Break in Module clk_gene at clk_gene.sv line 65

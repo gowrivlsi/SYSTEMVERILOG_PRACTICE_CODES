@@ -1,0 +1,717 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:14:37 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Error: (vlog-13069) fun_cov2.sv(10): near "{": syntax error, unexpected '{', expecting '='.
+# ** Error: fun_cov2.sv(26): (vlog-2730) Undefined variable: 'p1'.
+# End time: 13:14:38 on Dec 31,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cov2.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:15:03 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Error: (vlog-13069) fun_cov2.sv(15): near "}": syntax error, unexpected '}'.
+# ** Error: fun_cov2.sv(26): (vlog-2730) Undefined variable: 'p1'.
+# End time: 13:15:03 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cov2.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:15:14 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(30): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:15:14 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim sram_packet 
+# Start time: 13:15:14 on Dec 31,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: fun_cov2.sv(30): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:16:03 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(30): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:16:03 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:16:05 on Dec 31,2025, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# vsim sram_packet 
+# Start time: 13:16:05 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(30): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:22:28 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(33): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:22:28 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:22:29 on Dec 31,2025, Elapsed time: 0:06:24
+# Errors: 0, Warnings: 2
+# vsim sram_packet 
+# Start time: 13:22:30 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(33): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:23:29 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(33): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:23:29 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:23:30 on Dec 31,2025, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 2
+# vsim sram_packet 
+# Start time: 13:23:30 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(33): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# ** Warning: (vsim-8474) A higher value '10' is found in bin 'b1' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 11
+# ** Warning: (vsim-8474) A higher value '20' is found in bin 'b1' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 11
+# ** Warning: (vsim-8474) A higher value '30' is found in bin 'b1' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 11
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'b1' in Coverpoint 'address' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(12): Sign-and-Width conversion applied in bin 'b2' for Coverpoint 'address'. Value '100' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(12): Sign-and-Width conversion applied in bin 'b2' for Coverpoint 'address'. Value '200' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [100 : 200] is found in bin 'b2' of Coverpoint 'address'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 12
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with array bin 'b2' in Coverpoint 'address' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8474) A higher value '50' is found in bin 'b3' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 13
+# ** Warning: (vsim-8474) A higher value '60' is found in bin 'b3' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 13
+# ** Warning: (vsim-3881) fun_cov2.sv(13): Sign-and-Width conversion applied in bin 'b3' for Coverpoint 'address'. Value '70' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(13): Sign-and-Width conversion applied in bin 'b3' for Coverpoint 'address'. Value '90' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [70 : 90] is found in bin 'b3' of Coverpoint 'address'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 13
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with array bin 'b3' in Coverpoint 'address' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8522) The number of coverpoint bins is zero for the coverpoint 'address' of covergroup instance '\/sram_packet/p1 '. All the user defined bins in the coverpoint are empty bins and hence it would not contribute towards the overall coverage result.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(15): Sign-and-Width conversion applied in bin 'x1' for Coverpoint 'data'. Value '50' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3882) fun_cov2.sv(15): Out of bounds value range in bin 'x1' for Coverpoint 'data' converted to nearest valid bounded range of [1:7].
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(16): Sign-and-Width conversion applied in bin 'x2' for Coverpoint 'data'. Value '200' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(16): Sign-and-Width conversion applied in bin 'x2' for Coverpoint 'data'. Value '255' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [200 : 255] is found in bin 'x2' of Coverpoint 'data'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 16
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with array bin 'x2' in Coverpoint 'data' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(17): Sign-and-Width conversion applied in bin 'x3' for Coverpoint 'data'. Value '100' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(17): Sign-and-Width conversion applied in bin 'x3' for Coverpoint 'data'. Value '199' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [100 : 199] is found in bin 'x3' of Coverpoint 'data'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 17
+# ** Warning: (vsim-3881) fun_cov2.sv(17): Sign-and-Width conversion applied in bin 'x3' for Coverpoint 'data'. Value '60' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(17): Sign-and-Width conversion applied in bin 'x3' for Coverpoint 'data'. Value '90' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [60 : 90] is found in bin 'x3' of Coverpoint 'data'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 17
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with array bin 'x3' in Coverpoint 'data' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8550) The number of coverable (sub)bins is zero for the Coverpoint 'address' specified in the list of Coverpoints of Cross 'cross2' of Covergroup instance '\/sram_packet/p1 '. The cross will never be covered.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# addr=0,data=6,wen=0,rden=0
+# addr=6,data=6,wen=0,rden=0
+# addr=7,data=2,wen=0,rden=0
+# addr=7,data=6,wen=1,rden=0
+# addr=6,data=5,wen=1,rden=1
+# addr=3,data=0,wen=1,rden=1
+# addr=5,data=1,wen=1,rden=0
+# addr=0,data=3,wen=0,rden=1
+# addr=1,data=0,wen=0,rden=0
+# addr=4,data=6,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:24:59 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(33): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:24:59 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:25:00 on Dec 31,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 31
+# vsim sram_packet 
+# Start time: 13:25:00 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(33): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# ** Warning: (vsim-8474) A higher value '10' is found in bin 'b1' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 11
+# ** Warning: (vsim-8474) A higher value '20' is found in bin 'b1' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 11
+# ** Warning: (vsim-8474) A higher value '30' is found in bin 'b1' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 11
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'b1' in Coverpoint 'address' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(12): Sign-and-Width conversion applied in bin 'b2' for Coverpoint 'address'. Value '100' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(12): Sign-and-Width conversion applied in bin 'b2' for Coverpoint 'address'. Value '200' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [100 : 200] is found in bin 'b2' of Coverpoint 'address'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 12
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with array bin 'b2' in Coverpoint 'address' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8474) A higher value '50' is found in bin 'b3' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 13
+# ** Warning: (vsim-8474) A higher value '60' is found in bin 'b3' of Coverpoint 'address'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 13
+# ** Warning: (vsim-3881) fun_cov2.sv(13): Sign-and-Width conversion applied in bin 'b3' for Coverpoint 'address'. Value '70' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(13): Sign-and-Width conversion applied in bin 'b3' for Coverpoint 'address'. Value '90' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [70 : 90] is found in bin 'b3' of Coverpoint 'address'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 13
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with array bin 'b3' in Coverpoint 'address' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8522) The number of coverpoint bins is zero for the coverpoint 'address' of covergroup instance '\/sram_packet/p1 '. All the user defined bins in the coverpoint are empty bins and hence it would not contribute towards the overall coverage result.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(15): Sign-and-Width conversion applied in bin 'x1' for Coverpoint 'data'. Value '50' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3882) fun_cov2.sv(15): Out of bounds value range in bin 'x1' for Coverpoint 'data' converted to nearest valid bounded range of [1:7].
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(16): Sign-and-Width conversion applied in bin 'x2' for Coverpoint 'data'. Value '200' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(16): Sign-and-Width conversion applied in bin 'x2' for Coverpoint 'data'. Value '255' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [200 : 255] is found in bin 'x2' of Coverpoint 'data'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 16
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with array bin 'x2' in Coverpoint 'data' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(17): Sign-and-Width conversion applied in bin 'x3' for Coverpoint 'data'. Value '100' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(17): Sign-and-Width conversion applied in bin 'x3' for Coverpoint 'data'. Value '199' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [100 : 199] is found in bin 'x3' of Coverpoint 'data'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 17
+# ** Warning: (vsim-3881) fun_cov2.sv(17): Sign-and-Width conversion applied in bin 'x3' for Coverpoint 'data'. Value '60' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-3881) fun_cov2.sv(17): Sign-and-Width conversion applied in bin 'x3' for Coverpoint 'data'. Value '90' changed to '7 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8475) The invalid value range [60 : 90] is found in bin 'x3' of Coverpoint 'data'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#28 File: fun_cov2.sv Line: 17
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with array bin 'x3' in Coverpoint 'data' of Covergroup instance '\/sram_packet/p1 ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# ** Warning: (vsim-8550) The number of coverable (sub)bins is zero for the Coverpoint 'address' specified in the list of Coverpoints of Cross 'cross2' of Covergroup instance '\/sram_packet/p1 '. The cross will never be covered.
+#    Time: 0 ns  Iteration: 0  Instance: /sram_packet
+# addr=0,data=6,wen=0,rden=0
+# addr=6,data=6,wen=0,rden=0
+# addr=7,data=2,wen=0,rden=0
+# addr=7,data=6,wen=1,rden=0
+# addr=6,data=5,wen=1,rden=1
+# addr=3,data=0,wen=1,rden=1
+# addr=5,data=1,wen=1,rden=0
+# addr=0,data=3,wen=0,rden=1
+# addr=1,data=0,wen=0,rden=0
+# addr=4,data=6,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:25:45 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(33): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:25:45 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:25:50 on Dec 31,2025, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 31
+# vsim sram_packet 
+# Start time: 13:25:50 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(33): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:30:40 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(33): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:30:40 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:30:42 on Dec 31,2025, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 2
+# vsim sram_packet 
+# Start time: 13:30:42 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(33): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:39:21 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Error: (vlog-13069) fun_cov2.sv(24): near "bins": syntax error, unexpected "SystemVerilog keyword 'bins'", expecting "SystemVerilog keyword 'coverpoint'".
+# ** Error: fun_cov2.sv(31): (vlog-2730) Undefined variable: 'p1'.
+# End time: 13:39:21 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cov2.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:39:53 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(36): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:39:53 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:39:57 on Dec 31,2025, Elapsed time: 0:09:15
+# Errors: 5, Warnings: 2
+# vsim sram_packet 
+# Start time: 13:39:57 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(36): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:53:51 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Error: fun_cov2.sv(25): (vlog-13097) Could not find coverpoint or cross 'data_in' in local scope. Please provide a valid Coverpoint variable.
+# ** Warning: fun_cov2.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# End time: 13:53:51 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cov2.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:54:10 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:54:10 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:54:11 on Dec 31,2025, Elapsed time: 0:14:14
+# Errors: 4, Warnings: 3
+# vsim sram_packet 
+# Start time: 13:54:11 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(37): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:55:19 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(37): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 13:55:19 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 13:55:20 on Dec 31,2025, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 2
+# vsim sram_packet 
+# Start time: 13:55:20 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(37): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:09:43 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(38): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(45): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 14:09:43 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 14:09:46 on Dec 31,2025, Elapsed time: 0:14:26
+# Errors: 0, Warnings: 3
+# vsim sram_packet 
+# Start time: 14:09:46 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(38): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(45): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+# addr2= 37,data2=199,wen2=0,rden2=1
+# addr2= 50,data2= 35,wen2=0,rden2=1
+# addr2= 90,data2=230,wen2=0,rden2=1
+# addr2=234,data2= 15,wen2=1,rden2=0
+# addr2=201,data2=203,wen2=1,rden2=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# coverage1=        43,coverage2=        42
+# ** Fatal: (vsim-8324) Parameter 2 is bad. This may involve a null ref handle.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /sram_packet/#INITIAL#32 File: fun_cov2.sv
+# Fatal error at fun_cov2.sv line 52
+# 
+# HDL call sequence:
+# Stopped at fun_cov2.sv 52  
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+# Fatal error reported during simulation. Cannot run 'fcover' command. Please look above output for the fatal error message(s).
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:10:36 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(38): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(45): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 14:10:36 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 14:10:37 on Dec 31,2025, Elapsed time: 0:00:51
+# Errors: 2, Warnings: 4
+# vsim sram_packet 
+# Start time: 14:10:37 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(38): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(45): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+# addr2= 37,data2=199,wen2=0,rden2=1
+# addr2= 50,data2= 35,wen2=0,rden2=1
+# addr2= 90,data2=230,wen2=0,rden2=1
+# addr2=234,data2= 15,wen2=1,rden2=0
+# addr2=201,data2=203,wen2=1,rden2=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# coverage1=        43,coverage2=        42
+# coverage withot static=        42
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:13:13 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Error: fun_cov2.sv(35): Function with return type of void cannot be used in/as an expression.
+# ** Error: fun_cov2.sv(35): Invalid number of actuals in call to set_inst_name.
+# fun_cov2.sv(57): Verilog Compiler exiting
+# End time: 14:13:13 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cov2.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:13:36 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(40): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(47): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 14:13:36 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 14:13:38 on Dec 31,2025, Elapsed time: 0:03:01
+# Errors: 5, Warnings: 4
+# vsim sram_packet 
+# Start time: 14:13:38 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(40): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(47): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+# addr2= 37,data2=199,wen2=0,rden2=1
+# addr2= 50,data2= 35,wen2=0,rden2=1
+# addr2= 90,data2=230,wen2=0,rden2=1
+# addr2=234,data2= 15,wen2=1,rden2=0
+# addr2=201,data2=203,wen2=1,rden2=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# coverage1=        43,coverage2=        42
+# coverage withot static=        42
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:16:22 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(41): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(48): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 14:16:22 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 14:16:23 on Dec 31,2025, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 4
+# vsim sram_packet 
+# Start time: 14:16:23 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(41): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(48): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+# addr2= 37,data2=199,wen2=0,rden2=1
+# addr2= 50,data2= 35,wen2=0,rden2=1
+# addr2= 90,data2=230,wen2=0,rden2=1
+# addr2=234,data2= 15,wen2=1,rden2=0
+# addr2=201,data2=203,wen2=1,rden2=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# coverage1=        43,covered1=         21,total1=        372,coverage2=        42,covered2=         13,total2=        372
+# coverage withot static=        42,covered=         34,total=        744
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:20:07 on Dec 31,2025
+# vlog -reportprogress 300 fun_cov2.sv 
+# -- Compiling module sram_packet
+# ** Warning: fun_cov2.sv(41): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(48): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	sram_packet
+# End time: 14:20:07 on Dec 31,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 14:20:09 on Dec 31,2025, Elapsed time: 0:03:46
+# Errors: 0, Warnings: 4
+# vsim sram_packet 
+# Start time: 14:20:09 on Dec 31,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fun_cov2.sv(41): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: fun_cov2.sv(48): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.sram_packet(fast)
+# addr=184,data= 38,wen=0,rden=0
+# addr=198,data= 70,wen=0,rden=0
+# addr=103,data= 58,wen=0,rden=0
+# addr=111,data= 86,wen=1,rden=0
+# addr=174,data=125,wen=1,rden=1
+# addr=227,data= 32,wen=1,rden=1
+# addr= 37,data=233,wen=1,rden=0
+# addr= 88,data=139,wen=0,rden=1
+# addr=185,data= 64,wen=0,rden=0
+# addr=212,data=142,wen=0,rden=1
+# addr2= 37,data2=199,wen2=0,rden2=1
+# addr2= 50,data2= 35,wen2=0,rden2=1
+# addr2= 90,data2=230,wen2=0,rden2=1
+# addr2=234,data2= 15,wen2=1,rden2=0
+# addr2=201,data2=203,wen2=1,rden2=1
+# addr2=242,data2=225,wen2=1,rden2=0
+# addr2=118,data2= 29,wen2=0,rden2=0
+# addr2=219,data2= 64,wen2=1,rden2=1
+# addr2=115,data2=160,wen2=1,rden2=1
+# addr2=212,data2=221,wen2=0,rden2=0
+# coverage1=        52,covered1=         18,total1=        316,coverage2=        51,covered2=         10,total2=        316
+# coverage withot static=        52,covered=         28,total=        632
+# End time: 14:28:55 on Dec 31,2025, Elapsed time: 0:08:46
+# Errors: 0, Warnings: 2

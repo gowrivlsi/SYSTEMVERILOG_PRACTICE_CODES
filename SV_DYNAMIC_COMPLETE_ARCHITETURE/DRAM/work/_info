@@ -1,0 +1,156 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/SV_DYNAMIC_COMPLETE_ARCHITETURE/DRAM
+T_opt
+!s110 1767634688
+VONnA9a6a]T[XWEne0@<^n2
+04 3 4 work top fast 0
+=1-9ac3c3f168e9-695bf700-98-343c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdram_dut
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1767634687
+!i10b 1
+!s100 cO@5z2OLAT94j9E^RiGcD0
+ICmb^=[EJQeREi]Z7@PHE>1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 dram_top_sv_unit
+S1
+R0
+w1767542714
+8dram_dut.sv
+Z6 Fdram_dut.sv
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1767634687.000000
+Z9 !s107 dram_cov.sv|dram_sb.sv|dram_moni.sv|dram_bfm.sv|dram_driv.sv|dram_gen.sv|dram_pkt.sv|dram_env.sv|dram_test_read.sv|dram_tb.sv|dram_intf.sv|dram_dut.sv|dram_top.sv|
+Z10 !s90 -reportprogress|300|+cover|dram_top.sv|+acc|
+!i113 0
+Z11 !s102 +cover
+Z12 o+cover +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Ydram_intf
+R2
+R3
+!i10b 1
+!s100 iYJUz:>?WgkW?ozXJIRVO2
+IlmP0U5HmNecBY<KNlXgE02
+R4
+R5
+S1
+R0
+w1767538323
+8dram_intf.sv
+Z13 Fdram_intf.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+4dram_tb
+R2
+Z14 DXx4 work 16 dram_top_sv_unit 0 22 N7GgN1_mX9USPMJn_OK2a1
+R4
+r1
+!s85 0
+!i10b 1
+!s100 hilZ[b7_nH:NA5>T6KeDF1
+IDN[6BXXnENkCSHaa]?Vbb3
+R5
+S1
+R0
+w1767634269
+8dram_tb.sv
+Z15 Fdram_tb.sv
+L0 5
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+Xdram_top_sv_unit
+!s115 dram_intf
+R2
+VN7GgN1_mX9USPMJn_OK2a1
+r1
+!s85 0
+!i10b 1
+!s100 ZcZ=95Vjf1YFO15[CkFO[2
+IN7GgN1_mX9USPMJn_OK2a1
+!i103 1
+S1
+R0
+w1767634632
+Z16 8dram_top.sv
+Z17 Fdram_top.sv
+R6
+R13
+R15
+Fdram_test_read.sv
+Fdram_env.sv
+Fdram_pkt.sv
+Fdram_gen.sv
+Fdram_driv.sv
+Fdram_bfm.sv
+Fdram_moni.sv
+Fdram_sb.sv
+Fdram_cov.sv
+L0 1
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vtop
+R2
+R14
+R4
+r1
+!s85 0
+!i10b 1
+!s100 z5<BE>g^Ja^MPC4Pfhzhe1
+I>A?:zCI^YCk>zPN3e1X6C2
+R5
+S1
+R0
+w1767545830
+R16
+R17
+L0 5
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1

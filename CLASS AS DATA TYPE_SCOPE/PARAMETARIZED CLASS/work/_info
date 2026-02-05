@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/CLASS AS DATA TYPE_SCOPE/PARAMETARIZED CLASS
+T_opt
+!s110 1765618510
+V225e?Hm`0K?AQmW>a08@l3
+04 18 4 work class_para_sv_unit fast 0
+04 3 4 work top fast 0
+=1-5e02cfdfbea1-693d334e-29a-51d0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xclass_para_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VHm`17]gBz;4hK3M5[^Q9b1
+r1
+!s85 0
+!i10b 1
+!s100 BEc^;N=30`gEGYQdDD5501
+IHm`17]gBz;4hK3M5[^Q9b1
+!i103 1
+S1
+R0
+Z3 w1765618507
+Z4 8class_para.sv
+Z5 Fclass_para.sv
+L0 6
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1765618509.000000
+Z8 !s107 class_para.sv|
+Z9 !s90 class_para.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 18 class_para_sv_unit 0 22 Hm`17]gBz;4hK3M5[^Q9b1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 i@VV7gjCVI9hc6Ee`H8e92
+I@RTl<_mK`fC2jj7@LRmLH1
+!s105 class_para_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 20
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

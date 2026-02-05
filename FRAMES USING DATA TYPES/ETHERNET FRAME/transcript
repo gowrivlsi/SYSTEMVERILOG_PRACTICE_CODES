@@ -1,0 +1,86 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:52:05 on Nov 13,2025
+# vlog -reportprogress 300 ethernet.sv "+acc" 
+# ** Error: (vlog-13069) ethernet.sv(1): near "/=": syntax error, unexpected /=, expecting class.
+# End time: 14:52:05 on Nov 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ethernet.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:52:52 on Nov 13,2025
+# vlog -reportprogress 300 ethernet.sv "+acc" 
+# ** Error: (vlog-13069) ethernet.sv(1): near "/=": syntax error, unexpected /=, expecting class.
+# End time: 14:52:52 on Nov 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ethernet.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:03:53 on Nov 13,2025
+# vlog -reportprogress 300 ethernet.sv "+acc" 
+# ** Error: (vlog-13069) ethernet.sv(1): near "/=": syntax error, unexpected /=, expecting class.
+# End time: 15:03:53 on Nov 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ethernet.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:04:07 on Nov 13,2025
+# vlog -reportprogress 300 ethernet.sv "+acc" 
+# ** Error: (vlog-13069) ethernet.sv(1): near "/=": syntax error, unexpected /=, expecting class.
+# End time: 15:04:07 on Nov 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ethernet.sv +acc"
+ls
+# ethernet.sv  run.do  transcript  work        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:05:28 on Nov 13,2025
+# vlog -reportprogress 300 ethernet.sv "+acc" 
+# -- Compiling module ethernet
+# 
+# Top level modules:
+# 	ethernet
+# End time: 15:05:28 on Nov 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ethernet 
+# Start time: 15:05:28 on Nov 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.ethernet(fast)
+# BIT       -> PREAMBLE VALUE=0 SIZE=56
+# BYTE      -> SFD      VALUE=0 SIZE=8
+# BIT       -> DA       VALUE=0 SIZE=48
+# BIT       -> SA       VALUE=0 SIZE=48
+# SHORTINT  -> LENGTH   VALUE=0 SIZE=16
+# BIT       -> PAYLOAD  VALUE=0 SIZE=368
+# INT       -> CRC      VALUE=0 SIZE=32

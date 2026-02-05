@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/PROCESS ASSIGNMENTS/PROCESS ASSKIGN2
+T_opt
+!s110 1764326685
+ViOQfSg<1A<3R`ZA<k[ZaD3
+04 10 4 work process_ex fast 0
+=1-5e02cfdfbea1-69297d1d-2d5-4db4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vprocess_ex
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764326684
+!i10b 1
+!s100 V6QMnbRD37Ta5@@nHinlJ3
+IRkUY3bC60gnf2jm>PibDd0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 process_ex_sv_unit
+S1
+R0
+w1764326677
+8process_ex.sv
+Fprocess_ex.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764326684.000000
+!s107 process_ex.sv|
+!s90 process_ex.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

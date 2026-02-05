@@ -1,0 +1,3104 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:33:28 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 10:33:29 on Jan 09,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 10:33:29 on Jan 09,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 112
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 112
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 109 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 112
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 109 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 119 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 120 Expr: $past(a,2)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 112
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 124 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 108 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 107 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 109 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 119 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 120 Expr: $past(a,2)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 112
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 108 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 107 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 122 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 109 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 119 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 118 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 120 Expr: $past(a,2)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 114 Expr: a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 124 Expr: $onehot(c)
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 123 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 109 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 119 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 118 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 120 Expr: $past(a,2)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 112
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 124 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 108 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 107 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 118 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 114 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 110 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 124 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 107 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 109 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 119 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 118 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 120 Expr: $past(a,2)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 114 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 124 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 108 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 107 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 116 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 109 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 119 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 118 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 117 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 114 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 110 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 124 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 107 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/SYSTEM VERILOG CODES/ASSERTIONS_IN_SV/Concurent_Assertions/wave.do}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VLSI/SYSTEM VERILOG CODES/ASSERTIONS_IN_SV/Concurent_Assertions/wave.do}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:08:06 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:08:06 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:08:07 on Jan 09,2026, Elapsed time: 0:34:38
+# Errors: 57, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:08:07 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 117
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 117
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 114 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 117
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 114 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 125 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 124 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 129 Expr: $onehot(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 117
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 130 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 113 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 112 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 114 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 125 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 124 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 117
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 113 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 112 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 127 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 114 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 125 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 124 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 123 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 129 Expr: $onehot(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 119 Expr: a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 130 Expr: $onehot0(c)
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 128 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 114 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 125 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 124 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 123 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 129 Expr: $onehot(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 117
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 130 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 113 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 112 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 123 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 129 Expr: $onehot(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 119 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 115 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 130 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 112 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 114 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 125 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 124 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 123 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 129 Expr: $onehot(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 119 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 130 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 113 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 112 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 121 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 114 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 124 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 123 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 122 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 129 Expr: $onehot(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 119 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 115 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 130 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 112 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:20:07 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:20:07 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:20:08 on Jan 09,2026, Elapsed time: 0:12:01
+# Errors: 63, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:20:08 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 132 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 124 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 70 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: ~b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 126 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:21:49 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:21:49 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:21:50 on Jan 09,2026, Elapsed time: 0:01:42
+# Errors: 68, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:21:50 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 132 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 124 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 126 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:23:08 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:23:08 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:23:09 on Jan 09,2026, Elapsed time: 0:01:19
+# Errors: 68, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:23:09 on Jan 09,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 132 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 124 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: a
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 126 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:23:57 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:23:57 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:23:58 on Jan 09,2026, Elapsed time: 0:00:49
+# Errors: 68, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:23:58 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 30 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: b
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 132 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: ~a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 40 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: ~a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 124 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 126 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.Q File: test.sv Line: 136 Expr: ~a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:25:31 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:25:31 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:25:32 on Jan 09,2026, Elapsed time: 0:01:34
+# Errors: 68, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:25:32 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 122
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 132 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 122
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 130 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 124 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 118 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 117 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 126 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 119 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 134 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 129 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 128 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 127 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 135 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 124 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 120 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 117 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:28:03 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:28:03 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:28:04 on Jan 09,2026, Elapsed time: 0:02:32
+# Errors: 63, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:28:04 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 123
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 123
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 120 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 123
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 120 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 135 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 131 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 130 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 136 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 123
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 119 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 118 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 120 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 131 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 130 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 123
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 119 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 118 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 120 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 135 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 131 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 130 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 129 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 136 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 125 Expr: a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.Q File: test.sv Line: 137 Expr: ~a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 134 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 120 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 135 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 131 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 130 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 129 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 136 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 123
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 119 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 118 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 135 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 129 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 136 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 125 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 121 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.Q File: test.sv Line: 137 Expr: ~a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 118 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 120 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 135 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 131 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 130 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 129 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 136 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 125 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 119 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 118 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 127 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 120 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 135 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 130 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 129 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 128 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 136 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 125 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 121 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.Q File: test.sv Line: 137 Expr: ~a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 118 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:30:39 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:30:39 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:30:41 on Jan 09,2026, Elapsed time: 0:02:37
+# Errors: 66, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:30:42 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 124
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 124
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 124
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 124
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.Q File: test.sv Line: 138 Expr: b
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 120 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 119 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 124
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.Q File: test.sv Line: 138 Expr: b
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 120 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 119 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 134 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 126 Expr: a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.Q File: test.sv Line: 138 Expr: b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 135 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 124
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.Q File: test.sv Line: 138 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 120 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 119 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 126 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 122 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 119 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 126 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 70 ns  Scope: top.T.Q File: test.sv Line: 138 Expr: a
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 120 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 119 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 128 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 126 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 122 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 119 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:31:29 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:31:29 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:31:31 on Jan 09,2026, Elapsed time: 0:00:49
+# Errors: 68, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:31:31 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 124
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 124
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 124
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 124
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 120 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 119 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 124
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 120 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 119 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 134 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 135 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 124
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 120 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 119 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 126 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 122 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 119 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 132 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 126 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 120 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 119 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 128 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 121 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 136 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 131 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 130 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 129 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 137 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 126 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 122 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 119 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:41:23 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at test.sv(121): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 11:41:23 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:42:26 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at test.sv(121): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 11:42:26 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:42:47 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at test.sv(121): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 11:42:47 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:43:11 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at test.sv(121): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 11:43:11 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:44:49 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at test.sv(121): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 11:44:49 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:47:30 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at test.sv(121): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 11:47:30 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:51:47 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(1)
+# ** at test.sv(121): near "[*": syntax error, unexpected [* .
+# -- Compiling module top
+# End time: 11:51:47 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:52:29 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:52:30 on Jan 09,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:52:32 on Jan 09,2026, Elapsed time: 0:21:01
+# Errors: 91, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:52:32 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 140 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 141 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 128 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 125 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 132 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.R File: test.sv Line: 145 Expr: 1
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 134 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 128 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 125 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:56:23 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:56:23 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:56:25 on Jan 09,2026, Elapsed time: 0:03:53
+# Errors: 64, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:56:25 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 140 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 30 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $rose(a)
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 141 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(b)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 40 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $fell(~a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 128 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 125 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(b)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 132 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 60 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $fell(~a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 134 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 128 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 125 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:57:18 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:57:18 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:57:20 on Jan 09,2026, Elapsed time: 0:00:55
+# Errors: 68, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:57:20 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 130
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 140 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 30 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $rose(a)
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 141 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(b)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 130
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 40 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $fell(~a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 128 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 125 Expr: ~b
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 138 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(b)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 132 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 60 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $fell(~a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 126 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 125 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 134 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 127 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 142 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 143 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 137 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 136 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 135 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 132 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 128 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.R File: test.sv Line: 145 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 125 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:58:12 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:58:12 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:58:14 on Jan 09,2026, Elapsed time: 0:00:54
+# Errors: 67, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 11:58:14 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 141 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 30 ns  Scope: top.T.R File: test.sv Line: 146 Expr: $rose(a)
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 142 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(b)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 40 ns  Scope: top.T.R File: test.sv Line: 146 Expr: $fell(~a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 129 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 126 Expr: ~b
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(b)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 60 ns  Scope: top.T.R File: test.sv Line: 146 Expr: $fell(~a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 135 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 129 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.R File: test.sv Line: 146 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 126 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:01:34 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:01:34 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:01:36 on Jan 09,2026, Elapsed time: 0:03:22
+# Errors: 67, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 12:01:36 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 141 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 142 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.R File: test.sv Line: 146 Expr: $fell(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 129 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 126 Expr: ~b
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.R File: test.sv Line: 146 Expr: $fell(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 135 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 129 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 126 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:02:03 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:02:03 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:02:05 on Jan 09,2026, Elapsed time: 0:00:29
+# Errors: 65, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 12:02:05 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 141 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 142 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.R File: test.sv Line: 146 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 129 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 126 Expr: ~b
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.R File: test.sv Line: 146 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 135 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 129 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 126 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:02:33 on Jan 09,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling module test
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:02:33 on Jan 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:02:35 on Jan 09,2026, Elapsed time: 0:00:30
+# Errors: 65, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 12:02:35 on Jan 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.top(fast)
+# Loading work.test(fast)
+# ** Error: Assertion error.
+#    Time: 0 ns Started: 0 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 0 ns Started: 0 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Info: ***************************PASS*******************
+#    Time: 10 ns Started: 10 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 20 ns Started: 20 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 20 ns Started: 20 ns  Scope: top.T.E File: test.sv Line: 131
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 30 ns Started: 30 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 30 ns Started: 30 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Info: ***************************PASS*******************
+#    Time: 40 ns Started: 40 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 40 ns Started: 40 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=0 
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.M File: test.sv Line: 141 Expr: b
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 50 ns Started: 50 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 50 ns Started: 50 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# a=0 | b=0 
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 50 ns  Scope: top.T.N File: test.sv Line: 142 Expr: b
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Info: ***************************PASS*******************
+#    Time: 60 ns Started: 60 ns  Scope: top.T.E File: test.sv Line: 131
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 60 ns Started: 60 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 70 ns Started: 70 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 70 ns  Scope: top.T.D File: test.sv Line: 129 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 70 ns Started: 50 ns  Scope: top.T.A File: test.sv Line: 126 Expr: ~b
+# a=0 | b=1 
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.K File: test.sv Line: 139 Expr: $past(a,2)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(b)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 80 ns Started: 80 ns  Scope: top.T.E File: test.sv Line: 133 Expr: b
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.B File: test.sv Line: 127 Expr: $rose(a)
+# ** Error: Assertion error.
+#    Time: 80 ns Started: 80 ns  Scope: top.T.A File: test.sv Line: 126 Expr: a
+# a=1 | b=1 
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.R File: test.sv Line: 146 Expr: 1
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.G File: test.sv Line: 135 Expr: $rose(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.C File: test.sv Line: 128 Expr: $fell(~b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.O File: test.sv Line: 143 Expr: $onehot(c)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.J File: test.sv Line: 138 Expr: $changed(b)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.I File: test.sv Line: 137 Expr: $stable(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.H File: test.sv Line: 136 Expr: $fell(a)
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.P File: test.sv Line: 144 Expr: $onehot0(c)
+# ** Error: **************************FAIL*******************
+#    Time: 90 ns Started: 90 ns  Scope: top.T.E File: test.sv Line: 133 Expr: a
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 90 ns  Scope: top.T.D File: test.sv Line: 129 Expr: a~&b
+# ** Error: Assertion error.
+#    Time: 90 ns Started: 70 ns  Scope: top.T.A File: test.sv Line: 126 Expr: ~b
+# ** Note: $finish    : top.sv(19)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 19

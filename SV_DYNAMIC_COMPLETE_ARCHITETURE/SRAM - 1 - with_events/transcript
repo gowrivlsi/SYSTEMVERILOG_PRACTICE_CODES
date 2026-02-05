@@ -1,0 +1,37 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:34:13 on Jan 06,2026
+# vlog -reportprogress 300 "+cover" sram_top.sv "+acc" 
+# -- Compiling module sram_dut
+# -- Compiling interface sram_intf
+# ** Error: ** while parsing file included at sram_top.sv(3)
+# ** while parsing file included at sram_tb.sv(2)
+# ** while parsing file included at sram_test_read.sv(1)
+# ** while parsing file included at sram_env.sv(2)
+# ** at sram_gen.sv(15): Invalid type 'sram_env'. Please check the type of the variable 'E'.
+# ** Error: ** while parsing file included at sram_top.sv(3)
+# ** while parsing file included at sram_tb.sv(2)
+# ** while parsing file included at sram_test_read.sv(1)
+# ** while parsing file included at sram_env.sv(7)
+# ** at sram_cov.sv(19): Invalid type 'sram_env'. Please check the type of the variable 'E'.
+# End time: 12:34:14 on Jan 06,2026, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog +cover sram_top.sv +acc"

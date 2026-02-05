@@ -1,0 +1,159 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/DYNAMIC SV ARCHITETURE/MUX 4_to_1
+T_opt
+!s110 1766749705
+VPz]2?hIC7Ej=5DN5^C7An1
+Z1 04 3 4 work top fast 0
+=1-368f65cea897-694e7609-328-3648
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1766945421
+V^Pz==zIBgVLR2z4Qn67Wl2
+R1
+=1-9ac3c3f168e9-6951728d-1cd-5228
+R2
+R3
+n@_opt1
+R4
+vmux_dut
+Z5 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z6 !s110 1766945420
+!i10b 1
+!s100 LEeV><H;WR5>=iMdlfUD33
+IW63SR8Sn4C3Uh;`15LhIQ2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 !s105 mux_top_sv_unit
+S1
+R0
+w1766749439
+8mux_dut.sv
+Z9 Fmux_dut.sv
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1766945420.000000
+Z12 !s107 mux_tb.sv|mux_env.sv|mux_sb.sv|mux_oumoni.sv|mux_inmoni.sv|mux_driv.sv|mux_gen.sv|mux_packet.sv|mux_intf.sv|mux_dut.sv|mux_top.sv|
+Z13 !s90 -reportprogress|300|mux_top.sv|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Ymux_intf
+R5
+R6
+!i10b 1
+!s100 QN[:gQz;7[k91<U=G6ml80
+I6L_LTajdUP:97kPB`G7TO2
+R7
+R8
+S1
+R0
+w1766741476
+8mux_intf.sv
+Z15 Fmux_intf.sv
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+4mux_tb
+R5
+Z16 DXx4 work 15 mux_top_sv_unit 0 22 I[>O6f>aY20YJCm0I^]Wd3
+R7
+r1
+!s85 0
+!i10b 1
+!s100 Xli80FOdA`NELXB32jB[n0
+IoPFjb<PjRXeM]V>MgK9m[0
+R8
+S1
+R0
+Z17 w1766748994
+8mux_tb.sv
+Z18 Fmux_tb.sv
+L0 1
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+Xmux_top_sv_unit
+!s115 mux_intf
+R5
+VI[>O6f>aY20YJCm0I^]Wd3
+r1
+!s85 0
+!i10b 1
+!s100 0PP]U<eDa;4md@@mAl?K81
+II[>O6f>aY20YJCm0I^]Wd3
+!i103 1
+S1
+R0
+w1766749702
+Z19 8mux_top.sv
+Z20 Fmux_top.sv
+R9
+R15
+Fmux_packet.sv
+Fmux_gen.sv
+Fmux_driv.sv
+Fmux_inmoni.sv
+Fmux_oumoni.sv
+Fmux_sb.sv
+Fmux_env.sv
+R18
+L0 1
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3
+vtop
+R5
+R16
+R7
+r1
+!s85 0
+!i10b 1
+!s100 S2e1c@WfjzdS7cGZDjaZ=0
+I9[VDihI5R3KiFg4iPMVPX2
+R8
+S1
+R0
+R17
+R19
+R20
+L0 12
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

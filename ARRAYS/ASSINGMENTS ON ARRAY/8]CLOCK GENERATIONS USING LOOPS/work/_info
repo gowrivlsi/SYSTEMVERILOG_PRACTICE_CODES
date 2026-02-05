@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/ARRAYS/ASSINGMENTS ON ARRAY/8]CLOCK GENERATIONS USING LOOPS
+T_opt
+!s110 1764151757
+VelF^:A>iUEz3IdzbEY`MV0
+04 8 4 work clk_gene fast 0
+=1-5e02cfdfbea1-6926d1cd-2f-1960
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vclk_gene
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764151749
+!i10b 1
+!s100 LW[CDkdOVNoJHU:Fn[b7g3
+Ib?01VHJ0:a[Lm]mQoaLfa3
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 clk_gene_sv_unit
+S1
+R0
+w1764151715
+8clk_gene.sv
+Fclk_gene.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764151749.000000
+!s107 clk_gene.sv|
+!s90 -reportprogress|300|clk_gene.sv|+acc|
+!i113 0
+o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

@@ -1,0 +1,152 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:11:31 on Dec 30,2025
+# vlog -reportprogress 300 fun_cove.sv 
+# ** Error: (vlog-13069) fun_cove.sv(26): near "=": syntax error, unexpected '='.
+# ** Error: fun_cove.sv(26): (vlog-13205) Syntax error found in the scope following 's1'. Is there a missing '::'?
+# End time: 17:11:31 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cove.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:12:23 on Dec 30,2025
+# vlog -reportprogress 300 fun_cove.sv 
+# ** Error: (vlog-13069) fun_cove.sv(26): near "=": syntax error, unexpected '='.
+# ** Error: fun_cove.sv(26): (vlog-13205) Syntax error found in the scope following 's1'. Is there a missing '::'?
+# End time: 17:12:23 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cove.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:12:49 on Dec 30,2025
+# vlog -reportprogress 300 fun_cove.sv 
+# ** Error: (vlog-13069) fun_cove.sv(26): near "=": syntax error, unexpected '='.
+# ** Error: fun_cove.sv(26): (vlog-13205) Syntax error found in the scope following 's1'. Is there a missing '::'?
+# End time: 17:12:49 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cove.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:13:10 on Dec 30,2025
+# vlog -reportprogress 300 fun_cove.sv 
+# ** Error: (vlog-13069) fun_cove.sv(36): near "endmodule": syntax error, unexpected endmodule.
+# End time: 17:13:10 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fun_cove.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:13:30 on Dec 30,2025
+# vlog -reportprogress 300 fun_cove.sv 
+# -- Compiling package fun_cove_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:13:30 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:13:31 on Dec 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.fun_cove_sv_unit(fast)
+# Loading work.top(fast)
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+# addr= 0 | D_in =0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:15:20 on Dec 30,2025
+# vlog -reportprogress 300 fun_cove.sv 
+# -- Compiling package fun_cove_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:15:20 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:15:23 on Dec 30,2025, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:15:23 on Dec 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.fun_cove_sv_unit(fast)
+# Loading work.top(fast)
+# addr= 20 | D_in =236
+# addr= 7 | D_in =100
+# addr= 31 | D_in =49
+# addr= 3 | D_in =26
+# addr= 6 | D_in =10
+# addr= 8 | D_in =115
+# addr= 12 | D_in =54
+# addr= 27 | D_in =241
+# addr= 12 | D_in =86
+# addr= 24 | D_in =199
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:18:04 on Dec 30,2025
+# vlog -reportprogress 300 fun_cove.sv 
+# -- Compiling package fun_cove_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:18:04 on Dec 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:18:06 on Dec 30,2025, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 17:18:06 on Dec 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.fun_cove_sv_unit(fast)
+# Loading work.top(fast)
+# addr= 20 | D_in =236
+# addr= 7 | D_in =100
+# addr= 31 | D_in =49
+# addr= 3 | D_in =26
+# addr= 6 | D_in =10
+# addr= 8 | D_in =115
+# addr= 12 | D_in =54
+# addr= 27 | D_in =241
+# addr= 12 | D_in =86
+# addr= 24 | D_in =199
+# End time: 17:23:12 on Dec 30,2025, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 0

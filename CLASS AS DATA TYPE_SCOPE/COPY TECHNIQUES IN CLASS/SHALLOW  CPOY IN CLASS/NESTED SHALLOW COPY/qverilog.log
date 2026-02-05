@@ -1,0 +1,70 @@
+Start time: 15:30:32 on Dec 09,2025
+qverilog class_test.sv 
+-- Compiling package class_test_sv_unit
+-- Compiling module top
+
+Top level modules:
+	top
+# vsim -lib work work.class_test_sv_unit work.top -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.class_test_sv_unit(fast)
+# Loading work.top(fast)
+# run -all
+# name=Before giving values=>b1
+# a=0
+# b=0
+# c=0
+# d=0
+# name=Before giving values=>b2
+# a=0
+# b=0
+# c=0
+# d=0
+# name=After giving values
+# a=10
+# b=20
+# c=30
+# d=40
+# name=Before Copying values
+# a=0
+# b=0
+# c=0
+# d=0
+# name=After Cpying values b1 to b2=>b1
+# a=10
+# b=20
+# c=30
+# d=40
+# name=After Copying values b1 to b2=>b2
+# a=10
+# b=20
+# c=30
+# d=40
+# name=After Cpying values b1 to b2=>b1
+# a=25
+# b=35
+# c=45
+# d=55
+# name=After Copying values b1 to b2=>b2
+# a=10
+# b=20
+# c=30
+# d=40
+#  quit -f
+# End time: 15:30:35 on Dec 09,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

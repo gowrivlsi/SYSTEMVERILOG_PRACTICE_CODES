@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/CLASS AS DATA TYPE_SCOPE/NESTED_CLASS WITH CLASS_ASSIG(ROCKET)
+T_opt
+!s110 1765032562
+Vd;^k=[9KR>DY<l[bg9Kb?3
+04 18 4 work class_test_sv_unit fast 0
+04 4 4 work test fast 0
+=1-e02e0b99037c-69344272-1aa-4c08
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xclass_test_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VdZQRQWYYZk5jheMBX[XjY1
+r1
+!s85 0
+!i10b 1
+!s100 ;VCaaH[69NUKj28FKh=zD0
+IdZQRQWYYZk5jheMBX[XjY1
+!i103 1
+S1
+R0
+Z3 w1765032559
+Z4 8class_test.sv
+Z5 Fclass_test.sv
+L0 3
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1765032561.000000
+Z8 !s107 class_test.sv|
+Z9 !s90 class_test.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtest
+R2
+DXx4 work 18 class_test_sv_unit 0 22 dZQRQWYYZk5jheMBX[XjY1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 ^lQThf_UiP:b1iTB8DkWK3
+IOJBe_dS4fG[hOIjl5WAi=1
+!s105 class_test_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 54
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

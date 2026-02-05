@@ -1,0 +1,122 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:12:04 on Jan 23,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# ** Error: ** while parsing file included at top.sv(3)
+# ** while parsing file included at tb.sv(1)
+# ** while parsing file included at test.sv(1)
+# ** at env.sv(16): Invalid type 'coverage'. Please check the type of the variable 'c'.
+# ** Error: ** while parsing file included at top.sv(3)
+# ** while parsing file included at tb.sv(1)
+# ** while parsing file included at test.sv(1)
+# ** at env.sv(49): (vlog-2730) Undefined variable: 'c'.
+# End time: 15:12:04 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:12:43 on Jan 23,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling package top_sv_unit
+# -- Compiling program tb
+# ** Error (suppressible): (vlog-13276) tb.sv(16): Could not find field/method name (c) in 'e' of 't.e.c.cov.get_coverage'.
+# ** Error (suppressible): (vlog-13276) tb.sv(16): Could not find field/method name (c) in 'e' of 't.e.c.cov.get_coverage.$0'.
+# ** Error (suppressible): (vlog-13276) tb.sv(16): Could not find field/method name (c) in 'e' of 't.e.c.cov.get_coverage.$1'.
+# ** Error (suppressible): (vlog-13276) tb.sv(16): Could not find field/method name (c) in 'e' of 't.e.c.cov.get_coverage.$$'.
+# -- Compiling module top
+# End time: 15:12:43 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:13:08 on Jan 23,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling package top_sv_unit
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:13:08 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -assertdebug top 
+# Start time: 15:13:08 on Jan 23,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# ** Error: (vish-4014) No objects found matching '/top/DUT/a/a1'.
+# (vish-4014) No objects found matching '/top/DUT/a/a2'.
+# Error in macro ./run.do line 4
+# (vish-4014) No objects found matching '/top/DUT/a/a1'.
+# (vish-4014) No objects found matching '/top/DUT/a/a2'.
+#     while executing
+# "add wave -r *"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:13:44 on Jan 23,2026
+# vlog -reportprogress 300 top.sv "+acc" 
+# -- Compiling interface inter
+# -- Compiling module dut
+# -- Compiling package top_sv_unit
+# -- Compiling program tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:13:44 on Jan 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:13:45 on Jan 23,2026, Elapsed time: 0:00:37
+# Errors: 3, Warnings: 0
+# vsim top 
+# Start time: 15:13:46 on Jan 23,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.inter(fast)
+# Loading work.dut(fast)
+# Loading work.tb(fast)
+# Loading work.inter(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 30 ns  Iteration: 1  Process: /top_sv_unit::env::env/#FORK#52_4f5f378e File: C:/questasim64_10.7c/win64/../verilog_src/std/std.sv
+# Fatal error in Task std/mailbox::put at C:/questasim64_10.7c/win64/../verilog_src/std/std.sv line 39
+# 
+# HDL call sequence:
+# Stopped at C:/questasim64_10.7c/win64/../verilog_src/std/std.sv 39 Task std/mailbox::put
+# called from  generator.sv 64 Task top_sv_unit/gen::write
+# called from  generator.sv 37 Task top_sv_unit/gen::gen
+# called from  env.sv 52 Task top_sv_unit/env::env
+# 

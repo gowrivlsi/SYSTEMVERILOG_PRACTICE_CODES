@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/CLASS AS DATA TYPE_SCOPE/CONSTRAINTS/CONSTRAINTS ASSIGNMENTS/12] always be odd
+T_opt
+!s110 1765801904
+VV?PkFA23QDT4i58CJa?L02
+04 18 4 work class_test_sv_unit fast 0
+04 3 4 work top fast 0
+=1-5e02cfdfbea1-693fffb0-1da-1410
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xclass_test_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VfT3ToNc>]PY0C5GacKbgP1
+r1
+!s85 0
+!i10b 1
+!s100 a9OlE63dGSc_?7Vg@d[dW2
+IfT3ToNc>]PY0C5GacKbgP1
+!i103 1
+S1
+R0
+Z3 w1765801889
+Z4 8class_test.sv
+Z5 Fclass_test.sv
+L0 1
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1765801903.000000
+Z8 !s107 class_test.sv|
+Z9 !s90 class_test.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 18 class_test_sv_unit 0 22 fT3ToNc>]PY0C5GacKbgP1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 27ond]]<a66J2`bdC@@F>2
+I:n;aOki@?_<:3c30I>o7k3
+!s105 class_test_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 12
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

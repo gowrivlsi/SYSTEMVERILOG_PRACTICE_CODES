@@ -1,0 +1,50 @@
+Start time: 16:54:35 on Dec 12,2025
+qverilog class_test.sv 
+-- Compiling package class_test_sv_unit
+-- Compiling module top
+
+Top level modules:
+	top
+# vsim -lib work work.class_test_sv_unit work.top -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.class_test_sv_unit(fast)
+# Loading work.top(fast)
+# run -all
+# data_in=85 ADDR=86 w_en=0 rd_en=0
+# data_in=59 ADDR=60 w_en=0 rd_en=0
+# data_in=30 ADDR=29 w_en=1 rd_en=0
+# data_in=12 ADDR=11 w_en=0 rd_en=0
+# data_in=38 ADDR=37 w_en=0 rd_en=0
+# data_in=66 ADDR=65 w_en=0 rd_en=0
+# data_in=21 ADDR=22 w_en=0 rd_en=0
+# data_in=63 ADDR=64 w_en=0 rd_en=0
+# data_in=12 ADDR=11 w_en=0 rd_en=0
+# data_in=88 ADDR=87 w_en=0 rd_en=0
+# data_in=58 ADDR=57 w_en=0 rd_en=0
+# data_in=15 ADDR=16 w_en=0 rd_en=0
+# data_in=46 ADDR=45 w_en=1 rd_en=2
+# data_in=67 ADDR=68 w_en=0 rd_en=0
+# data_in=90 ADDR=89 w_en=0 rd_en=0
+# data_in=63 ADDR=64 w_en=1 rd_en=1
+# data_in=90 ADDR=89 w_en=0 rd_en=0
+# data_in=62 ADDR=61 w_en=1 rd_en=0
+# data_in=68 ADDR=67 w_en=0 rd_en=0
+# data_in=48 ADDR=47 w_en=0 rd_en=0
+#  quit -f
+# End time: 16:54:38 on Dec 12,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

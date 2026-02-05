@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI FIRST/System Verilog/VT59/Constraints
+T_opt
+!s110 1765439630
+V[3Oa9D8h[SREjPH6=Dj@G0
+04 22 4 work constraints_ex_sv_unit fast 0
+04 3 4 work top fast 0
+=1-1068383122f6-693a788e-1be-53bc
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xconstraints_ex_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+VWzAdIdc9F0N_?3I?M;agb1
+r1
+!s85 0
+!i10b 1
+!s100 HzHGbK5d`aZ?F3N[69nG_3
+IWzAdIdc9F0N_?3I?M;agb1
+!i103 1
+S1
+R0
+Z3 w1765439625
+Z4 8constraints_ex.sv
+Z5 Fconstraints_ex.sv
+L0 1
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1765439628.000000
+Z8 !s107 constraints_ex.sv|
+Z9 !s90 constraints_ex.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 22 constraints_ex_sv_unit 0 22 WzAdIdc9F0N_?3I?M;agb1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 7]QQI`6[L<XShhP<zJFa>2
+I[Z41GIB>RhX;1K?H>lLX03
+!s105 constraints_ex_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 83
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

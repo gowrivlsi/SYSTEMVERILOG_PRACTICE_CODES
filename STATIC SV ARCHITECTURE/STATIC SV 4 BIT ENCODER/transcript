@@ -1,0 +1,452 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:44:46 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(3)
+# ** at enco4b_intf.sv(4): near "logic": syntax error, unexpected "SystemVerilog keyword 'logic'", expecting ';' or ','.
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(7): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(26): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(31): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(39): near "end": syntax error, unexpected end.
+# ** Error: enco4b_top.sv(12): Checker 'enco4b_intf' not found.  Instantiation 'I' must be of a visible checker.
+# ** Error: (vlog-13069) enco4b_top.sv(15): near "(": syntax error, unexpected '('.
+# ** Error: (vlog-13069) enco4b_top.sv(18): near "(": syntax error, unexpected '('.
+# End time: 16:44:46 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enco4b_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:45:20 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(7): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(26): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(31): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(39): near "end": syntax error, unexpected end.
+# ** Error: enco4b_top.sv(12): Checker 'enco4b_intf' not found.  Instantiation 'I' must be of a visible checker.
+# ** Error: (vlog-13069) enco4b_top.sv(15): near "(": syntax error, unexpected '('.
+# ** Error: (vlog-13069) enco4b_top.sv(18): near "(": syntax error, unexpected '('.
+# End time: 16:45:20 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enco4b_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:46:17 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# ** Error: (vlog-13069) enco4b_top.sv(15): near "(": syntax error, unexpected '('.
+# ** Error: (vlog-13069) enco4b_top.sv(18): near "(": syntax error, unexpected '('.
+# End time: 16:46:17 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enco4b_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:47:10 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 16:47:10 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 16:47:10 on Nov 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit top.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:47:48 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 16:47:48 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 16:47:10 on Nov 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): enco4b.v(5): (vopt-7063) Failed to find 'e' in hierarchical name 'E.e.i'.
+#         Region: enco4b_top.E1
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:48:19 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 16:48:19 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 16:47:10 on Nov 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 5 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 100 ENCODER_OUTPUT=1 BFM_Y=1
+# ** Note: implicit $finish from program    : enco4b_tb.sv(25)
+#    Time: 5 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:49:12 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(36): near "begin": syntax error, unexpected begin, expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(41): near "end": syntax error, unexpected end, expecting "SystemVerilog keyword 'assert' " or "SystemVerilog keyword 'assume' " or restrict .
+# End time: 16:49:12 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enco4b_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:49:38 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 16:49:38 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:49:40 on Nov 14,2025, Elapsed time: 0:02:30
+# Errors: 7, Warnings: 0
+# vsim enco4b_top 
+# Start time: 16:49:41 on Nov 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 5 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 100 ENCODER_OUTPUT=1 BFM_Y=1
+# ** Info: =========================TEST PASED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1 ENCODER_OUTPUT=0 BFM_Y=0
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1001 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 11 ENCODER_OUTPUT=11 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1101 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Info: =========================TEST PASED=========================
+#    Time: 30 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1101 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 35 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 101 ENCODER_OUTPUT=11 BFM_Y=1
+# ** Info: =========================TEST PASED=========================
+#    Time: 40 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 10 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 45 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1 ENCODER_OUTPUT=0 BFM_Y=0
+# ** Info: =========================TEST PASED=========================
+#    Time: 50 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1101 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(25)
+#    Time: 50 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:12:03 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 17:12:04 on Nov 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:12:06 on Nov 14,2025, Elapsed time: 0:22:25
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 17:12:06 on Nov 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 45 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 27
+# ENCODER_INPUTS = 1 ENCODER_OUTPUT=0 BFM_Y=0
+# ** Note: implicit $finish from program    : enco4b_tb.sv(28)
+#    Time: 45 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:13:07 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 17:13:07 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:13:09 on Nov 14,2025, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 17:13:09 on Nov 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 45 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 27
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(28)
+#    Time: 45 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:18:37 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 17:18:37 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:18:39 on Nov 14,2025, Elapsed time: 0:05:30
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 17:18:39 on Nov 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 45 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 27
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(28)
+#    Time: 45 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:19:17 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 17:19:17 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:19:18 on Nov 14,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 17:19:18 on Nov 14,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 45 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 27
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(28)
+#    Time: 45 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:24:52 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# ** Error: (vlog-13069) ** while parsing file included at enco4b_top.sv(5)
+# ** at enco4b_tb.sv(45): near "endprogram": syntax error, unexpected "SystemVerilog keyword 'endprogram'".
+# ** Error: enco4b_top.sv(12): Checker 'enco4b_intf' not found.  Instantiation 'I' must be of a visible checker.
+# ** Error: enco4b_top.sv(15): (vlog-2730) Undefined variable: 'I'.
+# ** Error: enco4b_top.sv(15): Checker 'enco4b' not found.  Instantiation 'E1' must be of a visible checker.
+# ** Error: enco4b_top.sv(18): Checker 'enco4b_tb' not found.  Instantiation 'E2' must be of a visible checker.
+# ** Error: (vlog-13069) enco4b_top.sv(19): near "endmodule": syntax error, unexpected endmodule.
+# End time: 17:24:52 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enco4b_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:26:13 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 17:26:13 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:26:15 on Nov 14,2025, Elapsed time: 0:06:57
+# Errors: 9, Warnings: 0
+# vsim enco4b_top 
+# Start time: 17:26:15 on Nov 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=00 BFM_Y=00
+# ** Info: =========================TEST PASED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=01
+# ** Info: =========================TEST PASED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Note: implicit $finish from program    : enco4b_tb.sv(25)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:30:02 on Nov 14,2025
+# vlog -reportprogress 300 enco4b_top.sv "+acc" 
+# -- Compiling interface enco4b_intf
+# -- Compiling module enco4b
+# -- Compiling program enco4b_tb
+# -- Compiling module enco4b_top
+# 
+# Top level modules:
+# 	enco4b_top
+# End time: 17:30:02 on Nov 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:30:04 on Nov 14,2025, Elapsed time: 0:03:49
+# Errors: 0, Warnings: 0
+# vsim enco4b_top 
+# Start time: 17:30:04 on Nov 14,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enco4b_top(fast)
+# Loading work.enco4b_intf(fast)
+# Loading work.enco4b(fast)
+# Loading work.enco4b_tb(fast)
+# ** Info: =========================TEST PASED=========================
+#    Time: 10 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 0001 ENCODER_OUTPUT=11 BFM_Y=11
+# ** Info: =========================TEST FALIED=========================
+#    Time: 15 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0010 ENCODER_OUTPUT=10 BFM_Y=01
+# ** Info: =========================TEST FALIED=========================
+#    Time: 20 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 28
+# ENCODER_INPUTS = 0100 ENCODER_OUTPUT=01 BFM_Y=10
+# ** Info: =========================TEST PASED=========================
+#    Time: 25 ns  Scope: enco4b_top.E2.sc File: enco4b_tb.sv Line: 24
+# ENCODER_INPUTS = 1000 ENCODER_OUTPUT=00 BFM_Y=00
+# ** Note: implicit $finish from program    : enco4b_tb.sv(25)
+#    Time: 25 ns  Iteration: 0  Instance: /enco4b_top/E2
+# 1
+# Simulation stop requested.

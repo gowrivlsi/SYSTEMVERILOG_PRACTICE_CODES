@@ -1,0 +1,54 @@
+Start time: 16:36:08 on Dec 15,2025
+qverilog class_test.sv 
+-- Compiling package class_test_sv_unit
+-- Compiling module top
+
+Top level modules:
+	top
+# vsim -lib work work.class_test_sv_unit work.top -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.class_test_sv_unit(fast)
+# Loading work.top(fast)
+# run -all
+# Name=Generating 5 to 15
+# a=5
+# c=9 d=24
+# Name=Generating 5 to 15
+# a=13
+# c=25 d=40
+# Name=Generating 5 to 15
+# a=10
+# c=4 d=6
+# Name=Generating 5 to 15
+# a=6
+# c=16 d=36
+# Name=Generating 5 to 15
+# a=11
+# c=20 d=40
+# Name=Generating 5 to 15
+# a=14
+# c=3 d=22
+# Name=Generating 5 to 15
+# a=7
+# c=6 d=40
+# Name=Generating 5 to 15
+# a=15
+# c=16 d=34
+#  quit -f
+# End time: 16:36:12 on Dec 15,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0

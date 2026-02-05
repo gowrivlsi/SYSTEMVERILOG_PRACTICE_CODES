@@ -1,0 +1,22 @@
+var g_data = {
+c75:[{dummy:0}
+,{anchor:'cvg78',cr:'m',items:[{s:'3',x:'FC',z:'(this.mo_p.q == this.bfm_p.q)',c:'R',p:'0.00',d:'0',m:'0',F:'1'}
+,{}
+,{z:'(this.mo_p.q == this.bfm_p.q)',c:'r',r:'\'_0\' not hit',i:'Hit \'_0\''}
+,{}
+,{n:'1',z:'(this.mo_p.q == this.bfm_p.q)_0',h1:'0',t:'c',c1:'-'}
+,{n:'2',z:'(this.mo_p.q == this.bfm_p.q)_1',h1:'1',t:'c',c1:'-'}
+]}
+],
+c104:[{dummy:0}
+,{anchor:'cvg107',cr:'m',items:[{s:'3',x:'FC',z:'(this.mo_p.q == this.bfm_p.q)',c:'R',p:'0.00',d:'0',m:'0',F:'1'}
+,{}
+,{z:'(this.mo_p.q == this.bfm_p.q)',c:'r',r:'\'_0\' not hit',i:'Hit \'_0\''}
+,{}
+,{n:'1',z:'(this.mo_p.q == this.bfm_p.q)_0',h1:'0',t:'c',c1:'-'}
+,{n:'2',z:'(this.mo_p.q == this.bfm_p.q)_1',h1:'1',t:'c',c1:'-'}
+]}
+],
+dummyEnd:0
+};
+processCondExprData(g_data);

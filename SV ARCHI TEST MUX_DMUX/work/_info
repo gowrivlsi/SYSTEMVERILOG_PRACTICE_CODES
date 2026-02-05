@@ -1,0 +1,175 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/SV ARCHI TEST MUX_DMUX
+T_opt
+!s110 1766823029
+VZG=K?AcacckNZdnMiXGF51
+04 3 4 work top fast 0
+=1-368f65cea897-694f9475-9b-43d4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdmux_dut
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1766823035
+!i10b 1
+!s100 971zj:5Z9>6T7diTiI84h1
+Ii8N@<5[loXmg8=UcUh=oZ0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 mux_top_sv_unit
+S1
+R0
+w1766820921
+8dmux_dut.sv
+Z6 Fdmux_dut.sv
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1766823035.000000
+!s107 mux_tb.sv|mux_env.sv|mux_sb.sv|mux_omoni.sv|mux_imoni.sv|mux_driv.sv|mux_gen.sv|mux_packet.sv|mux_intf.sv|dmux_dut.sv|mux_dut.sv|mux_top.sv|
+Z9 !s90 -reportprogress|300|mux_top.sv|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmux_dut
+R2
+R3
+!i10b 1
+!s100 ISNleP:@dY`3<a1UdkM>01
+I^lb9?j4^=b:USbDJ@fKE21
+R4
+R5
+S1
+R0
+w1766814435
+8mux_dut.sv
+Z11 Fmux_dut.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 mux_tb.sv|mux_env.sv|mux_sb.sv|mux_omoni.sv|mux_imoni.sv|mux_driv.sv|mux_gen.sv|mux_packet.sv|mux_intf.sv|dmux_dut.sv|mux_dut.sv|mux_top.sv|
+R9
+!i113 0
+R10
+R1
+Ymux_intf
+R2
+R3
+!i10b 1
+!s100 nn3mVE5S4@fL:F^32PPE00
+IgBG8j7I@L2Bj8oM?GmY4n2
+R4
+R5
+S1
+R0
+w1766821279
+8mux_intf.sv
+Z13 Fmux_intf.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+4mux_tb
+R2
+Z14 DXx4 work 15 mux_top_sv_unit 0 22 >jb3L8?CoUDKE[]4_8F7K1
+R4
+r1
+!s85 0
+!i10b 1
+!s100 <EM[D38`_@W6dK85fd2kZ3
+I`>cE5:[<MnU6iZHFh?Fen3
+R5
+S1
+R0
+w1766817955
+8mux_tb.sv
+Z15 Fmux_tb.sv
+L0 1
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+Xmux_top_sv_unit
+!s115 mux_intf
+R2
+V>jb3L8?CoUDKE[]4_8F7K1
+r1
+!s85 0
+!i10b 1
+!s100 ;f>b`h8BFP0C]MmRgZTz[2
+I>jb3L8?CoUDKE[]4_8F7K1
+!i103 1
+S1
+R0
+w1766823024
+Z16 8mux_top.sv
+Z17 Fmux_top.sv
+R11
+R6
+R13
+Fmux_packet.sv
+Fmux_gen.sv
+Fmux_driv.sv
+Fmux_imoni.sv
+Fmux_omoni.sv
+Fmux_sb.sv
+Fmux_env.sv
+R15
+L0 1
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+vtop
+R2
+R14
+R4
+r1
+!s85 0
+!i10b 1
+!s100 Ge<>ShS5K[JmejadI^Cm10
+IHb@@=jZFXWKaXg:@1=KzG1
+R5
+S1
+R0
+w1766822045
+R16
+R17
+L0 13
+R7
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1

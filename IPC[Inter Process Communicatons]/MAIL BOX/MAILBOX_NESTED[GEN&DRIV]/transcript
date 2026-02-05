@@ -1,0 +1,541 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:12:07 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# ** Error: ** while parsing file included at mailbox_top.sv(1)
+# ** at class_mailbox_pack.sv(24): (vlog-2730) Undefined variable: 'num1'.
+# ** Error: ** while parsing file included at mailbox_top.sv(2)
+# ** at class_mailbox_driver.sv(21): (vlog-2730) Undefined variable: 'num2'.
+# End time: 12:12:08 on Dec 18,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mailbox_top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:13:33 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:13:33 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:13:33 on Dec 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Error: (vsim-7065) Illegal assignment to class work.mailbox_top_sv_unit::driver from class work.mailbox_top_sv_unit::back
+#    Time: 0 ns  Iteration: 0  Region: /mailbox_top_sv_unit File: class_mailbox_driver.sv Line: 23
+# ** Error: (vsim-8754) Actual output arg. of type 'class work.mailbox_top_sv_unit::driver' for formal 'message' of 'get' is not compatible with the formal's type 'class work.mailbox_top_sv_unit::back'.
+#    Time: 0 ns  Iteration: 0  Region: /mailbox_top_sv_unit File: class_mailbox_driver.sv Line: 23
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:14:37 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:14:37 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:13:33 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Error: (vsim-7065) Illegal assignment to class work.mailbox_top_sv_unit::driver from class work.mailbox_top_sv_unit::back
+#    Time: 0 ns  Iteration: 0  Region: /mailbox_top_sv_unit File: class_mailbox_driver.sv Line: 23
+# ** Error: (vsim-8754) Actual output arg. of type 'class work.mailbox_top_sv_unit::driver' for formal 'message' of 'get' is not compatible with the formal's type 'class work.mailbox_top_sv_unit::back'.
+#    Time: 0 ns  Iteration: 0  Region: /mailbox_top_sv_unit File: class_mailbox_driver.sv Line: 23
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:15:47 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# ** Error: ** while parsing file included at mailbox_top.sv(1)
+# ** at class_mailbox_pack.sv(24): (vlog-2730) Undefined variable: 'num1'.
+# ** Error: ** while parsing file included at mailbox_top.sv(2)
+# ** at class_mailbox_driver.sv(21): (vlog-2730) Undefined variable: 'num2'.
+# End time: 12:15:47 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mailbox_top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:17:07 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at mailbox_top.sv(2)
+# ** at class_mailbox_driver.sv(14): near "function": syntax error, unexpected function, expecting ';' or ','.
+# ** Error: (vlog-13069) ** while parsing file included at mailbox_top.sv(2)
+# ** at class_mailbox_driver.sv(15): near "d1": syntax error, unexpected IDENTIFIER, expecting TYPE_IDENTIFIER.
+# End time: 12:17:07 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mailbox_top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:17:19 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:17:19 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:13:33 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Error: (vsim-7065) Illegal assignment to class work.mailbox_top_sv_unit::driver from class work.mailbox_top_sv_unit::back
+#    Time: 0 ns  Iteration: 0  Region: /mailbox_top_sv_unit File: class_mailbox_driver.sv Line: 23
+# ** Error: (vsim-8754) Actual output arg. of type 'class work.mailbox_top_sv_unit::driver' for formal 'message' of 'get' is not compatible with the formal's type 'class work.mailbox_top_sv_unit::back'.
+#    Time: 0 ns  Iteration: 0  Region: /mailbox_top_sv_unit File: class_mailbox_driver.sv Line: 23
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:19:08 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# ** Error: class_mailbox_driver.sv(25): (vlog-13266) No actual value has been specified for a formal argument 'm2' that does not have a default value.
+# ** Error: class_mailbox_driver.sv(25): (vlog-13265) Number of actuals and formals does not match in function call.
+# -- Compiling module top
+# ** Error: class_mailbox_driver.sv(25): (vlog-13266) No actual value has been specified for a formal argument 'm2' that does not have a default value.
+# ** Error: class_mailbox_driver.sv(25): (vlog-13265) Number of actuals and formals does not match in function call.
+# End time: 12:19:09 on Dec 18,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mailbox_top.sv"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:19:41 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:19:41 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:13:33 on Dec 18,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Error: (vsim-7065) Illegal assignment to class work.mailbox_top_sv_unit::driver from class work.mailbox_top_sv_unit::back
+#    Time: 0 ns  Iteration: 0  Region: /mailbox_top_sv_unit File: class_mailbox_driver.sv Line: 23
+# ** Error: (vsim-8754) Actual output arg. of type 'class work.mailbox_top_sv_unit::driver' for formal 'message' of 'get' is not compatible with the formal's type 'class work.mailbox_top_sv_unit::back'.
+#    Time: 0 ns  Iteration: 0  Region: /mailbox_top_sv_unit File: class_mailbox_driver.sv Line: 23
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:31:02 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:31:03 on Dec 18,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:13:33 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::pack) from class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::driver)
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#10 File: class_mailbox_pack.sv
+# Fatal error in Function mailbox_top_sv_unit/back::new at class_mailbox_pack.sv line 18
+# 
+# HDL call sequence:
+# Stopped at class_mailbox_pack.sv 18 Function mailbox_top_sv_unit/back::new
+# called from  mailbox_top.sv 12  
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:31:19 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:31:19 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:31:21 on Dec 18,2025, Elapsed time: 0:17:48
+# Errors: 10, Warnings: 0
+# vsim top 
+# Start time: 12:31:21 on Dec 18,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::pack) from class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::driver)
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#10 File: class_mailbox_pack.sv
+# Fatal error in Function mailbox_top_sv_unit/back::new at class_mailbox_pack.sv line 18
+# 
+# HDL call sequence:
+# Stopped at class_mailbox_pack.sv 18 Function mailbox_top_sv_unit/back::new
+# called from  mailbox_top.sv 12  
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:32:06 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:32:06 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:32:06 on Dec 18,2025, Elapsed time: 0:00:45
+# Errors: 2, Warnings: 0
+# vsim top 
+# Start time: 12:32:06 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::pack) from class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::driver)
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#10 File: class_mailbox_pack.sv
+# Fatal error in Function mailbox_top_sv_unit/back::new at class_mailbox_pack.sv line 17
+# 
+# HDL call sequence:
+# Stopped at class_mailbox_pack.sv 17 Function mailbox_top_sv_unit/back::new
+# called from  mailbox_top.sv 12  
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:34:50 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:34:50 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:34:50 on Dec 18,2025, Elapsed time: 0:02:44
+# Errors: 2, Warnings: 0
+# vsim top 
+# Start time: 12:34:50 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::pack) from class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::driver)
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#10 File: class_mailbox_pack.sv
+# Fatal error in Function mailbox_top_sv_unit/back::new at class_mailbox_pack.sv line 17
+# 
+# HDL call sequence:
+# Stopped at class_mailbox_pack.sv 17 Function mailbox_top_sv_unit/back::new
+# called from  mailbox_top.sv 12  
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:40:12 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:40:12 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:40:12 on Dec 18,2025, Elapsed time: 0:05:22
+# Errors: 2, Warnings: 0
+# vsim top 
+# Start time: 12:40:12 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# ** Fatal: Illegal assignment to class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::pack) from class sv_std.std::mailbox #(class work.mailbox_top_sv_unit::driver)
+# 
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#10 File: class_mailbox_pack.sv
+# Fatal error in Function mailbox_top_sv_unit/back::new at class_mailbox_pack.sv line 17
+# 
+# HDL call sequence:
+# Stopped at class_mailbox_pack.sv 17 Function mailbox_top_sv_unit/back::new
+# called from  mailbox_top.sv 12  
+# 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:40:32 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:40:32 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:40:32 on Dec 18,2025, Elapsed time: 0:00:20
+# Errors: 2, Warnings: 0
+# vsim top 
+# Start time: 12:40:33 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:40:57 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:40:57 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:40:58 on Dec 18,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:40:58 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:41:35 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:41:35 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:41:36 on Dec 18,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:41:36 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Mux_output : y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:51:09 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:51:09 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:51:09 on Dec 18,2025, Elapsed time: 0:09:33
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:51:09 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=11 | i1=17 | i2=141 | i3=59
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=246 | i1=119 | i2=74 | i3=74
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=50 | i1=114 | i2=35 | i3=83
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=48 | i1=60 | i2=155 | i3=220
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=36 | i1=195 | i2=55 | i3=61
+# Mux_output : y=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:27 on Dec 18,2025
+# vlog -reportprogress 300 mailbox_top.sv 
+# -- Compiling package mailbox_top_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:58:27 on Dec 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:58:27 on Dec 18,2025, Elapsed time: 0:07:18
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:58:27 on Dec 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mailbox_top_sv_unit(fast)
+# Loading work.top(fast)
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=18 | i1=155 | i2=217 | i3=222
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=18 | i1=155 | i2=217 | i3=222
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=247 | i1=117 | i2=108 | i3=71
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=247 | i1=117 | i2=108 | i3=71
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=187 | i1=246 | i2=185 | i3=16
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=187 | i1=246 | i2=185 | i3=16
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=17 | i1=180 | i2=141 | i3=91
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=17 | i1=180 | i2=141 | i3=91
+# Mux_output : y=0
+# Name : p1 -> From Back Nested Pack 
+# Mux_Inputs : i0=137 | i1=215 | i2=54 | i3=30
+# Mux_output : y=0
+# Name : p2 -> From Driver_1 Nested Driver
+# Mux_Inputs : i0=137 | i1=215 | i2=54 | i3=30
+# Mux_output : y=0
+# End time: 13:26:14 on Dec 18,2025, Elapsed time: 0:27:47
+# Errors: 0, Warnings: 0

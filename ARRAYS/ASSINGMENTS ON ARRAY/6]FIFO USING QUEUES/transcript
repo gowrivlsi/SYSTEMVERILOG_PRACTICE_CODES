@@ -1,0 +1,283 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do fifo_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:58:47 on Nov 25,2025
+# vlog -reportprogress 300 fifo_top.sv "+acc" 
+# -- Compiling module fifo_queue
+# ** Error: ** while parsing file included at fifo_top.sv(2)
+# ** at fifo_queue.sv(18): Function with return type of void cannot be used in/as an expression.
+# ** Error: ** while parsing file included at fifo_top.sv(2)
+# ** at fifo_queue.sv(18): Illegal LHS of assignment.
+# ** while parsing file included at fifo_top.sv(2)
+# ** at fifo_queue.sv(29): Verilog Compiler exiting
+# End time: 15:58:47 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./fifo_run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fifo_top.sv +acc"
+do fifo_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:59:57 on Nov 25,2025
+# vlog -reportprogress 300 fifo_top.sv "+acc" 
+# -- Compiling module fifo_queue
+# ** Error: ** while parsing file included at fifo_top.sv(2)
+# ** at fifo_queue.sv(18): Function with return type of void cannot be used in/as an expression.
+# ** Error: ** while parsing file included at fifo_top.sv(2)
+# ** at fifo_queue.sv(18): Illegal LHS of assignment.
+# ** while parsing file included at fifo_top.sv(2)
+# ** at fifo_queue.sv(29): Verilog Compiler exiting
+# End time: 15:59:57 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./fifo_run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog fifo_top.sv +acc"
+do fifo_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:00:49 on Nov 25,2025
+# vlog -reportprogress 300 fifo_top.sv "+acc" 
+# -- Compiling module fifo_queue
+# -- Compiling interface fifo_intf
+# -- Compiling program fifo_tb
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 16:00:49 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim fifo_top 
+# Start time: 16:00:49 on Nov 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): fifo_top.sv(39): (vopt-13259) Missing instance name in instantiation of module/program/interface 'fifo_tb'.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./fifo_run.do PAUSED at line 2
+do fifo_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:01:20 on Nov 25,2025
+# vlog -reportprogress 300 fifo_top.sv "+acc" 
+# -- Compiling module fifo_queue
+# -- Compiling interface fifo_intf
+# -- Compiling program fifo_tb
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 16:01:20 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim fifo_top 
+# Start time: 16:00:49 on Nov 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): fifo_top.sv(31): (vopt-7063) Failed to find 'wr' in hierarchical name 'R1.wr'.
+#         Region: fifo_top
+# ** Error (suppressible): fifo_top.sv(32): (vopt-7063) Failed to find 'rd' in hierarchical name 'R1.rd'.
+#         Region: fifo_top
+# ** Error (suppressible): fifo_tb.sv(7): (vopt-7063) Failed to find 'wr' in hierarchical name 't.wr'.
+#         Region: fifo_top.R3
+# ** Error (suppressible): fifo_tb.sv(8): (vopt-7063) Failed to find 'rd' in hierarchical name 't.rd'.
+#         Region: fifo_top.R3
+# ** Error (suppressible): fifo_tb.sv(29): (vopt-7063) Failed to find 'rst' in hierarchical name 'rst'.
+#         Region: fifo_top.R3
+# ** Error (suppressible): fifo_tb.sv(29): (vopt-7063) Failed to find 'd_out' in hierarchical name 'd_out'.
+#         Region: fifo_top.R3
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./fifo_run.do PAUSED at line 2
+do fifo_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:02:33 on Nov 25,2025
+# vlog -reportprogress 300 fifo_top.sv "+acc" 
+# -- Compiling module fifo_queue
+# -- Compiling interface fifo_intf
+# -- Compiling program fifo_tb
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 16:02:33 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim fifo_top 
+# Start time: 16:00:49 on Nov 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): fifo_tb.sv(29): (vopt-7063) Failed to find 'rst' in hierarchical name 'rst'.
+#         Region: fifo_top.R3
+# ** Error (suppressible): fifo_tb.sv(29): (vopt-7063) Failed to find 'd_out' in hierarchical name 'd_out'.
+#         Region: fifo_top.R3
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./fifo_run.do PAUSED at line 2
+do fifo_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:03:08 on Nov 25,2025
+# vlog -reportprogress 300 fifo_top.sv "+acc" 
+# -- Compiling module fifo_queue
+# -- Compiling interface fifo_intf
+# -- Compiling program fifo_tb
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 16:03:08 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim fifo_top 
+# Start time: 16:00:49 on Nov 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): fifo_tb.sv(29): (vopt-7063) Failed to find 'd_out' in hierarchical name 'd_out'.
+#         Region: fifo_top.R3
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./fifo_run.do PAUSED at line 2
+do fifo_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:03:57 on Nov 25,2025
+# vlog -reportprogress 300 fifo_top.sv "+acc" 
+# -- Compiling module fifo_queue
+# -- Compiling interface fifo_intf
+# -- Compiling program fifo_tb
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 16:03:57 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim fifo_top 
+# Start time: 16:00:49 on Nov 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.fifo_top(fast)
+# Loading work.fifo_intf(fast)
+# Loading work.fifo_queue(fast)
+# Loading work.fifo_tb(fast)
+# clk=0 rst=0 wr=x rd=x Data_in=x Data_out=0 Full=0 Empty=1
+# clk=1 rst=0 wr=x rd=x Data_in=x Data_out=0 Full=0 Empty=1
+# clk=0 rst=0 wr=x rd=x Data_in=x Data_out=0 Full=0 Empty=1
+# clk=1 rst=0 wr=x rd=x Data_in=x Data_out=0 Full=0 Empty=1
+# clk=0 rst=1 wr=1 rd=0 Data_in=36 Data_out=0 Full=0 Empty=1
+# clk=1 rst=1 wr=1 rd=0 Data_in=36 Data_out=0 Full=0 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=0 Full=0 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=36 Data_out=36 Full=0 Empty=1
+# ** Note: $stop    : fifo_tb.sv(31)
+#    Time: 200 ns  Iteration: 2  Instance: /fifo_top/R3
+# Break in Module fifo_tb at fifo_tb.sv line 31
+do fifo_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:08:03 on Nov 25,2025
+# vlog -reportprogress 300 fifo_top.sv "+acc" 
+# -- Compiling module fifo_queue
+# -- Compiling interface fifo_intf
+# -- Compiling program fifo_tb
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# End time: 16:08:04 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:08:06 on Nov 25,2025, Elapsed time: 0:07:17
+# Errors: 10, Warnings: 0
+# vsim fifo_top 
+# Start time: 16:08:07 on Nov 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.fifo_top(fast)
+# Loading work.fifo_intf(fast)
+# Loading work.fifo_queue(fast)
+# Loading work.fifo_tb(fast)
+# clk=0 rst=0 wr=x rd=x Data_in=x Data_out=0 Full=0 Empty=1
+# clk=1 rst=0 wr=x rd=x Data_in=x Data_out=0 Full=0 Empty=1
+# clk=0 rst=0 wr=x rd=x Data_in=x Data_out=0 Full=0 Empty=1
+# clk=1 rst=0 wr=x rd=x Data_in=x Data_out=0 Full=0 Empty=1
+# clk=0 rst=1 wr=1 rd=0 Data_in=36 Data_out=0 Full=0 Empty=1
+# clk=1 rst=1 wr=1 rd=0 Data_in=36 Data_out=0 Full=0 Empty=0
+# clk=0 rst=1 wr=1 rd=0 Data_in=129 Data_out=0 Full=0 Empty=0
+# clk=1 rst=1 wr=1 rd=0 Data_in=129 Data_out=0 Full=0 Empty=0
+# clk=0 rst=1 wr=1 rd=0 Data_in=9 Data_out=0 Full=0 Empty=0
+# clk=1 rst=1 wr=1 rd=0 Data_in=9 Data_out=0 Full=0 Empty=0
+# clk=0 rst=1 wr=1 rd=0 Data_in=99 Data_out=0 Full=0 Empty=0
+# clk=1 rst=1 wr=1 rd=0 Data_in=99 Data_out=0 Full=0 Empty=0
+# clk=0 rst=1 wr=1 rd=0 Data_in=13 Data_out=0 Full=0 Empty=0
+# clk=1 rst=1 wr=1 rd=0 Data_in=13 Data_out=0 Full=0 Empty=0
+# clk=0 rst=1 wr=1 rd=0 Data_in=141 Data_out=0 Full=0 Empty=0
+# clk=1 rst=1 wr=1 rd=0 Data_in=141 Data_out=0 Full=0 Empty=0
+# clk=0 rst=1 wr=1 rd=0 Data_in=101 Data_out=0 Full=0 Empty=0
+# clk=1 rst=1 wr=1 rd=0 Data_in=101 Data_out=0 Full=0 Empty=0
+# clk=0 rst=1 wr=1 rd=0 Data_in=18 Data_out=0 Full=0 Empty=0
+# clk=1 rst=1 wr=1 rd=0 Data_in=18 Data_out=0 Full=1 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=0 Full=1 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=36 Full=0 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=36 Full=0 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=129 Full=0 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=129 Full=0 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=9 Full=0 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=9 Full=0 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=99 Full=0 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=99 Full=0 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=13 Full=0 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=13 Full=0 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=141 Full=0 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=141 Full=0 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=101 Full=0 Empty=0
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=101 Full=0 Empty=0
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=18 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=18 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=18 Full=0 Empty=1
+# clk=0 rst=1 wr=0 rd=1 Data_in=18 Data_out=18 Full=0 Empty=1
+# clk=1 rst=1 wr=0 rd=1 Data_in=18 Data_out=18 Full=0 Empty=1
+# ** Note: $stop    : fifo_tb.sv(33)
+#    Time: 200 ns  Iteration: 2  Instance: /fifo_top/R3
+# Break in Module fifo_tb at fifo_tb.sv line 33

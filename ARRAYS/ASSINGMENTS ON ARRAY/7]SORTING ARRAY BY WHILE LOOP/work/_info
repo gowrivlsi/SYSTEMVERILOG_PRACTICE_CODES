@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/ARRAYS/ASSINGMENTS ON ARRAY/7]SORTING ARRAY BY WHILE LOOP
+T_opt
+!s110 1764068745
+Vn@43Gm4XmXN9LTed9_ZUl3
+04 10 4 work array_sort fast 0
+=1-f66444b558ee-69258d89-75-2ebc
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+varray_sort
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764068744
+!i10b 1
+!s100 do3W@KB=;kQ2lDX73@h5M1
+I`A9f?OK;F;7X<kdaC^9Ad0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 array_sort_sv_unit
+S1
+R0
+w1764068711
+8array_sort.sv
+Farray_sort.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764068744.000000
+!s107 array_sort.sv|
+!s90 array_sort.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

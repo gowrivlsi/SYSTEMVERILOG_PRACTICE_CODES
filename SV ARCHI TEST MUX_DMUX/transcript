@@ -1,0 +1,4497 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:22:00 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(2)
+# ** at dmux_dut.sv(2): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 12:22:00 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:22:29 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# ** Error (suppressible): ** while parsing file included at mux_top.sv(10)
+# ** at mux_env.sv(14): (vlog-2388) 'I' already declared in this scope (mux_env).
+# End time: 12:22:29 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:23:48 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# ** Error (suppressible): (vlog-13276) mux_omoni.sv(18): Could not find field/method name (d_o) in 'p4' of 'p4.d_o'.
+# ** Error (suppressible): (vlog-13276) mux_sb.sv(19): Could not find field/method name (d_o) in 'o_pac' of 'o_pac.d_o'.
+# -- Compiling program mux_tb
+# ** Error (suppressible): (vlog-13276) mux_omoni.sv(18): Could not find field/method name (d_o) in 'p4' of 'p4.d_o'.
+# ** Error (suppressible): (vlog-13276) mux_sb.sv(19): Could not find field/method name (d_o) in 'o_pac' of 'o_pac.d_o'.
+# -- Compiling module top
+# End time: 12:23:48 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:38:38 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:38:38 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:38:39 on Dec 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): mux_sb.sv(22): (vopt-7063) Failed to find 'i' in hierarchical name '$root.i.pac.print'.
+#         Region: mux_top_sv_unit
+# ** Error (suppressible): mux_sb.sv(23): (vopt-7063) Failed to find 'o' in hierarchical name '$root.o.pac.print'.
+#         Region: mux_top_sv_unit
+# ** Error (suppressible): mux_top.sv(25): (vopt-7063) Failed to find 'tb' in hierarchical name 'I.tb'.
+#         Region: top
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:39:09 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:39:09 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:38:39 on Dec 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): mux_top.sv(25): (vopt-7063) Failed to find 'tb' in hierarchical name 'I.tb'.
+#         Region: top
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:39:49 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:39:50 on Dec 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:38:39 on Dec 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 21
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:40:33 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:40:33 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:40:34 on Dec 27,2025, Elapsed time: 0:01:55
+# Errors: 4, Warnings: 0
+# vsim top 
+# Start time: 12:40:34 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 21
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:41:22 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:41:22 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:41:22 on Dec 27,2025, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:41:22 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 21
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:42:11 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:42:11 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:42:11 on Dec 27,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:42:11 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 21
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:43:00 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:43:00 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:43:01 on Dec 27,2025, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:43:01 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 3 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 2 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 0 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 21
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 0 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:45:28 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:45:28 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:45:29 on Dec 27,2025, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:45:29 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 8 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 8 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 11 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 11 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 11 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 14 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 11 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 14 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 15 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 15 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 15 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 15 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 21
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 15 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 15 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:45:36 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:45:36 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:45:37 on Dec 27,2025, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:45:37 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 8 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 8 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 11 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 11 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 11 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 14 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 11 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 14 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 15 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 15 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 15 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 15 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 21
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 15 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 15 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:46:07 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:46:07 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:46:08 on Dec 27,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:46:08 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 8 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 8 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 9 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 9 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 9 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 9 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 8 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 21
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 8 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:46:39 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:46:39 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:46:39 on Dec 27,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:46:39 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 5 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 5 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:47:37 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:47:37 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:47:38 on Dec 27,2025, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:47:38 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: mux_top.sv(21): (vopt-2685) [TFMPC] - Too few port connections for 'D'.  Expected 3, found 1.
+# ** Warning: mux_top.sv(21): (vopt-2718) [TFMPC] - Missing connection for port 's'.
+# ** Warning: mux_top.sv(21): (vopt-2718) [TFMPC] - Missing connection for port 'y'.
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:12 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:55:12 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:55:12 on Dec 27,2025, Elapsed time: 0:07:34
+# Errors: 0, Warnings: 3
+# vsim top 
+# Start time: 12:55:12 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 5 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 5 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:56:39 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:56:40 on Dec 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:56:40 on Dec 27,2025, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 12:56:40 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 5 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 1
+# DMUX_INPUTS : Y = 1 
+# DMUX_OUTPUT : d_o = 5 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:04 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:00:04 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:00:04 on Dec 27,2025, Elapsed time: 0:03:24
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:00:04 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 4 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 5 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 5 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:01:04 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:01:04 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:01:05 on Dec 27,2025, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:01:05 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 100 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 100 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 101 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 101 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:05:25 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:05:25 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:05:25 on Dec 27,2025, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:05:25 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 5 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 10 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 15 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 20 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:13:51 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(9)
+# ** at mux_sb.sv(11): near "i_pac": syntax error, unexpected IDENTIFIER, expecting "SystemVerilog keyword 'new'".
+# End time: 13:13:51 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:14:46 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# ** Error: ** while parsing file included at mux_top.sv(9)
+# ** at mux_sb.sv(20): Illegal declaration after the statement near line '17'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 13:14:46 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:15:42 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# ** Error: ** while parsing file included at mux_top.sv(9)
+# ** at mux_sb.sv(20): Illegal declaration after the statement near line '17'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 13:15:42 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:17:38 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:17:38 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:17:39 on Dec 27,2025, Elapsed time: 0:12:14
+# Errors: 12, Warnings: 0
+# vsim top 
+# Start time: 13:17:39 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST FAILED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:20:30 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(9)
+# ** at mux_sb.sv(12): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at mux_top.sv(9)
+# ** at mux_sb.sv(20): (vlog-2730) Undefined variable: 'e'.
+# End time: 13:20:30 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:20:47 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:20:47 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:20:47 on Dec 27,2025, Elapsed time: 0:03:08
+# Errors: 5, Warnings: 0
+# vsim top 
+# Start time: 13:20:47 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 25
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:24:09 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# ** Error: (vlog-13069) ** while parsing file included at mux_top.sv(9)
+# ** at mux_sb.sv(34): near "$info": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';'.
+# End time: 13:24:09 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_top.sv +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:24:42 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:24:42 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:24:43 on Dec 27,2025, Elapsed time: 0:03:56
+# Errors: 4, Warnings: 0
+# vsim top 
+# Start time: 13:24:43 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:24:46 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:24:46 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 4 | PASS = 4 | FAIl = 0
+#    Time: 25 ns  Scope: top File: mux_top.sv Line: 28
+# End time: 13:24:47 on Dec 27,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:24:47 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:25:40 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:25:40 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 4 | PASS = 4 | FAIl = 0
+#    Time: 25 ns  Scope: top File: mux_top.sv Line: 28
+# End time: 13:25:41 on Dec 27,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:25:41 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 27
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:31:50 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:31:50 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 4 | PASS = 4 | FAIl = 0
+#    Time: 25 ns  Scope: top File: mux_top.sv Line: 28
+# End time: 13:31:50 on Dec 27,2025, Elapsed time: 0:06:09
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:31:50 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:31:56 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:31:56 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 4 | PASS = 4 | FAIl = 0
+#    Time: 25 ns  Scope: top File: mux_top.sv Line: 28
+# End time: 13:31:57 on Dec 27,2025, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:31:57 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 14 | s = 3
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 3
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 10 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 7 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 12 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 8 | s = 2
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 2
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:35:36 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:35:36 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 4 | PASS = 4 | FAIl = 0
+#    Time: 25 ns  Scope: top File: mux_top.sv Line: 28
+# End time: 13:35:36 on Dec 27,2025, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:35:36 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1110 | s = 11
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 11
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1110 | s = 11
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 11
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1010 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1010 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1010 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1010 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 111 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 111 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 111 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 111 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1100 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1100 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1100 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1100 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:35:41 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:35:41 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 4 | PASS = 4 | FAIl = 0
+#    Time: 25 ns  Scope: top File: mux_top.sv Line: 28
+# End time: 13:35:42 on Dec 27,2025, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:35:42 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1110 | s = 11
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 11
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1110 | s = 11
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 11
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1010 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1010 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1010 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1010 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 111 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 111 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 111 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 111 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 0
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1100 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1100 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1100 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1100 | s = 1
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 1
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0 | s = 0
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:40:28 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:40:28 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 4 | PASS = 4 | FAIl = 0
+#    Time: 25 ns  Scope: top File: mux_top.sv Line: 28
+# End time: 13:40:28 on Dec 27,2025, Elapsed time: 0:04:46
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:40:28 on Dec 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1110 | s = 11
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 11
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1110 | s = 11
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 11
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1010 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1010 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1010 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 00
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1010 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 00
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0111 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 00
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0111 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 00
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0111 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 00
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 00
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 0111 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 00
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 00
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1100 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1100 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1100 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 00
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1100 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 00
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 00
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 00
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:40:35 on Dec 27,2025
+# vlog -reportprogress 300 mux_top.sv "+acc" 
+# -- Compiling module mux_dut
+# -- Compiling module dmux_dut
+# -- Compiling interface mux_intf
+# -- Compiling package mux_top_sv_unit
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 13:40:35 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ** Info: TRANS = 4 | PASS = 4 | FAIl = 0
+#    Time: 25 ns  Scope: top File: mux_top.sv Line: 28
+# End time: 13:40:35 on Dec 27,2025, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim top 
+# Start time: 13:40:35 on Dec 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.mux_top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_intf(fast)
+# Loading work.mux_dut(fast)
+# Loading work.dmux_dut(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux_intf(fast)
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1110 | s = 11
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 11
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1110 | s = 11
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 11
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1010 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1010 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1010 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 00
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 6 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1010 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 10 | s = 00
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 0111 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 00
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 0111 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 00
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 0111 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 00
+# y=1 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 00
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 11 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 0111 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 00
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 11 | s = 00
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1100 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1100 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1100 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 00
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 16 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1100 | s = 01
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 01
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 00
+# NAME : =====FROM GENERATOR====
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : ======FROM DRIVER======
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : ===========FROM INPUT MONITOR==========
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# y=0 d_o=X
+# NAME : =========FROM OUTPUT MONITOR=========
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 00
+# ** Info: ==========================TEST PASSED=========================
+#    Time: 21 ns  Scope: mux_top_sv_unit.mux_sb.sb File: mux_sb.sv Line: 29
+# NAME : =====INPUT MONITOR=======
+# MUX_INPUTS : i = 1000 | s = 10
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 0 | s = 10
+# NAME : =====OUTPUT MONITOR======
+# MUX_INPUTS : i = 0000 | s = 00
+# MUX_OUTPUT : y = 0
+# DMUX_INPUTS : Y = 0 
+# DMUX_OUTPUT : d_o = 1 | s = 00

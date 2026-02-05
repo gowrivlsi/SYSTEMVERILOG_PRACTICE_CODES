@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/STATIC SV ARCHITECTURE/STATIC SV 4 BIT ENCODER - LEAGACY STYLE
+T_opt
+!s110 1763367149
+VZEiMZBGN6W2TF?8W_G=:_0
+04 10 4 work enco4b_top fast 0
+=1-f66444b558ee-691ad8ec-2f7-4d40
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+venco4b
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1763367147
+!i10b 1
+!s100 AzMXGLlZ1>i5W]RH24nLL0
+IK``jYYCFX1f8X;?9F>eAR0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 enco4b_top_sv_unit
+S1
+R0
+Z6 w1763365364
+8enco4b.v
+Fenco4b.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1763367147.000000
+Z9 !s107 enco4b_tb.sv|enco4b.v|enco4b_intf.sv|enco4b_top.sv|
+Z10 !s90 -reportprogress|300|enco4b_top.sv|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yenco4b_intf
+R2
+R3
+!i10b 1
+!s100 8SdGVh7cc>J0?o2I79@H?3
+I48fIj?dX6^H7:INQ6hf=G1
+R4
+R5
+S1
+R0
+R6
+8enco4b_intf.sv
+Fenco4b_intf.sv
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+4enco4b_tb
+R2
+R3
+!i10b 1
+!s100 Y?@ZfP0lh;m6Bc`k5<lk13
+I[9fGV0n5bOnAe_R:<@8i_3
+R4
+R5
+S1
+R0
+w1763367144
+8enco4b_tb.sv
+Fenco4b_tb.sv
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+venco4b_top
+R2
+R3
+!i10b 1
+!s100 W5fihi?Y1NMLS`z^d]AmI3
+IVWCejm8n?DW[9cnz]hmBR2
+R4
+R5
+S1
+R0
+w1763364045
+8enco4b_top.sv
+Fenco4b_top.sv
+L0 7
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

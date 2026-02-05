@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/CLASS AS DATA TYPE_SCOPE/CONSTRAINTS/CONSTRAINTS ASSIGNMENTS/14] generating patern 0,1,0,1
+T_opt
+!s110 1765803738
+Vg6cN^h2697c=^F=dk@^=31
+04 18 4 work class_test_sv_unit fast 0
+04 3 4 work top fast 0
+=1-5e02cfdfbea1-694006da-301-179c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+Xclass_test_sv_unit
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+V8IULG]cFhYAZ3>P7mI`L>3
+r1
+!s85 0
+!i10b 1
+!s100 2^dJjND70Q?F03VN?Yeiz1
+I8IULG]cFhYAZ3>P7mI`L>3
+!i103 1
+S1
+R0
+Z3 w1765803733
+Z4 8class_test.sv
+Z5 Fclass_test.sv
+L0 1
+Z6 OL;L;10.7c;67
+31
+Z7 !s108 1765803737.000000
+Z8 !s107 class_test.sv|
+Z9 !s90 class_test.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+DXx4 work 18 class_test_sv_unit 0 22 8IULG]cFhYAZ3>P7mI`L>3
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 ?Jg7LEDnEik59HLJ[>Ibb3
+ImhMNGfH28WBd@olzQ9@kM2
+!s105 class_test_sv_unit
+S1
+R0
+R3
+R4
+R5
+L0 17
+R6
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

@@ -1,0 +1,44 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/FUNCTIONS_TASKS IN SV/FUNCTIONS/FUNCTION _CALL TASK
+T_opt
+!s110 1764755215
+VWY>h0S1loKZTZ_`omS5;21
+04 6 4 work fun_ex fast 0
+=1-5e02cfdfbea1-6930070f-1f9-4294
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vfun_ex
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1765206613
+!i10b 1
+!s100 ]M[ASl_F>HOMYhZ3iGYo83
+IULzVVRn7zPVMj==E0j18_2
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 fun_ex_sv_unit
+S1
+R0
+w1764755209
+8fun_ex.sv
+Ffun_ex.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1765206612.000000
+!s107 fun_ex.sv|
+!s90 fun_ex.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

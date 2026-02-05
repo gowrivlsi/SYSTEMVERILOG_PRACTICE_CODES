@@ -1,0 +1,125 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/STATIC SV ARCHITECTURE/STATIC SV 4 BIT COMP ARC
+T_opt
+!s110 1763115189
+V15inniJ;?:6nXMcEQj_?A3
+Z1 04 3 4 work top fast 0
+=1-264930b3a74c-691700b5-91-2444
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1763115252
+Vf@alUgT?V2R0FgzMZ7<MV1
+R1
+=1-264930b3a74c-691700f3-3e1-4e98
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+vcomp4b
+Z4 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z5 !s110 1763115188
+!i10b 1
+!s100 EQ>jKgNc7AHg1km]2E>Lo0
+Ii^6U5mX9=jSDd<@LamdQ;2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 !s105 top_sv_unit
+S1
+R0
+Z8 w1763115185
+Z9 8comp4b.sv
+Z10 Fcomp4b.sv
+L0 3
+Z11 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z12 !s108 1763115188.000000
+Z13 !s107 comp4b_intf.sv|comp4b.sv|top.sv|
+Z14 !s90 -reportprogress|300|top.sv|+acc|
+!i113 0
+Z15 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Ycomp4b_intf
+R4
+R5
+!i10b 1
+!s100 Ai>3Hkf81c9B@n0E_O1Lh2
+I`b1<CLb;_Hd>g4<3jI[dF1
+R6
+R7
+S1
+R0
+w1763113642
+8comp4b_intf.sv
+Fcomp4b_intf.sv
+L0 2
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+4comp4b_tb
+R4
+R5
+!i10b 1
+!s100 6z5I`8_gAOdZn4C66PXjN2
+Ij:K1XYi;;U76?ZnJcS?Oc3
+R6
+R7
+S1
+R0
+R8
+R9
+R10
+L0 19
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vtop
+R4
+R5
+!i10b 1
+!s100 6`Jck4mZTmL7:c@:59@Tn2
+IDgYYm<D[80ZA73Pkn;Y[J0
+R6
+R7
+S1
+R0
+w1763114171
+8top.sv
+Ftop.sv
+L0 4
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2

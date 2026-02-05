@@ -1,0 +1,44 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/CONTROL FLOW STATEMENT/SELECTION STATEMENT
+T_opt
+!s110 1764158516
+VX`B:Q90NcRY8Mo7=2i;753
+04 6 4 work sel_ex fast 0
+=1-5e02cfdfbea1-6926ec34-210-4ea8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vsel_ex
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764158538
+!i10b 1
+!s100 1jWB3[kD7WPjG=SAMVfID2
+I7kXiOW[SVU88lcf8XIz2k3
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 sel_ex_sv_unit
+S1
+R0
+w1764158512
+8sel_ex.sv
+Fsel_ex.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764158537.000000
+!s107 sel_ex.sv|
+!s90 sel_ex.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

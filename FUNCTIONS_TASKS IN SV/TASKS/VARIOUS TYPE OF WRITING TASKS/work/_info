@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/FUNCTIONS_TASKS IN SV/TASKS/VARIOUS TYPE OF WRITING TASKS
+T_opt
+!s110 1764828578
+VELKKMSIR8]C5EMbk>M:hK2
+04 7 4 work task_ex fast 0
+=1-264930b3a74c-693125a2-7e-53a0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtask_ex
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764828576
+!i10b 1
+!s100 JJ79UanVHnMkI6ez9KcY=1
+I7^QTZki=aIX1dcNhSHTP20
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 task_ex_sv_unit
+S1
+R0
+w1764828573
+8task_ex.sv
+Ftask_ex.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764828575.000000
+!s107 task_ex.sv|
+!s90 task_ex.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

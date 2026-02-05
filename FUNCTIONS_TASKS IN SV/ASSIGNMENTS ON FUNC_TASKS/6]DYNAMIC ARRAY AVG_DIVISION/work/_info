@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/FUNCTIONS_TASKS IN SV/ASSIGNMENTS ON FUNC_TASKS/6]DYNAMIC ARRAY AVG_DIVISION
+T_opt
+!s110 1764848511
+V[k1[X<SIh=oFh;Y`4o:HE1
+04 8 4 work fun_test fast 0
+=1-264930b3a74c-6931737e-372-42e8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vfun_test
+DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1764848508
+!i10b 1
+!s100 dQI<5=>Nkh7>R2RTjz`3C0
+ICj[2V?niDn1i:Re9kzRgE0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 fun_test_sv_unit
+S1
+R0
+w1764848494
+8fun_test.sv
+Ffun_test.sv
+L0 2
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1764848508.000000
+!s107 fun_test.sv|
+!s90 fun_test.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

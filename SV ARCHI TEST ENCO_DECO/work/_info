@@ -1,0 +1,189 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/SYSTEM VERILOG CODES/SV ARCHI TEST ENCO_DECO
+T_opt
+!s110 1767008949
+V9EM6>;TXBTjWIkFz9O3Q21
+Z1 04 3 4 work top fast 0
+=1-368f65cea897-69526ab5-31a-23e4
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1767009103
+VOzB5Xz<4`:^?YoLiea7Pl0
+R1
+=1-368f65cea897-69526b4f-299-44b8
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+vdeco_dut
+Z4 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z5 !s110 1767008948
+!i10b 1
+!s100 CVKRE?Eb6WEiZolm=X_NG1
+IYhe1j`8LW_LbGf`Aa^cG;2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 !s105 enco_top_sv_unit
+S1
+R0
+w1767003858
+8deco_dut.sv
+Z8 Fdeco_dut.sv
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1767008948.000000
+Z11 !s107 enco_tb.sv|enco_env.sv|enco_sb.sv|enco_iomoni.sv|enco_driv.sv|enco_gen.sv|enco_packet.sv|enco_intf.sv|deco_dut.sv|enco_dut.sv|enco_top.sv|
+Z12 !s90 -reportprogress|300|+cover|enco_top.sv|+acc|
+!i113 0
+Z13 !s102 +cover
+Z14 o+cover +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+venco_dut
+R4
+R5
+!i10b 1
+!s100 M5MOm=N582cZOUDEN;0OX3
+IZWkSAM>oZY;]?HACZ`fN80
+R6
+R7
+S1
+R0
+w1767003560
+8enco_dut.sv
+Z15 Fenco_dut.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+Yenco_intf
+R4
+R5
+!i10b 1
+!s100 Pz4]g`gk]4L1[ag3ca0D<3
+Ij=i8W_g7DnnaVol8D?2Md0
+R6
+R7
+S1
+R0
+w1767006827
+8enco_intf.sv
+Z16 Fenco_intf.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+4enco_tb
+R4
+Z17 DXx4 work 16 enco_top_sv_unit 0 22 ^lO5If>f2U1E7gYihe3]B3
+R6
+r1
+!s85 0
+!i10b 1
+!s100 Q01<URRFZ3]MUe^PIj0cN2
+I[P`<nm<eRh3WUM2EVS`c;0
+R7
+S1
+R0
+w1767006660
+8enco_tb.sv
+Z18 Fenco_tb.sv
+L0 1
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+Xenco_top_sv_unit
+!s115 enco_intf
+R4
+V^lO5If>f2U1E7gYihe3]B3
+r1
+!s85 0
+!i10b 1
+!s100 meTk9zBSj]M?>R`ZhzRd[3
+I^lO5If>f2U1E7gYihe3]B3
+!i103 1
+S1
+R0
+w1767008946
+Z19 8enco_top.sv
+Z20 Fenco_top.sv
+R15
+R8
+R16
+Fenco_packet.sv
+Fenco_gen.sv
+Fenco_driv.sv
+Fenco_iomoni.sv
+Fenco_sb.sv
+Fenco_env.sv
+R18
+L0 1
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
+vtop
+R4
+R17
+R6
+r1
+!s85 0
+!i10b 1
+!s100 HHM;<fOcW;9RAGH9C]h[Y1
+IkihbljCBl;^bI]FScN84P0
+R7
+S1
+R0
+w1767007132
+R19
+R20
+L0 11
+R9
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R2
