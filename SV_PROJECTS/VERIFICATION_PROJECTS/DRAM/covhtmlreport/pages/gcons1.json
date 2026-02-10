@@ -1,5 +1,0 @@
-var g_db_data = [
-{dummy:0},
-{name:'dram',f:1,type:6,id:104,tb:'266',h:'19',m:'247',hp:'7.14%',cov:['75.87%','Y'],g:'100.00%',gp:['75.87%','Y'],opts:[[],['merge_instance','auto(true)']],hdlPath:'/dram_top_sv_unit/dram_cov',parent:'102'},
-{name:'dram',f:1,type:6,id:154,tb:'266',h:'19',m:'247',hp:'7.14%',cov:['75.87%','Y'],g:'100.00%',gp:['75.87%','Y'],opts:[[],['merge_instance','true']],hdlPath:'work.dram_top_sv_unit::dram_cov',parent:'152'}];
-processConsCovergroupsData(g_db_data);
